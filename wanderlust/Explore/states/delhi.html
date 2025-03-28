@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Delhi</h1>
+      <div class="glassmorphism-box">
+        <p>
+          Delhi, the vibrant capital city of India, is a mesmerizing blend of history, culture, and modernity. As one of the oldest cities in the world, Delhi is a treasure trove of architectural wonders, from ancient monuments like the Qutub Minar and Humayun's Tomb to magnificent Mughal structures such as the Red Fort and Jama Masjid. The city's bustling streets are a melting pot of diverse cultures, offering a kaleidoscope of sights, sounds, and flavors. From the bustling markets of Chandni Chowk to the chic boutiques of Connaught Place, Delhi is a shopper's paradise where traditional crafts and modern fashion converge. The city's culinary scene is equally diverse, with street food delicacies like chaat and kebabs alongside fine dining experiences showcasing the rich flavors of North Indian cuisine. Beyond its historic landmarks and culinary delights, Delhi is a thriving metropolis with thriving arts and cultural scene, vibrant nightlife, and lush green spaces like Lodhi Gardens and India Gate. Whether exploring its ancient heritage, indulging in its culinary delights, or immersing in its bustling energy, Delhi offers a truly unforgettable experience for travelers from around the world.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Qutub Minar</button>
+        <button class="card-button" onclick="slideToCard(2)">Swaminarayan Akshardham
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Humayun's Tomb</button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Gurudwara Bangla Sahib
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">India Gate
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Lodhi Garden
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Lotus Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">Chandni Chowk
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Red Fort
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Hauz Khas Village</button>
+        <button class="card-button" onclick="slideToCard(11)">Gandhi Smriti
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">ISKCON Temple Delhi
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/b7/1f/31/qutab-minar.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Qutub Minar</h1>
+            <p id="innerP">
+              Qutub Minar, located in Delhi, is a UNESCO World Heritage Site and one of India's most iconic landmarks. Standing at a height of 73 meters, this towering minaret is the tallest brick minaret in the world. Built in the early 13th century by Qutb-ud-din Aibak, the founder of the Delhi Sultanate, and completed by his successors, the Qutub Minar is a masterpiece of Indo-Islamic architecture.The minaret is adorned with intricate carvings, verses from the Quran, and geometric patterns, reflecting the fusion of Persian, Islamic, and Indian architectural styles. Visitors can climb the narrow staircase inside to reach the top and enjoy panoramic views of Delhi's skyline.Surrounding the Qutub Minar is the Qutub Complex, which includes several other historical monuments, such as the Iron Pillar of Delhi, the Alai Darwaza, and the Quwwat-ul-Islam Mosque, making it a treasure trove of history and culture.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/23/c6/0f/img-20160507-135554-largejpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Swaminarayan Akshardham
+            </h1>
+            <p id="innerP">
+              Swaminarayan Akshardham, situated in Delhi, is a majestic Hindu temple complex renowned for its architectural grandeur and spiritual significance. Built in 2005, it showcases millennia of Indian culture, spirituality, and architecture. The centerpiece of Akshardham is the stunning mandir, intricately carved with thousands of motifs, deities, and sculptures. Its architecture reflects ancient Vedic principles and craftsmanship, embodying timeless beauty and devotion. Apart from the mandir, Akshardham features the Sahaj Anand Water Show, a mesmerizing multimedia fountain show that narrates the journey of an ancient sage. The complex also houses exhibitions, showcasing India's contributions to science, art, and culture. Surrounded by lush gardens and tranquil ponds, Swaminarayan Akshardham offers a serene escape from the bustling city. Visitors can explore its intricacies, marvel at its beauty, and immerse themselves in the spiritual aura it exudes, making it a must-visit destination for tourists and pilgrims alike.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/c9/39/b3/humayun-s-tomb.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH"> Humayun's Tomb</h1>
+            <p id="innerP">
+              Humayun's Tomb, located in Delhi, is a UNESCO World Heritage Site and one of India's most magnificent Mughal architectural marvels. Built in the 16th century, it is considered the precursor to the Taj Mahal due to its architectural significance and influence. The tomb was commissioned by Empress Bega Begum for her husband, Emperor Humayun.The mausoleum is an exquisite example of Mughal architecture, featuring a symmetrical layout, intricate marble carvings, and delicate lattice work. The main structure is surrounded by lush gardens, water channels, and pavilions, creating a serene and picturesque setting.Humayun's Tomb stands as a testament to the grandeur and opulence of the Mughal Empire and remains a popular tourist attraction, drawing visitors from around the world to admire its beauty and historical significance.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/a5/ca/ae/a-divine-monument.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Gurudwara Bangla Sahib
+            </h1>
+            <p id="innerP">
+              Gurudwara Bangla Sahib, located in the heart of New Delhi, is one of the most prominent Sikh gurudwaras in India. Originally a bungalow belonging to Raja Jai Singh, it was later transformed into a gurudwara to commemorate the eighth Sikh Guru, Guru Har Krishan Sahib Ji.The gurudwara complex includes the main prayer hall, known as the Darbar Sahib, where devotees gather to offer prayers and listen to hymns from the Guru Granth Sahib, the holy scripture of Sikhism. The complex also houses a sarovar (holy pond) where pilgrims can take a dip and seek spiritual solace.Gurudwara Bangla Sahib is not only a place of worship but also serves as a community center, offering free meals (langar) to all visitors irrespective of caste, creed, or religion. It stands as a symbol of equality, service, and compassion, welcoming people from all walks of life with open arms.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/dc/5a/af/india-gate-a-beautiful.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">India Gate
+            </h1>
+            <p id="innerP">
+              India Gate, situated in the heart of New Delhi, is a prominent landmark and a symbol of national pride and unity. Built in 1931, it serves as a memorial to commemorate the Indian soldiers who lost their lives during World War I and the Third Anglo-Afghan War.Designed by Sir Edwin Lutyens, the India Gate stands at a height of 42 meters and is inspired by the Arc de Triomphe in Paris. The monument is constructed from red sandstone and features intricate carvings, including the names of soldiers inscribed on its walls.Surrounded by lush lawns and well-manicured gardens, India Gate serves as a popular gathering spot for locals and tourists alike. It is particularly vibrant in the evenings when the monument is illuminated, offering a picturesque backdrop for leisurely strolls and picnics.India Gate holds significant cultural and historical importance, serving as a reminder of the sacrifices made by Indian soldiers and a symbol of India's resilience and valor.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/14/cf/80/lodi-gardens.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Lodhi Garden
+            </h1>
+            <p id="innerP">
+              Lodhi Garden, located in the heart of New Delhi, is a historic park spanning over 90 acres and renowned for its serene ambiance, lush greenery, and architectural heritage. Built during the 15th and 16th centuries by the Sayyid and Lodhi dynasties, the garden houses several remarkable monuments from the medieval period, including tombs, mosques, and bridges.Visitors to Lodhi Garden can explore the intricately carved tombs of rulers like Sikandar Lodhi and Muhammad Shah Sayyid, which are fine examples of Indo-Islamic architecture. The park also features beautiful landscaped gardens, water bodies, and jogging tracks, providing a tranquil oasis amidst the bustling city.Lodhi Garden is a popular destination for morning walks, yoga sessions, picnics, and photography enthusiasts. Its historical significance, combined with its natural beauty, makes it a favorite spot for both locals and tourists seeking relaxation and recreation in New Delhi.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/56/e2/7e/engineering-marvel-at.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH"> Lotus Temple
+            </h1>
+            <p id="innerP">
+              The Lotus Temple, located in New Delhi, is a striking architectural masterpiece and a prominent symbol of the Bahá'í Faith. Shaped like a blooming lotus flower, the temple is renowned for its innovative design, serene ambiance, and inclusivity.Completed in 1986, the Lotus Temple welcomes people of all religions and backgrounds to pray, meditate, or simply admire its beauty. The temple's white marble petals rise gracefully towards the sky, symbolizing purity, peace, and unity.Inside the Lotus Temple, visitors can experience a tranquil atmosphere conducive to reflection and contemplation. The central prayer hall, devoid of religious symbols, encourages individuals to connect with their inner selves and the divine in their own way.Surrounded by lush gardens and ponds, the Lotus Temple offers a serene escape from the hustle and bustle of city life. It stands as a beacon of harmony and unity, promoting the ideals of tolerance, understanding, and respect for all religions.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/6e/a4/a1/photo5jpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Chandni Chowk
+            </h1>
+            <p id="innerP">
+              Chandni Chowk, located in Old Delhi, is a bustling and historic market street that dates back to the Mughal era. Literally translating to "Moonlight Square," Chandni Chowk is famous for its vibrant atmosphere, narrow lanes, and diverse array of shops, eateries, and historical landmarks.Dating back to the 17th century, Chandni Chowk was originally designed by Shah Jahan, the Mughal emperor, as an elegant boulevard lined with fountains and shops. Today, it remains one of Delhi's oldest and busiest markets, offering everything from traditional Indian textiles and jewelry to street food and electronic goods.Visitors to Chandni Chowk can explore its labyrinthine lanes, each offering a unique shopping and culinary experience. From the iconic Red Fort and Jama Masjid to the bustling bazaars of Dariba Kalan and Kinari Bazaar, Chandni Chowk is a treasure trove of history, culture, and commerce, offering a glimpse into Delhi's rich heritage and vibrant street life.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/3c/4a/42/fb-img-1502472371491.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Red Fort</h1>
+            <p id="innerP">
+              The Red Fort, a UNESCO World Heritage Site, is an iconic landmark located in the heart of Old Delhi. Built in the 17th century by Emperor Shah Jahan, it served as the main residence of the Mughal emperors for nearly 200 years.Constructed from red sandstone, the fort's massive walls stretch over two kilometers and are adorned with intricate carvings and embellishments. Inside, visitors can explore a series of pavilions, gardens, and grand halls, each reflecting the opulence and grandeur of Mughal architecture.The Red Fort is also famous for its impressive Diwan-i-Aam (Hall of Public Audience) and Diwan-i-Khas (Hall of Private Audience), where the emperor conducted official meetings and received foreign dignitaries.Today, the Red Fort stands as a symbol of India's rich cultural heritage and serves as a popular tourist attraction, drawing visitors from around the world to marvel at its architectural splendor and learn about its storied past.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/6f/c4/64/hauz-khas-village.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Hauz Khas Village
+            </h1>
+            <p id="innerP">
+              Hauz Khas Village, nestled in South Delhi, is a vibrant and eclectic neighborhood known for its unique blend of history, culture, and contemporary lifestyle. The area derives its name from the historic Hauz Khas Complex, which includes a medieval reservoir, a madrasa, and tombs dating back to the 14th century.Today, Hauz Khas Village has transformed into a bustling hub, attracting artists, designers, and entrepreneurs. Its narrow lanes are lined with quirky boutiques, art galleries, cafes, and restaurants, offering a diverse range of experiences for visitors.The village also boasts a picturesque deer park and a scenic lake, providing a tranquil escape from the city's hustle and bustle. In the evenings, Hauz Khas Village comes alive with live music performances, cultural events, and a vibrant nightlife scene.Whether you're exploring its historical landmarks, shopping for unique souvenirs, or enjoying a leisurely meal with friends, Hauz Khas Village offers a memorable and dynamic experience that captures the essence of Delhi's cosmopolitan spirit.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/e8/e5/a8/caption.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Gandhi Smriti</h1>
+            <p id="innerP">
+              Gandhi Smriti, located in New Delhi, is a poignant memorial dedicated to Mahatma Gandhi, the Father of the Nation. Formerly known as Birla House, it served as the residence of industrialist GD Birla, where Mahatma Gandhi spent the last 144 days of his life before his assassination on January 30, 1948.Today, Gandhi Smriti preserves the memory of Mahatma Gandhi and his teachings of non-violence, peace, and truth. The museum houses various exhibits, artifacts, and photographs documenting Gandhi's life, philosophy, and his role in India's freedom struggle.The highlight of Gandhi Smriti is the Martyr's Column, marking the spot where Gandhi was assassinated. Visitors can also explore the tranquil gardens, prayer hall, and the room where Gandhi stayed, providing a glimpse into his daily life and routine.Gandhi Smriti serves as a solemn reminder of Gandhi's enduring legacy and continues to inspire visitors with his principles of compassion, tolerance, and social justice.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/2b/51/3a/the-real-beauty.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH"> ISKCON Temple Delhi
+            </h1>
+            <p id="innerP">
+              ISKCON Temple Delhi, officially known as Sri Sri Radha Parthasarathi Mandir, is a vibrant and spiritually enriching landmark situated in the heart of New Delhi. Managed by the International Society for Krishna Consciousness (ISKCON), this temple is dedicated to Lord Krishna and his consort Radha.The temple complex is an architectural marvel, featuring a blend of traditional Indian and modern architectural styles. Its main shrine houses beautifully adorned idols of Radha-Krishna, attracting devotees and visitors from all over the world.ISKCON Temple Delhi is not only a place of worship but also a center for spiritual education, cultural activities, and social welfare programs. The temple hosts daily prayers, bhajan sessions, and lectures on Vedic scriptures, providing seekers with opportunities for spiritual growth and enlightenment.Surrounded by serene gardens and fountains, ISKCON Temple Delhi offers a peaceful retreat from the chaos of city life. Visitors can also indulge in vegetarian prasadam (sanctified food) served at the temple's dining hall, adding to the holistic experience of their visit.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat ❤️</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

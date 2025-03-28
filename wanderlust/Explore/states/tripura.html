@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Tripura
+      </h1>
+      <div class="glassmorphism-box">
+        <p>
+          Tripura, nestled in the northeastern part of India, is a state blessed with natural beauty, rich culture, and fascinating history. Surrounded by Bangladesh on three sides, it offers a unique blend of Bengali and tribal cultures. The capital city, Agartala, is a vibrant hub with its bustling markets, ancient temples, and colonial-era architecture. The Ujjayanta Palace, once the royal abode, now houses a museum showcasing the state's history and heritage. Tripura is also home to a number of stunning lakes, including the picturesque Rudrasagar Lake, where visitors can enjoy boat rides amidst serene surroundings. The state is renowned for its rich biodiversity, with lush forests teeming with diverse flora and fauna, making it a haven for nature lovers and wildlife enthusiasts. Additionally, Tripura's traditional arts and crafts, such as bamboo and cane work, handloom textiles, and intricate tribal jewelry, reflect the rich cultural heritage of the region. From exploring ancient temples to trekking through verdant forests, Tripura offers a plethora of experiences that promise to captivate and inspire visitors.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Unakoti Rock Carvings
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Neermahal Palace
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Ujjayanta Palace
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Tripura Government Museum
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Fine Art School (Painting House)
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Tripurasundari Temple
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Heritage Park
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">Jampui Hill
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Sepahijala Wildlife Sanctuary</button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Kamaleswari Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Dumboor lake
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">ISKCON, Math Chowmuhani
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/06/a0/6c/god.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Unakoti Rock Carvings
+            </h1>
+            <p id="innerP">
+              Unakoti Rock Carvings, located in the Unakoti district of Tripura, India, is an ancient archaeological site famous for its rock-cut sculptures and carvings dating back to the 7th to 9th centuries AD. The site is believed to have been created by a sculptor named Kallu Kumhar, who, according to local folklore, was ordered by Lord Shiva to sculpt one crore (ten million) images overnight. However, he could only complete 999,999 sculptures, hence the name "Unakoti," which means "one less than a crore" in Bengali. The rock carvings depict various Hindu deities, including Shiva, Vishnu, and Ganesha, as well as mythical creatures and celestial beings. Visitors to Unakoti can explore the site's lush natural surroundings and marvel at the intricate craftsmanship of the ancient sculptures, making it a significant pilgrimage and tourist destination in the region.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/3c/11/93/the-palace-stage.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Neermahal Palace
+            </h1>
+            <p id="innerP">
+              Neermahal Palace, situated in the Rudrasagar Lake in Tripura, India, is a stunning architectural marvel often referred to as the "Water Palace." Built-in the 1930s by Maharaja Bir Bikram Kishore Debbarman, the palace blends Hindu and Mughal architectural styles. Its location on the serene Rudrasagar Lake adds to its enchanting appeal. Visitors can reach the palace by boat, enjoying picturesque views along the way. The palace served as a summer retreat for the royals, featuring ornate halls, intricately designed balconies, and beautiful gardens. Today, it stands as a symbol of Tripura's rich heritage and attracts tourists with its historical significance and scenic beauty. The boat ride to the palace is an experience in itself, offering glimpses of rural life and lush landscapes.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/ce/14/36/img-20161120-154623-hdr.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Ujjayanta Palace
+              </h1>
+            <p id="innerP">
+              Ujjayanta Palace, located in Agartala, Tripura, is a magnificent palace that once served as the royal residence of the Tripura kings. Built-in the 20th century by Maharaja Radha Kishore Manikya, the palace is an architectural masterpiece blending Indo-Saracenic and neoclassical styles. Its name, "Ujjayanta," means "the palace of victory." Today, it houses the Tripura State Museum, showcasing the state's rich cultural heritage through various artifacts, paintings, sculptures, and archaeological findings. The palace's sprawling gardens and meticulously maintained grounds add to its charm, making it a popular tourist attraction in the region. Visitors can explore the grandeur of the palace's interiors, adorned with intricate carvings, marble flooring, and elegant furnishings, offering a glimpse into Tripura's royal past.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/5c/de/4a/img-20171031-120412306.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Tripura Government Museum
+            </h1>
+            <p id="innerP">
+              The Tripura Government Museum, situated inside the Ujjayanta Palace in Agartala, Tripura, offers visitors a captivating journey through the state's rich history and culture. Housed within the opulent confines of the palace, the museum showcases a diverse collection of artifacts, ranging from archaeological finds to royal memorabilia. Exhibits include ancient sculptures, coins, textiles, manuscripts, and weaponry, providing insight into Tripura's socio-cultural evolution over the centuries. The museum's galleries offer a comprehensive overview of the region's art, architecture, and traditions, making it a must-visit destination for history enthusiasts and cultural connoisseurs alike. Moreover, the museum's setting within the splendid Ujjayanta Palace adds to its allure, offering visitors a unique blend of historical grandeur and scholarly exploration.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/2b/74/8a/fine-art-school-workshop.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Fine Art School (Painting House)
+            </h1>
+            <p id="innerP">
+              The Fine Art School, also known as the Painting House, is a notable attraction in Agartala, Tripura, offering visitors a glimpse into the region's vibrant art scene. Situated near the city center, this institution serves as a hub for aspiring artists and art enthusiasts alike. Visitors can explore a variety of artworks ranging from traditional to contemporary styles, showcasing the rich cultural heritage of Tripura. The school often hosts exhibitions, workshops, and cultural events, providing opportunities for artists to showcase their talents and engage with the community. Whether you're an art aficionado or simply curious about the local artistic traditions, a visit to the Fine Art School promises an enriching experience.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/86/f7/73/img-20181030-091006-largejpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Tripurasundari Temple
+            </h1>
+            <p id="innerP">
+              The Tripurasundari Temple, also known as Matabari, is a revered Hindu temple located near Udaipur town in Tripura, India. Dedicated to the goddess Tripurasundari, an embodiment of Shakti, the temple attracts devotees and pilgrims from far and wide. Its sacred significance lies in the belief that it is one of the 51 Shakti Peethas, where the toe of the right foot of Sati, a Hindu goddess, is said to have fallen. The temple's architecture reflects traditional Hindu temple design, featuring intricate carvings and sculptures. Pilgrims visit to seek blessings, offer prayers, and participate in religious ceremonies, especially during festivals such as Navratri. The serene ambiance and spiritual aura make the Tripurasundari Temple a must-visit destination for both religious and cultural exploration in Tripura.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/21/ee/5c/miniature-of-rajbari.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Heritage Park
+            </h1>
+            <p id="innerP">
+              Heritage Park is a picturesque destination located in Tripura, India, offering visitors a delightful blend of natural beauty and historical charm. Adorned with vibrant flower gardens, the park creates a kaleidoscope of colors, enhancing its serene ambiance. What sets Heritage Park apart is its collection of miniature historic monuments, providing a unique glimpse into the rich cultural heritage of the region. These intricately crafted replicas allow visitors to appreciate Tripura's history in a captivating way. Whether strolling amidst the blooming flowers or marveling at the miniature monuments, Heritage Park offers a peaceful retreat for nature lovers and history enthusiasts alike, making it a cherished attraction in Tripura.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/f7/79/3d/from-top-of-jampui-hills.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Jampui Hill
+            </h1>
+            <p id="innerP">
+              Jampui Hill, situated in Tripura, India, is a captivating destination renowned for its natural beauty and serene ambiance. Visitors are treated to breathtaking views of lush greenery, rolling hills, and picturesque landscapes, making it a perfect retreat for nature lovers and adventure enthusiasts alike. The hill is accessible by road and offers government tourist lodges for accommodation, allowing visitors to immerse themselves in the tranquility of the surroundings. Whether exploring the verdant trails, indulging in outdoor activities, or simply admiring the panoramic vistas, Jampui Hill offers a rejuvenating experience away from the hustle and bustle of city life, making it a must-visit destination in Tripura.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ac/45/2c/admire-its-beauty-to.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Sepahijala Wildlife Sanctuary
+            </h1>
+            <p id="innerP">
+              Sepahijala Wildlife Sanctuary, located in Tripura, India, is a haven for nature enthusiasts and wildlife lovers. Spread across a vast area of 18.5 square kilometers, the sanctuary boasts diverse ecosystems, including dense forests, grasslands, and marshes, providing a habitat for a wide variety of flora and fauna. Visitors can explore the sanctuary's attractions, such as the Sepahijala Zoological Park, Botanical Garden, Boat Ghat, and Butterfly Garden, which showcase the region's rich biodiversity. Notable species that can be spotted here include the clouded leopard, spectacled monkey, and a myriad of bird species. With its lush landscapes and abundant wildlife, Sepahijala Wildlife Sanctuary offers an immersive experience in the lap of nature, making it a popular destination for ecotourism and wildlife conservation efforts.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/37/91/c3/kamalasagar-temple.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Kamaleswari Temple
+            </h1>
+            <p id="innerP">
+              Located near the Bangladesh border, Kamaleswari Temple in Tripura is a significant religious site dedicated to Goddess Kamaleswari. Built by Maharaja Dhanya Manikya, the temple holds cultural and historical importance in the region. Situated in the "zero point" area, the temple's serene ambiance is enhanced by the presence of a lake in front. Visitors often marvel at the architectural beauty of the temple and the tranquil surroundings. Accessible by auto, the temple attracts devotees and tourists alike seeking blessings and a peaceful retreat. Kamaleswari Temple stands as a testament to Tripura's rich heritage and spiritual legacy, drawing visitors to experience its divine aura and scenic beauty.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/f3/b6/cb/20160703-132018-largejpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Dumboor lake
+            </h1>
+            <p id="innerP">
+              Dumboor Lake, situated in the Gomati district of Tripura, India, is a picturesque freshwater lake renowned for its natural beauty and tranquil ambiance. Spanning an area of approximately 41 square kilometers, Dumboor Lake is surrounded by lush greenery, rolling hills, and dense forests, creating a scenic paradise for nature lovers and adventure enthusiasts. The lake is formed by the confluence of rivers Raima and Sarma, resulting in a vast expanse of calm waters that serve as a haven for migratory birds and diverse aquatic life. Visitors to Dumboor Lake can enjoy a variety of activities such as boating, fishing, birdwatching, and picnicking amidst the serene surroundings. The lake's pristine environment and pristine surroundings make it an ideal destination for those seeking relaxation, rejuvenation, and a close encounter with nature's bounty in the heart of Tripura.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/a4/98/e3/the-trinity.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">ISKCON, Math Chowmuhani
+            </h1>
+            <p id="innerP">
+              ISKCON, Math Chowmuhani, is a temple complex located in Agartala, Tripura. It is part of the International Society for Krishna Consciousness (ISKCON), a global organization dedicated to the promotion of the Hindu Vaishnavism tradition. The temple is a place of worship and tribute to Lord Krishna, Lord Balarama, and Goddess Subhadra, revered deities in the Vaishnavite tradition. Visitors to ISKCON, Math Chowmuhani, can participate in various religious activities, including prayer sessions, bhajans (devotional songs), and spiritual discourses. The temple complex often hosts cultural events, festivals, and educational programs aimed at promoting spiritual growth and awareness. It serves as a spiritual sanctuary for devotees and seekers alike, offering a tranquil environment for meditation and reflection amidst the bustling city life of Agartala.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

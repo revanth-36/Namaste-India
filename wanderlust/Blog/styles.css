@@ -1,0 +1,221 @@
+html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: "Source Serif 4", serif;
+  font-size: 1.2em;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  -webkit-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.background {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(0px) grayscale(0%);
+}
+
+.content {
+  height: 200%;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+.content-inner {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+/* main wala part */
+
+h1 {
+  font-family: "Source Serif 4", serif;
+  font-size: 3.7em;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+}
+
+.blog-container {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 50px; /* Adjust the gap between the columns */
+padding-left: 50px;
+padding-right: 50px;
+}
+
+.blog {
+border: none;
+border-radius: 5px;
+margin-bottom: 0px; /* Add margin to the bottom of each blog container */
+}
+
+.image {
+position: relative;
+}
+
+.image img {
+width: 100%;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+.rating {
+position: absolute;
+bottom: 5px;
+right: 5px;
+}
+
+.rating::before {
+content: "\2605\2605\2605\2605\2606"; /* Unicode character for stars */
+color: gold;
+}
+
+.content1 {
+padding: 10px;
+}
+
+.blogger {
+display: block;
+font-style: italic;
+text-align: right;
+}
+
+
+/* Media query for screens up to 768px (typical tablet size) */
+@media screen and (max-width: 768px) {
+  .slider-item {
+    flex-direction: column; /* Change to column for narrower screens */
+  }
+
+  .slider-image-wrapper {
+    width: 100%; /* Take up full width */
+    height: 200px; /* Adjust height as needed */
+  }
+
+  .slider-item-content {
+    width: 100%; /* Take up full width */
+    padding: 16px; /* Adjust padding as needed */
+  }
+}
+
+/* go home button  */
+
+.home-button {
+  font-family: "Source Serif 4", serif;
+  font-size: 1em;
+  font-weight: 700;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 8px;
+  flex: 1; /* Each button will take equal space */
+  margin: 0 10px; /* Adjust spacing between buttons */
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, 0.3); /*glassmorphism part*/
+  backdrop-filter: blur(5px); /*glassmorphism part*/
+  -webkit-backdrop-filter: blur(5px); /*glassmorphism part*/
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-button:hover {
+  background-color: #ffffffbb;
+  color: rgb(0, 0, 0);
+}
+
+/* glassmorphism box */
+
+.glassmorphism-box {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 8px;
+  margin-bottom: 0em;
+}
+
+.glassmorphism-box1 {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 20px;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+/* footer */
+
+.footer {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  background: rgba(0, 0, 0, 0.4); /*glassmorphism part*/
+  backdrop-filter: blur(5px); /*glassmorphism part*/
+  -webkit-backdrop-filter: blur(5px); /*glassmorphism part*/
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  /* position: relative; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
+  border-radius: 1em;
+}
+
+.footer-logo {
+  width: 220px;
+  opacity: 1;
+}
+
+.footer-logo2 {
+  width: 200px;
+  opacity: 1;
+}
+
+.footer-logo3 {
+  width: 200px;
+  opacity: 1;
+  align-self:self-end;
+}
+
+.footer-text {
+  color: #ffffff; /* footer font colour */
+  opacity: 1;
+  font-size: 15px;
+}
+
+.footer-text p {
+  margin: 7px 0;
+}

@@ -1,0 +1,302 @@
+html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: "Source Serif 4", serif;
+  font-size: 1.2em;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  -webkit-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.background {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(0px) grayscale(0%);
+}
+
+.content {
+  height: 200%;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 200 to 900 */
+
+#mainH1 {
+  font-family: "Source Serif 4", serif;
+  font-size: 3.7em;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+}
+
+#mainH2 {
+  font-family: "Source Serif 4", serif;
+  font-size: 2.5em;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+}
+
+#lowH2 {
+  font-size: 2em;
+}
+
+/* @media screen and (max-width: 520px) {
+  .swiper-button-next:hover:before,
+  .swiper-button-prev:hover:before {
+    display: none;
+  }
+} */
+
+/* Media query for screens up to 768px (typical tablet size) */
+@media screen and (max-width: 768px) {
+  .slider-item {
+    flex-direction: column; /* Change to column for narrower screens */
+  }
+
+  .slider-image-wrapper {
+    width: 100%; /* Take up full width */
+    height: 200px; /* Adjust height as needed */
+  }
+
+  .slider-item-content {
+    width: 100%; /* Take up full width */
+    padding: 16px; /* Adjust padding as needed */
+  }
+}
+
+/* buttons */
+
+.card-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-top: 5em; /* Add margin to separate buttons from slider */
+  width: 85%; /* Set the width to cover 80% of the total webpage width */
+  margin: 0 auto; /* Center horizontally */
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%; /* Set the width of each button row to 100% */
+  margin-bottom: 13px; /* Add margin between rows */
+}
+
+.card-button {
+  font-family: "Source Serif 4", serif;
+  font-size: 1em;
+  font-weight: 700;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 8px;
+  flex: 1; /* Each button will take equal space */
+  margin: 0 10px; /* Adjust spacing between buttons */
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, 0.3); /*glassmorphism part*/
+  backdrop-filter: blur(5px); /*glassmorphism part*/
+  -webkit-backdrop-filter: blur(5px); /*glassmorphism part*/
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+  background-color: #ffffffbb;
+  color: rgb(0, 0, 0);
+}
+
+/* glassmorphism box */
+
+.glassmorphism-box {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 20px;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.glassmorphism-box2 {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 20px;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  border: none;
+}
+
+.left,
+.right {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.left img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.right {
+  padding: 20px;
+}
+
+/* Map Box */
+
+.map-box {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 0px;
+  overflow: hidden;
+  width: 90%;
+  height: 35em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+}
+
+/* footer */
+
+.footer {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  background: rgba(0, 0, 0, 0.4); /*glassmorphism part*/
+  backdrop-filter: blur(5px); /*glassmorphism part*/
+  -webkit-backdrop-filter: blur(5px); /*glassmorphism part*/
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  /* position: relative; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
+  border-radius: 1em;
+}
+
+.footer-logo {
+  width: 220px;
+  opacity: 1;
+}
+
+.footer-logo2 {
+  width: 200px;
+  opacity: 1;
+}
+
+.footer-logo3 {
+  width: 200px;
+  opacity: 1;
+  align-self:self-end;
+}
+
+.footer-text {
+  color: #ffffff; /* footer font colour */
+  opacity: 1;
+  font-size: 15px;
+}
+
+.footer-text p {
+  margin: 7px 0;
+}
+
+/* booking box */
+
+.booking-box {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 20px;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+/* booking button  */
+
+.book-button {
+  font-family: "Source Serif 4", serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 8px;
+  flex: 1; /* Each button will take equal space */
+  margin: 0 10px; /* Adjust spacing between buttons */
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, 0.3); /*glassmorphism part*/
+  backdrop-filter: blur(5px); /*glassmorphism part*/
+  -webkit-backdrop-filter: blur(5px); /*glassmorphism part*/
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+  background-color: #ffffffbb;
+  color: rgb(0, 0, 0);
+}
+
+.book-button2 {
+  font-family: "Source Serif 4", serif;
+  font-size: 1.1em;
+  font-weight: 700;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 8px;
+  flex: 1; /* Each button will take equal space */
+  margin: 0 10px; /* Adjust spacing between buttons */
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, 0.3); /*glassmorphism part*/
+  backdrop-filter: blur(5px); /*glassmorphism part*/
+  -webkit-backdrop-filter: blur(5px); /*glassmorphism part*/
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-button2:hover {
+  background-color: #ffffffbb;
+  color: rgb(0, 0, 0);
+}

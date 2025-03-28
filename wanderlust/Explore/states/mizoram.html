@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Mizoram</h1>
+      <div class="glassmorphism-box">
+        <p>
+          Nestled in the northeastern part of India, Mizoram is a hidden gem known for its lush green hills, cascading waterfalls, and vibrant tribal culture. The capital city of Aizawl is perched on steep hillsides, offering panoramic views of the surrounding valleys and mountains. The state is home to various indigenous tribes, such as the Mizo, who celebrate their rich cultural heritage through colorful festivals, traditional music, and dance forms like Cheraw (bamboo dance) and Chheihlam (community dance). Mizoram's picturesque landscapes provide ample opportunities for nature enthusiasts to explore, with attractions like the Durtlang Hills, Vantawng Falls, and the serene Tamdil Lake offering tranquil retreats amidst breathtaking scenery. The state's biodiversity is also remarkable, with dense forests teeming with diverse flora and fauna, including rare species like the Hoolock gibbon and the clouded leopard. Mizoram's culinary scene reflects its cultural diversity, with dishes like bamboo shoot curry, smoked meat, and various indigenous herbs and spices tantalizing the taste buds of visitors. Whether trekking through its pristine forests, immersing in its vibrant culture, or simply soaking in its natural beauty, Mizoram offers a truly enriching and unforgettable experience for travelers seeking off-the-beaten-path adventures.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Reiek Heritage Village
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Tuirihiau Falls
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Solomon's Temple
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Vantawng Falls
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Durtlang Hills
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Phulpui Grave
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Lalsavunga Park
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">Mizoram State Museum
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Tamdil Lake
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">KV Paradise
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Reiek</button>
+        <button class="card-button" onclick="slideToCard(12)">Vantawang Falls
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/08/5a/7f/reiek-heritage-village.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Reiek Heritage Village
+            </h1>
+            <p id="innerP">
+              Reiek Heritage Village, nestled in the scenic hills of Mizoram, India, offers visitors a glimpse into the rich cultural heritage of the Mizo people. Perched atop Reiek Mountain, the village showcases traditional Mizo architecture, with quaint wooden houses adorned with intricate carvings and vibrant murals depicting local folklore and customs. Visitors can immerse themselves in the daily life of the Mizo community, witnessing traditional dances, music performances, and craft demonstrations. The village also boasts panoramic views of the surrounding lush valleys and hills, making it an ideal spot for nature lovers and photographers. Additionally, adventurous souls can embark on treks through the surrounding forests, exploring hidden waterfalls and encountering exotic flora and fauna along the way. Reiek Heritage Village serves as a living museum, preserving the cultural heritage of the Mizo people while offering visitors an unforgettable experience steeped in tradition and natural beauty.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/6e/84/fb/the-waterfall-is-set.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Tuirihiau Falls
+            </h1>
+            <p id="innerP">
+              Tuirihiau Falls, located in Mizoram, India, is a breathtaking natural wonder nestled amidst lush greenery and rugged terrain. Cascading from a height with remarkable force, the waterfall creates a mesmerizing spectacle as its pristine waters tumble down into a tranquil pool below. Surrounded by dense forests and vibrant flora, the area around Tuirihiau Falls offers a serene ambiance, perfect for nature lovers and adventure seekers alike. Visitors can indulge in activities such as hiking, picnicking, and photography while immersing themselves in the tranquil beauty of the waterfall and its surroundings. Tuirihiau Falls is not only a scenic marvel but also a rejuvenating retreat where visitors can escape the hustle and bustle of urban life and reconnect with the raw splendor of nature.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/33/06/6b/img-20170505-wa0005-largejpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Solomon's Temple
+            </h1>
+            <p id="innerP">
+              Solomon's Temple, located in Kohima, Nagaland, is a prominent religious and cultural landmark in the region. Perched atop a hilltop, the temple offers stunning panoramic views of the surrounding landscape, making it a popular tourist destination and pilgrimage site. Constructed in the likeness of the biblical Solomon's Temple, this architectural marvel boasts intricate designs and vibrant colors that reflect the rich Naga heritage and craftsmanship. Visitors to Solomon's Temple can explore its ornate interiors, adorned with traditional motifs and religious artifacts, while also enjoying the serene atmosphere and spiritual ambiance of the surroundings. Whether for religious worship, cultural exploration, or simply enjoying the scenic beauty, Solomon's Temple stands as a symbol of faith and heritage in the heart of Nagaland.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/1f/7e/47/caption.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Vantawng Falls
+            </h1>
+            <p id="innerP">
+              Vantawng Falls, situated in Mizoram, is a breathtaking natural wonder that captivates visitors with its sheer beauty and grandeur. Plunging from a height of over 750 feet amidst lush greenery, the cascading waters of Vantawng Falls create a mesmerizing spectacle. As one of the highest waterfalls in Mizoram and Northeast India, it attracts tourists and nature enthusiasts from far and wide. The surrounding landscape offers a serene ambiance, ideal for picnics, photography, and tranquil moments amidst nature's splendor. Visitors can also explore the nearby trails and viewpoints to admire the waterfall from different perspectives. Vantawng Falls stands as a testament to the awe-inspiring beauty of Mizoram's natural landscapes, making it a must-visit destination for anyone exploring the region.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/51/28/2c/durtlang-hills.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Durtlang Hills
+            </h1>
+            <p id="innerP">
+              Durtlang Hills, located near Aizawl in Mizoram, offers a serene retreat from the bustling city life, boasting picturesque landscapes and panoramic views of the surrounding valleys. These verdant hills are adorned with lush greenery, making them an ideal destination for nature lovers and adventure seekers alike. Visitors can embark on scenic hikes or leisurely walks along the well-marked trails, immersing themselves in the tranquility of the natural surroundings. The hilltops provide stunning vantage points to admire the sprawling cityscape of Aizawl and the distant mountain ranges. Sunset and sunrise views from Durtlang Hills are particularly mesmerizing, casting a golden hue over the landscape. Whether seeking solitude, photography opportunities, or simply a refreshing escape into nature, Durtlang Hills offers a rejuvenating experience for all who venture there.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/e1/0f/77/caption.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Phulpui Grave
+            </h1>
+            <p id="innerP">
+              The Phulpui Grave, located in Mizoram, holds historical significance as the resting place of the legendary lovers Khawlhring and Thiengthuani. According to local folklore, the tragic tale of their forbidden love resulted in their untimely deaths, with both lovers buried together in a single grave. This site has become a symbol of enduring love and is revered by locals and visitors alike. The serene surroundings and the poignant story behind the grave attract tourists seeking to pay homage to the timeless romance of Khawlhring and Thiengthuani. Visitors often pause at this site to reflect on the power of love and the enduring legacy of the star-crossed lovers, making it a poignant stop for those exploring the cultural and historical heritage of Mizoram.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/2c/99/5d/caption.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Lalsavunga Park
+            </h1>
+            <p id="innerP">
+              Lalsavunga Park, situated in Mizoram, offers a tranquil retreat amidst lush greenery and scenic landscapes. Named after the prominent Mizo politician, Lalsavunga Sailo, the park provides locals and tourists with a peaceful environment to relax and unwind. With well-maintained gardens, walking paths, and recreational facilities, including playgrounds for children, the park is a popular destination for families and nature enthusiasts. Visitors can enjoy leisurely strolls, picnics, and outdoor activities while admiring the natural beauty of Mizoram. Lalsavunga Park serves as a cherished community space where residents gather to socialize and enjoy the outdoors, contributing to the vibrant cultural fabric of the region.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/b6/c2/90/img-20190522-105514-largejpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Mizoram State Museum
+            </h1>
+            <p id="innerP">
+              The Mizoram State Museum, located in Aizawl, offers a captivating journey through the cultural heritage and history of Mizoram. With its diverse collection of artifacts, traditional costumes, handicrafts, and archaeological finds, the museum provides insight into the rich cultural traditions and lifestyles of the Mizo people. Visitors can explore exhibits showcasing ancient tools, musical instruments, household items, and religious artifacts, offering a glimpse into the daily lives and customs of Mizoram's indigenous communities. The museum also features displays highlighting the region's natural history, including geological formations, flora, and fauna. Through its informative exhibits and interactive displays, the Mizoram State Museum plays a crucial role in preserving and promoting the cultural identity and heritage of Mizoram for future generations.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/94/6e/c9/tamdil-lake-a-sprawling.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Tamdil Lake
+            </h1>
+            <p id="innerP">
+              Tamdil Lake, nestled amidst the lush greenery of Mizoram, offers a serene escape into nature's embrace. Surrounded by verdant forests and rolling hills, this picturesque lake is a popular destination for both locals and tourists seeking tranquility and natural beauty. Visitors can enjoy boating on the crystal-clear waters, immersing themselves in the serene ambiance while soaking in the scenic vistas all around. The surrounding area is adorned with vibrant flora and fauna, making it a haven for nature enthusiasts and photographers alike. Tamdil Lake provides a perfect setting for picnics, leisurely walks, and unwinding amidst the breathtaking landscape of Mizoram. Whether it's a peaceful retreat or an adventure into the heart of nature, Tamdil Lake offers a memorable experience for all who visit.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/71/b7/2e/paradise.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">KV Paradise
+            </h1>
+            <p id="innerP">
+              KV Paradise, a delightful retreat nestled in the serene surroundings of Mizoram, offers a blissful escape for travelers seeking comfort and relaxation. Surrounded by verdant landscapes and tranquil ambiance, this paradise is a haven for those looking to unwind and rejuvenate amidst nature's embrace. The cozy accommodations provide a comfortable stay, while the lush gardens and scenic views create a soothing atmosphere. Guests can indulge in delicious local cuisine, explore nearby attractions, or simply bask in the serenity of the surroundings. Whether it's a peaceful getaway or an adventure-filled vacation, KV Paradise promises an unforgettable experience for visitors seeking solace and tranquility in the heart of Mizoram's natural beauty.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/cf/80/fc/caption.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Reiek</h1>
+            <p id="innerP">
+              Reiek, located in the lush hills of Mizoram, is a captivating destination known for its breathtaking natural beauty and rich cultural heritage. The Reiek Mountain offers stunning panoramic views of the surrounding landscapes, making it a popular spot for nature lovers and photography enthusiasts. Visitors can embark on scenic hikes through dense forests, discovering hidden waterfalls and encountering diverse flora and fauna along the way. The Reiek Heritage Village provides a glimpse into the traditional way of life of the Mizo people, with its charming houses and cultural performances. Adventure seekers can indulge in activities like trekking, rock climbing, and camping, immersing themselves in the rugged beauty of the region. Reiek is not just a destination; it's an experience that leaves a lasting impression on all who visit, offering a perfect blend of natural wonders and cultural treasures.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://www.connectingtraveller.com/images/localtip/1653822648Mizoram-Waterfalls-cover_17th-Dec.webp"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Vantawang Falls
+            </h1>
+            <p id="innerP">
+              Vantawang Falls, located in the state of Mizoram, India, is a breathtaking natural wonder renowned for its stunning beauty and impressive height. Cascading from a height of approximately 750 feet (230 meters), it is one of the tallest waterfalls in India. Surrounded by lush greenery and rocky cliffs, the falls create a mesmerizing spectacle as they plunge into the pool below, creating a misty atmosphere that adds to their allure. Visitors can enjoy panoramic views of the falls from various viewpoints along the trail, capturing the beauty of this majestic waterfall against the backdrop of the pristine landscape. Vantawang Falls is not only a popular tourist attraction but also holds cultural and ecological significance for the local communities, making it a must-visit destination for nature enthusiasts and travelers seeking awe-inspiring experiences in Mizoram.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

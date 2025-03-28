@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Karnataka</h1>
+      <div class="glassmorphism-box">
+        <p>
+          Karnataka, located in the southwestern part of India, is a state known for its rich history, diverse culture, and stunning landscapes. The capital city of Bengaluru, often referred to as the "Silicon Valley of India," is a vibrant metropolis renowned for its booming IT industry, bustling nightlife, and cosmopolitan vibe. The state is home to a treasure trove of architectural wonders, including the majestic Mysore Palace, the ancient ruins of Hampi, and the intricate carvings of the temples at Belur and Halebid. Karnataka's natural beauty is equally captivating, with the lush forests of the Western Ghats, cascading waterfalls like Jog Falls and Shivanasamudra Falls, and pristine beaches along the Arabian Sea coast. The state's rich cultural heritage is celebrated through its colorful festivals, traditional dance forms like Yakshagana and Bharatanatyam, and mouthwatering cuisine, which includes iconic dishes like dosa, idli, and Bisi Bele Bath. Karnataka is also a paradise for adventure enthusiasts, offering opportunities for trekking, wildlife safaris, and white-water rafting in destinations like Coorg, Bandipur National Park, and Dandeli. Whether exploring its historic landmarks, soaking in its natural beauty, or indulging in its culinary delights, Karnataka promises a journey filled with excitement, discovery, and unforgettable experiences.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Mysore Palace
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Wonderla Bengaluru
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">ISKCON Temple Bangalore
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Sri Chamarajendra Zoological Gardens
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Lalbagh Botanical Garden
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Mullayanagiri
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Somnathpur Temple
+          </button>
+        <button class="card-button" onclick="slideToCard(8)">UB City
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Group of Monuments at Hampi
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Sri Chamundeshwari Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Cubbon Park
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">Chennakesava Temple
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/40/63/77/the-palace-after-the.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Mysore Palace
+            </h1>
+            <p id="innerP">
+              The Mysuru Palace, also known as the Amba Vilas Palace, stands as an epitome of grandeur and architectural splendor in the heart of Mysuru (Mysore), Karnataka, India. Constructed in the 14th century and meticulously renovated over the centuries, the palace boasts a captivating blend of Indo-Saracenic, Dravidian, and Rajput architectural styles, adorned with intricately carved arches, domes, and vibrant frescoes. Its opulent interiors feature elaborately decorated rooms, halls, and courtyards furnished with luxurious carpets, chandeliers, and royal artifacts. Visitors are mesmerized by the palace's Durbar Hall, Kalyana Mantapa (marriage hall), and Diwan-e-Aam (public audience hall), each exuding regal charm and historical significance. The palace grounds, expansive and meticulously maintained, offer a glimpse into the city's royal past, while the museum housed within showcases a rich collection of royal memorabilia. As a cultural hub, the Mysuru Palace hosts various events and festivals, including the iconic Mysuru Dasara, celebrating the city's rich heritage and cultural legacy for visitors from around the world.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/b4/a3/72/flash-tower-is-a-shoot.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Wonderla Bengaluru
+            </h1>
+            <p id="innerP">
+              Wonderla Bengaluru is a popular amusement park located on the outskirts of Bengaluru, Karnataka, India. Spread over acres of land, it offers a wide range of thrilling rides, attractions, and entertainment options for visitors of all ages. The park features high-speed roller coasters, water slides, wave pools, and interactive rides, providing endless fun and excitement for families and thrill-seekers alike. Wonderla Bengaluru is known for its world-class facilities, impeccable safety standards, and well-maintained attractions, making it a favorite destination for both locals and tourists. In addition to the rides, the park also offers various dining options, souvenir shops, and relaxation zones, ensuring a memorable and enjoyable experience for visitors. Whether it's experiencing the adrenaline rush of the rides or simply spending a day of fun and relaxation with loved ones, Wonderla Bengaluru offers something for everyone to enjoy.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/a2/b1/90/front-view-of-temple.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">ISKCON Temple Bangalore
+            </h1>
+            <p id="innerP">
+              The ISKCON Temple in Bangalore, officially known as the Sri Radha Krishna Temple, is a prominent spiritual and cultural landmark located in Rajajinagar, Bengaluru, Karnataka, India. Managed by the International Society for Krishna Consciousness (ISKCON), the temple is dedicated to Lord Krishna and his consort, Radha. It is renowned for its architectural beauty, serene ambiance, and vibrant spiritual atmosphere. The temple complex features beautifully crafted sculptures and paintings depicting the life and teachings of Lord Krishna, along with lush gardens and tranquil courtyards ideal for meditation and reflection. Devotees and visitors can participate in various spiritual activities such as kirtan (devotional singing), arati (ritual worship), and Bhagavad Gita discourses. The temple also hosts cultural events, festivals, and educational programs aimed at promoting Vedic wisdom and spiritual values. The ISKCON Temple in Bangalore serves as a sanctuary for spiritual seekers and devotees seeking inner peace, devotion, and enlightenment amidst the hustle and bustle of urban life.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/a3/8b/20/chimpanzee.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Sri Chamarajendra Zoological Gardens
+            </h1>
+            <p id="innerP">
+              The Shri Chamarajendra Zoological Gardens, commonly known as Mysuru Zoo, is a prominent zoological park located in Mysuru (Mysore), Karnataka, India. Established in 1892, it is one of the oldest and most well-maintained zoos in the country, spanning over 245 acres of lush greenery. The zoo is home to a diverse collection of animals, including exotic species such as lions, tigers, elephants, giraffes, and many more, housed in spacious and naturalistic enclosures designed to mimic their natural habitats. Visitors can explore the zoo on foot or through battery-operated vehicles, enjoying close encounters with the animals while learning about wildlife conservation and biodiversity. The zoo also features a reptile house, a walk-through aviary, and a botanical garden showcasing a variety of plant species. With its focus on animal welfare, education, and conservation efforts, Mysuru Zoo offers an enriching and enjoyable experience for visitors of all ages, making it a popular tourist destination in Mysuru.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/7d/47/f4/lalbagh-botanical-garden.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Lalbagh Botanical Garden</h1>
+            <p id="innerP">
+              Lalbagh Botanical Garden, located in Bengaluru (Bangalore), Karnataka, India, is one of the most renowned botanical gardens in the country. Established in the 18th century by Hyder Ali and later expanded by his son Tipu Sultan, the garden spans over 240 acres and features a diverse collection of exotic plants, trees, and flowers from around the world. One of the highlights of Lalbagh is its iconic Glass House, inspired by London's Crystal Palace, which hosts an annual flower show showcasing a stunning array of floral displays and horticultural exhibits. Visitors to Lalbagh can explore its tranquil pathways, lush greenery, and picturesque landscapes, with various attractions such as the Kempegowda Tower, Lalbagh Lake, and numerous sculptures and monuments scattered throughout the garden. Lalbagh serves as a haven for nature lovers, botany enthusiasts, and families seeking relaxation amidst the beauty of nature, making it a popular destination for both locals and tourists alike.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/6e/54/05/img-20180922-090745-hdr.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Mullayanagiri
+            </h1>
+            <p id="innerP">
+              Mullayanagiri is the highest peak in Karnataka, India, standing at an elevation of 1,930 meters (6,330 feet) above sea level. Located in the Chandra Dhrona Hill Ranges of the Western Ghats, Mullayanagiri offers breathtaking panoramic views of the surrounding hills, valleys, and lush greenery. It is a popular trekking destination, attracting adventure enthusiasts and nature lovers from far and wide. The trek to Mullayanagiri is relatively moderate, with well-marked trails leading through dense forests and rocky terrain. At the summit, visitors are rewarded with stunning vistas of the sunrise or sunset, depending on the time of the day, making it a memorable experience. Mullayanagiri also houses a small temple dedicated to Lord Shiva, adding to its spiritual significance. Whether it's trekking, photography, or simply enjoying the serenity of nature, Mullayanagiri offers a rejuvenating escape into the heart of Karnataka's natural beauty.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/08/6b/fd/somanathapura-vishnu.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Somnathpur Temple
+            </h1>
+            <p id="innerP">
+              The Somnathpur temple, officially known as the Chennakesava Temple, is an exquisite example of Hoysala architecture located in the village of Somnathpur, Karnataka, India. Built in the 13th century during the reign of the Hoysala Empire, the temple is dedicated to Lord Vishnu and is renowned for its intricate stone carvings and architectural craftsmanship. The temple is built in the traditional trikuta style, with three sanctuaries (garbhagrihas) housing beautifully carved idols of Lord Vishnu in various forms - Kesava, Janardhana, and Venugopala. The outer walls of the temple are adorned with intricately carved friezes, depicting scenes from Hindu mythology, celestial beings, animals, and ornamental designs. The temple's ceiling is adorned with elaborate geometric patterns and floral motifs. The Somnathpur temple stands as a testament to the artistic prowess of the Hoysala artisans and is considered one of the finest examples of Hoysala architecture, attracting visitors and art enthusiasts from around the world.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/e0/d9/9f/ub-city.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">UB City
+
+              </h1>
+            <p id="innerP">
+              UB City, situated in Bangalore, India, stands as a testament to modern luxury and sophistication. This prominent commercial complex is renowned for its sleek architecture and upscale amenities. Home to high-end retail stores, corporate offices, fine dining restaurants, and even a five-star hotel, UB City offers a comprehensive experience for both business and leisure. The complex exudes elegance and opulence, attracting visitors from around the world. Its strategic location in the heart of Bangalore's central business district further enhances its appeal, making it a preferred destination for business meetings, shopping excursions, and upscale dining experiences. Whether one is strolling through its designer boutiques, conducting important meetings in its state-of-the-art office spaces, or indulging in gourmet cuisine at its fine dining establishments, UB City promises an unforgettable experience marked by luxury, comfort, and sophistication.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/b7/d8/b3/p-20171219-124534-vhdr.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Group of Monuments at Hampi
+            </h1>
+            <p id="innerP">
+              The Group of Monuments at Hampi is a UNESCO World Heritage Site located in the Indian state of Karnataka. Hampi was the capital of the Vijayanagara Empire in the 14th century and is renowned for its splendid architecture and rich history. The site encompasses numerous temples, shrines, royal complexes, fortifications, and other structures, spread across a vast area. Some of the notable landmarks include the Virupaksha Temple, Vittala Temple with its iconic stone chariot, the Krishna Temple Complex, and the Queen's Bath. These monuments showcase the architectural brilliance and cultural significance of the Vijayanagara Empire, attracting historians, archaeologists, and tourists from around the globe. Hampi's landscape, characterized by boulder-strewn hills, adds to the mystique and allure of this UNESCO heritage site, making it a must-visit destination for anyone interested in India's rich cultural heritage and architectural marvels.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/aa/dd/9e/chamundeswari-temple.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Sri Chamundeshwari Temple
+            </h1>
+            <p id="innerP">
+              The Sri Chamundeshwari Temple is a revered Hindu temple located atop the Chamundi Hills near the city of Mysore in Karnataka, India. Dedicated to Goddess Chamundeshwari, an incarnation of Goddess Durga, this temple is one of the most important religious sites in the region and attracts devotees from far and wide. The temple's architecture is a blend of Dravidian and Hoysala styles, characterized by intricate carvings and vibrant colors. Visitors ascend a flight of over a thousand steps or can drive up to the temple complex, which offers panoramic views of Mysore city. The deity, Chamundeshwari, is worshipped for her protective powers and is believed to fulfill the wishes of her devotees. The temple also holds cultural and religious significance, particularly during the annual festival of Navaratri when it attracts a large number of pilgrims and tourists.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/0d/61/6c/cubbon-park.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Cubbon Park
+              </h1>
+            <p id="innerP">
+              Cubbon Park is a sprawling urban park located in the heart of Bangalore, Karnataka, India. Covering an area of over 300 acres, it is one of the city's most iconic green spaces and a popular recreational destination for locals and tourists alike. Named after Sir Mark Cubbon, a British administrator who served as the Commissioner of Mysore from 1834 to 1861, the park was originally laid out in the 19th century and has since evolved into a verdant oasis amidst the bustling city. Cubbon Park is home to a diverse range of flora and fauna, including numerous species of trees, plants, birds, and butterflies, making it a haven for nature lovers and birdwatchers. The park also features landscaped gardens, walking paths, fountains, and historic landmarks such as the Attara Kacheri (High Court) building and the State Central Library. It provides a tranquil escape from the urban chaos, offering opportunities for relaxation, exercise, and leisurely strolls amidst scenic surroundings.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/39/a2/3b/southern-entrance-chennakeshav.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Chennakesava Temple
+            </h1>
+            <p id="innerP">
+              The Chennakeshava Temple is a magnificent Hindu temple located in Belur, Karnataka, India. Built during the Hoysala Empire in the 12th century, it is renowned for its intricate stone carvings, exquisite architecture, and remarkable craftsmanship. Dedicated to Lord Vishnu, the temple is a masterpiece of Hoysala architecture, characterized by its star-shaped plan, intricate sculptures, and ornate pillars. The outer walls of the temple are adorned with intricately carved figures depicting scenes from Hindu mythology, including gods, goddesses, celestial beings, animals, and mythical creatures. The temple's main sanctum houses a 7-foot-tall idol of Lord Chennakeshava (a form of Lord Vishnu), which is intricately carved and adorned with jewelry. The Chennakeshava Temple is considered one of the finest examples of Hoysala architecture and is a UNESCO World Heritage Site, attracting visitors from around the world who come to admire its beauty and marvel at its craftsmanship.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

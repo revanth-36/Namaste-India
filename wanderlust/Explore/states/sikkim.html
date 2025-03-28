@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Sikkim</h1>
+      <div class="glassmorphism-box">
+        <p>
+         Nestled in the lap of the Himalayas, Sikkim is a land of breathtaking landscapes, vibrant culture, and spiritual tranquility. Known as India's first organic state, it boasts lush green valleys, cascading waterfalls, and snow-capped peaks, making it a paradise for nature lovers and adventure seekers alike. The capital city of Gangtok enchants visitors with its charming streets, Buddhist monasteries like Rumtek and Enchey, and panoramic views of the Kanchenjunga range. Sikkim's rich cultural heritage is reflected in its colorful festivals, such as Losar, Saga Dawa, and the famous Mask Dance Festival, where traditional music, dance, and rituals come alive. The state is also home to several serene lakes, including the pristine Tsomgo Lake and the sacred Gurudongmar Lake, which hold deep spiritual significance for the locals. Adventure enthusiasts can indulge in trekking, mountain biking, and river rafting amidst the rugged terrain and dense forests of Sikkim. Whether seeking spiritual solace, cultural immersion, or thrilling outdoor adventures, Sikkim promises a journey filled with wonder, serenity, and unforgettable experiences.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Nathula Pass
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Gurudongmar Lake
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">MG Marg
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Yumthang Valley
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Hanuman Tok
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Yume Samdong (Zero Point)
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Buddha Park
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">Ranka Monastery
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Baba Harbhajan Singh Memorial Temple
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Banjhakri Water Falls
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Himalayan Zoological Park
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">Rumtek Monastery
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/24/59/87/caption.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Nathula Pass
+            </h1>
+            <p id="innerP">
+              Nathula Pass is a mountain pass in the Himalayas that connects the Indian state of Sikkim with China's Tibet Autonomous Region. Located at an elevation of around 4,310 meters (14,140 feet) above sea level, it holds strategic significance as one of the few open border trading posts between India and China. Historically, it was part of the ancient Silk Road and served as a major trade route between Tibet and India. Today, it is primarily known for its scenic beauty and as a popular tourist destination. Visitors can experience breathtaking views of snow-capped mountains, rugged terrain, and pristine lakes in the surrounding area. However, access to Nathula Pass is restricted, and travelers require special permits from the Indian authorities to visit.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/7d/41/73/pleasant-alpine-pastures.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Gurudongmar Lake
+            </h1>
+            <p id="innerP">
+              Gurudongmar Lake is one of the highest lakes in the world, situated at an altitude of around 17,800 feet (5,430 meters) in the Indian state of Sikkim, near the Indo-China border. Named after Guru Padmasambhava, the lake is revered by Buddhists, Sikhs, and Hindus alike. According to legend, Guru Padmasambhava (also known as Guru Rinpoche) visited the lake and blessed it, making its waters sacred. The lake remains frozen for most of the year due to its high altitude and freezing temperatures, except for a few months in summer when it partially thaws. It is surrounded by snow-capped peaks, offering breathtaking views to visitors who brave the challenging journey to reach it. While the journey to Gurudongmar Lake involves traveling through rugged terrain and high altitudes, the stunning natural beauty and spiritual significance of the lake make it a must-visit destination for adventure enthusiasts and pilgrims alike.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/a8/58/04/mg-marg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">MG Marg
+            </h1>
+            <p id="innerP">
+              MG Marg, short for Mahatma Gandhi Marg, is a bustling promenade and a popular shopping and entertainment hub located in Gangtok, the capital city of Sikkim, India. Lined with a variety of shops, eateries, and souvenir stalls, MG Marg is a pedestrian-friendly zone where visitors can stroll leisurely, shop for local handicrafts, sample authentic Sikkimese cuisine, and enjoy the vibrant atmosphere. The street is beautifully landscaped with flower beds, benches, and decorative lighting, making it an inviting place for locals and tourists alike to unwind and socialize. With its lively ambiance, diverse offerings, and scenic surroundings, MG Marg is considered the heart of Gangtok and a must-visit destination for anyone exploring the charm of Sikkim.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/12/96/88/photo0jpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Yumthang Valley
+            </h1>
+            <p id="innerP">
+              Yumthang Valley, often referred to as the "Valley of Flowers," is a picturesque valley nestled in the northern part of Sikkim, India, near the town of Lachung. Renowned for its stunning natural beauty, Yumthang Valley is characterized by lush green meadows, vibrant alpine flowers, and snow-capped peaks towering in the background. The valley comes alive during the spring season when a riot of colors blankets the landscape with blooming rhododendrons, primulas, and other Himalayan flowers. Apart from its floral splendor, Yumthang Valley also offers panoramic views of the surrounding Himalayan mountains, including the majestic Pauhunri and Shundu Tsenpa peaks. Visitors can explore the valley on foot, indulge in photography sessions, and soak in the serene ambiance of this pristine Himalayan paradise. Additionally, Yumthang Valley is home to the Yumthang Hot Springs, where travelers can relax in natural hot water pools believed to have therapeutic properties.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/51/32/b1/hanuman-tok.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Hanuman Tok
+            </h1>
+            <p id="innerP">
+              Hanuman Tok is a revered Hindu temple dedicated to Lord Hanuman, situated atop a hill in Gangtok, the capital city of Sikkim, India. Perched at an altitude of around 7,200 feet, the temple offers breathtaking panoramic views of the surrounding mountains and valleys, making it a popular tourist destination and a place of spiritual significance. Visitors can ascend the stairs to reach the temple complex, where they can pay their respects to the deity and enjoy the serene ambiance. The temple is adorned with colorful flags and religious symbols, and it attracts devotees and tourists alike who seek blessings, peace, and tranquility. Additionally, the location provides a perfect vantage point to witness mesmerizing sunrise and sunset views over the Himalayas, adding to the spiritual experience of the visitors.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/e9/70/a3/yumesamdong-zero-point.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Yume Samdong (Zero Point)
+            </h1>
+            <p id="innerP">
+              Yume Samdong, also known as Zero Point, is a scenic destination located in North Sikkim, India, near the Indo-China border. Situated at an altitude of around 15,300 feet above sea level, it offers breathtaking views of snow-capped peaks, alpine meadows, and rugged terrain. The journey to Yume Samdong involves traversing through winding mountain roads and crossing picturesque landscapes, making it a thrilling adventure for travelers. The area is often covered in snow, creating a mesmerizing winter wonderland that attracts tourists and adventure enthusiasts throughout the year. Visitors can indulge in activities like trekking, photography, and simply immersing themselves in the awe-inspiring beauty of the Himalayas. Additionally, Yume Samdong holds cultural significance for the local indigenous communities, adding to its allure as a must-visit destination in Sikkim.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/ef/73/74/awesomeness-overloaded.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Buddha Park
+            </h1>
+            <p id="innerP">
+              Buddha Park, also known as Ravangla Buddha Park or Tathagata Tsal, is a serene and spiritually significant destination situated near Ravangla town in South Sikkim, India. The park is home to one of the tallest Buddha statues in India, a 130-foot-high statue of Lord Buddha, overlooking the stunning Himalayan landscape. Surrounded by lush greenery and offering panoramic views of the snow-capped mountains, the park provides a tranquil atmosphere for meditation and reflection. Visitors can explore the beautifully landscaped gardens, stroll along peaceful pathways, and admire the intricate architecture and craftsmanship of the statue. Additionally, the park features smaller stupas, meditation halls, and prayer wheels, creating a harmonious environment conducive to spiritual contemplation. Buddha Park serves as a symbol of peace, compassion, and enlightenment, attracting tourists, pilgrims, and nature lovers alike to experience its serene ambiance and scenic beauty.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/ff/be/59/lingdum-monastery-ranka.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Ranka Monastery
+              </h1>
+            <p id="innerP">
+              Ranka Monastery, also known as Lingdum Monastery, is a revered Buddhist monastery located near Gangtok, the capital city of Sikkim, India. Nestled amidst the picturesque hills of Ranka, the monastery offers breathtaking views of the surrounding landscape. Founded in the late 20th century, Ranka Monastery is renowned for its tranquil ambiance, spiritual teachings, and architectural beauty. Visitors can explore the monastery complex, which includes prayer halls adorned with intricate murals, colorful frescoes, and Buddhist scriptures. The serene atmosphere provides an ideal setting for meditation and contemplation. Additionally, the monastery hosts various religious ceremonies, festivals, and teachings, attracting both pilgrims and tourists seeking spiritual enlightenment and cultural immersion. The surrounding natural beauty adds to the allure of Ranka Monastery, making it a must-visit destination for those seeking peace, tranquility, and spiritual rejuvenation.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/b8/25/f0/outside-old-baba-mandir.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Baba Harbhajan Singh Memorial Temple
+            </h1>
+            <p id="innerP">
+              The Baba Harbhajan Singh Memorial Temple, located near the Nathula Pass in Sikkim, India, is a revered shrine dedicated to the memory of Baba Harbhajan Singh, a soldier of the Indian Army who is revered as a saint. The temple, also known as the Baba Mandir, is situated amidst the scenic Himalayan mountains and is visited by thousands of devotees and tourists every year. Baba Harbhajan Singh is believed to protect the soldiers patrolling the border and grant their wishes. The temple houses a shrine with a uniform and other personal belongings of Baba Harbhajan Singh. Devotees offer prayers and seek blessings for protection and well-being. The serene surroundings and spiritual ambiance make it a significant pilgrimage site and a must-visit destination for those exploring the region.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/97/7e/14/banjhakri-water-falls.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Banjhakri Water Falls
+            </h1>
+            <p id="innerP">
+              Banjhakri Waterfalls is a picturesque cascade nestled amidst lush greenery near Gangtok, the capital city of Sikkim, India. Surrounded by dense forests and vibrant flora, the waterfall is a popular tourist attraction and a serene retreat for nature lovers. Visitors can enjoy the soothing sound of cascading water as they explore the surrounding natural beauty. The site is also adorned with sculptures depicting traditional Sikkimese folklore, adding a cultural touch to the scenic landscape. Many visitors come here to relax, picnic, and soak in the tranquil atmosphere, making it a refreshing stopover during their travels in Sikkim.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/c1/78/f1/red-panda.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Himalayan Zoological Park
+            </h1>
+            <p id="innerP">
+              The Himalayan Zoological Park, situated near Gangtok in Sikkim, offers a unique opportunity to witness the rich biodiversity of the Himalayas. Spread across acres of natural terrain, the park is home to a diverse range of flora and fauna native to the region. Visitors can observe various species of Himalayan animals, including the elusive red panda, snow leopard, Himalayan black bear, and several species of birds and reptiles, in their near-natural habitats. The park also serves as a conservation center, aiming to protect and preserve endangered species endemic to the Himalayan region. With its scenic surroundings and educational exhibits, the Himalayan Zoological Park provides an immersive wildlife experience for visitors of all ages.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/1d/20/47/private-tour-5-days-in.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Rumtek Monastery
+            </h1>
+            <p id="innerP">
+              Rumtek Monastery, located near Gangtok in Sikkim, is one of the most significant and largest monasteries in the region. Also known as the Dharma Chakra Centre, it serves as the seat of the Karmapa Lama, the head of the Kagyu sect of Tibetan Buddhism. The monastery is renowned for its traditional Tibetan architecture, intricate murals, and stunning golden stupas. Visitors can explore the various prayer halls, meditation rooms, and religious artifacts housed within the complex. The serene surroundings of Rumtek Monastery, set against the backdrop of the Himalayas, make it a popular destination for spiritual seekers and tourists alike. Additionally, the monastery hosts various religious ceremonies, festivals, and teachings throughout the year, attracting devotees and visitors from around the world.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

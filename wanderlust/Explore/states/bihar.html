@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Bihar</h1>
+      <div class="glassmorphism-box">
+        <p>
+          Bihar, located in eastern India, is a state steeped in history, spirituality, and cultural richness. The capital city of Patna, situated on the banks of the sacred Ganges River, serves as the political and cultural center of the state. Bihar is renowned for its wealth of ancient landmarks, including the UNESCO World Heritage Sites of Nalanda University, the ruins of Vikramshila University, and the Mahabodhi Temple in Bodh Gaya, where Lord Buddha attained enlightenment. The state's spiritual significance is further enhanced by sites like Vaishali, where Lord Buddha delivered his last sermon, and the revered Sikh pilgrimage site of Takht Sri Patna Sahib. Bihar's vibrant culture is celebrated through its colorful festivals, traditional dance forms like Jat-Jatin and Jhijhian, and mouthwatering cuisine, which includes iconic dishes like litti-chokha, sattu paratha, and various sweets like tilkut and thekua. The state's natural beauty is evident in its lush greenery, fertile plains, and meandering rivers, providing a tranquil backdrop for exploration and relaxation.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Mahabodhi Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Takht Sri Harmandir Sahib Ji
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Bodhi Tree
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Hanuman Mandir
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Nalanda
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Great Buddha Statue
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Nalanda University Ruins
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">Vishnupad Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Thai Monastery
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Buddha Smriti Park
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Sanjay Gandhi Biological Park</button>
+        <button class="card-button" onclick="slideToCard(12)">Pind Daan Gaya
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/daodao/photo-o/15/b8/f2/7c/caption.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Mahabodhi Temple
+            </h1>
+            <p id="innerP">
+              The Mahabodhi Temple, located in Bodh Gaya, Bihar, stands as a testament to the profound spiritual significance of the site where Siddhartha Gautama, the Buddha, attained enlightenment. Designated as a UNESCO World Heritage Site, the temple complex is a revered pilgrimage destination for Buddhists worldwide.Constructed in the 5th to 6th centuries CE, the Mahabodhi Temple is renowned for its exquisite architecture, characterized by a soaring pyramidal spire and intricate carvings depicting scenes from the life of the Buddha. At its heart lies the sacred Bodhi Tree, believed to be a direct descendant of the tree under which the Buddha attained enlightenment.Pilgrims and visitors from diverse cultural and religious backgrounds flock to the Mahabodhi Temple to pay homage to the Buddha, meditate in its tranquil surroundings, and experience the profound sense of spiritual awakening that permeates the site. The temple stands as a timeless symbol of enlightenment and peace, inspiring seekers of truth and wisdom for millennia.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/3b/9e/f4/takht-sri-harmandir-sahib.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Takht Sri Harmandir Sahib Ji
+            </h1>
+            <p id="innerP">
+              Takht Sri Harmandir Sahib Ji, commonly known as the Golden Temple, is the holiest Gurdwara and the spiritual and cultural center of Sikhism. Located in Amritsar, Punjab, India, it holds immense significance for Sikhs worldwide.The Gurdwara is adorned with gold plating, which gives it its iconic appearance and name. It sits amidst the sacred Amrit Sarovar (Pool of Nectar), symbolizing spiritual purity and eternal grace. The temple complex welcomes people from all walks of life, irrespective of caste, creed, or religion, embodying the Sikh principles of equality and universal brotherhood.Visitors can partake in the langar, a communal kitchen serving free meals to all, symbolizing the Sikh values of selfless service and equality. The atmosphere is imbued with spirituality, as devotees recite hymns from the Guru Granth Sahib, the Sikh holy scripture, and seek solace and guidance in its teachings.Takht Sri Harmandir Sahib Ji serves as a beacon of hope, love, and compassion, radiating its message of peace and harmony to the world.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/ee/66/f2/bodhi-tree.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Bodhi Tree
+            </h1>
+            <p id="innerP">
+              The Bodhi Tree holds profound significance as the sacred fig tree under which Siddhartha Gautama, the Buddha, attained enlightenment over 2,500 years ago. Located in Bodh Gaya, Bihar, this ancient tree stands as a living symbol of spiritual awakening and enlightenment in the Buddhist tradition. Pilgrims and seekers from around the world flock to this revered site to meditate, reflect, and pay homage to the Buddha's enlightenment. The Bodhi Tree is believed to be a direct descendant of the original tree under which the Buddha sat, making it a revered and deeply cherished symbol for Buddhists worldwide. Surrounded by a serene atmosphere and imbued with centuries of spiritual energy, the Bodhi Tree continues to inspire and uplift all who encounter it, serving as a timeless reminder of the human capacity for inner transformation and enlightenment.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/3e/b2/8c/hanuman-mandir.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Hanuman Mandir
+            </h1>
+            <p id="innerP">
+              The Hanuman Mandir in Bihar, India, stands as a sacred shrine dedicated to Lord Hanuman, the revered Hindu deity known for his unwavering devotion and strength. Located amidst the lush greenery of Bihar's landscape, this temple is a focal point of spiritual worship and pilgrimage for devotees from across the country. The temple's architecture reflects traditional Hindu design, adorned with intricate carvings and vibrant colors that symbolize the rich cultural heritage of the region. Inside the temple, an idol or statue of Lord Hanuman, often depicted in a meditative or heroic posture, serves as the central focus of devotion and prayer. Devotees flock to the Hanuman Mandir to seek blessings for courage, protection, and success in their endeavors. Many participate in rituals and ceremonies, such as offering prayers, lighting incense, and presenting offerings of flowers and fruits to the deity. Surrounded by a serene atmosphere and enveloped in the spiritual energy of devotion, the Hanuman Mandir provides solace and inspiration to all who visit, fostering a deep sense of connection with the divine.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/81/4e/4c/caption.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Nalanda
+            </h1>
+            <p id="innerP">
+              Nalanda, located in the Indian state of Bihar, holds a prominent place in history as an ancient center of learning and scholarship. Founded in the 5th century CE, Nalanda University was one of the world's earliest residential universities, attracting scholars and students from across Asia. The university flourished under the patronage of successive dynasties, becoming a renowned seat of Buddhist and secular education. Nalanda's sprawling campus housed lecture halls, monasteries, libraries, and meditation centers, fostering an atmosphere of intellectual exchange and spiritual growth. Its curriculum encompassed a wide range of subjects, including philosophy, mathematics, astronomy, medicine, and the arts. Despite its eventual decline and destruction in the 12th century, Nalanda remains an enduring symbol of India's rich cultural and educational heritage. Today, the archaeological site of Nalanda stands as a UNESCO World Heritage Site, attracting visitors who seek to explore its ancient ruins and unravel the mysteries of its storied past.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/78/aa/df/photo0jpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Great Buddha Statue
+            </h1>
+            <p id="innerP">
+              The Great Buddha Statue, also known as the Giant Buddha of Bodh Gaya, is an awe-inspiring monument located in Bodh Gaya, Bihar. Standing at an impressive height of 80 feet, this majestic statue depicts Lord Buddha in a seated meditative posture, symbolizing peace, compassion, and enlightenment. Crafted from red granite and adorned with intricate details, the Great Buddha Statue radiates a sense of tranquility and serenity, inviting visitors to contemplate the teachings of the Buddha. This monumental sculpture serves as a powerful symbol of Buddhism's rich cultural heritage and spiritual legacy. It attracts pilgrims and tourists alike, drawing them into a profound journey of introspection and enlightenment. Surrounding the statue is a serene garden, providing a tranquil space for meditation and reflection. As one of the largest Buddha statues in India, the Great Buddha Statue stands as a testament to the enduring influence of the Buddha's teachings and the universal quest for inner peace and wisdom.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/aa/b2/27/photo8jpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Nalanda University Ruins
+            </h1>
+            <p id="innerP">
+              The Nalanda University Ruins, located in the Indian state of Bihar, stand as a testament to the ancient glory of one of the world's earliest centers of learning. Founded in the 5th century CE, Nalanda University was a renowned seat of Buddhist and secular education, attracting scholars and students from across Asia. The ruins of Nalanda encompass a vast archaeological site, featuring remnants of monasteries, lecture halls, libraries, and residential quarters spread across an extensive campus. Visitors to the site can explore the excavated remains, including ornately carved stupas, sculptures, and inscriptions that offer glimpses into the university's intellectual and cultural legacy. The layout of the ruins reflects the university's organizational structure, with distinct areas designated for teaching, meditation, and communal living. As a UNESCO World Heritage Site, the Nalanda University Ruins continue to inspire awe and admiration, serving as a poignant reminder of India's rich educational heritage and enduring contributions to global learning.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/50/86/d5/dsc00064-largejpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Vishnupad Temple
+            </h1>
+            <p id="innerP">
+              Vishnupad Temple, situated in the ancient city of Gaya, Bihar, is a sacred Hindu pilgrimage site dedicated to Lord Vishnu. The temple is renowned for its footprint, believed to be that of Lord Vishnu himself, marked on a rock inside the sanctum sanctorum. Devotees believe that a visit to this temple and offering prayers at the sacred footprints can absolve them of their sins and bring blessings and prosperity. Constructed in a traditional North Indian architectural style, the temple's intricate carvings and ornate design captivate visitors with their spiritual aura and historical significance. Surrounding the temple is the sacred Falgu River, where devotees perform rituals and ceremonies. Vishnupad Temple stands as a symbol of devotion and faith, drawing pilgrims and tourists from far and wide to experience its divine presence and seek solace in the embrace of the divine.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/8e/f1/fb/thai-monastery.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Thai Monastery
+            </h1>
+            <p id="innerP">
+              The Thai Monastery, situated in Bodh Gaya, Bihar, India, is a magnificent testament to Thailand's deep-rooted Buddhist heritage. Established as a symbol of cultural exchange and religious harmony between India and Thailand, the monastery exudes serenity and spiritual resonance. Its architecture reflects traditional Thai design, characterized by intricate wood carvings, vibrant colors, and ornate pagodas. Within the monastery's tranquil grounds, visitors can explore lush gardens, serene meditation halls, and sacred shrines dedicated to the Buddha. The centerpiece of the monastery is the magnificent statue of the Buddha, crafted in the traditional Thai style, which radiates tranquility and compassion. Pilgrims and visitors from around the world flock to the Thai Monastery to seek inspiration, practice meditation, and pay homage to the teachings of the Buddha. With its serene ambiance and timeless beauty, the Thai Monastery serves as a sanctuary for seekers of inner peace and spiritual enlightenment.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/bb/04/47/buddha-smriti-park-main.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Buddha Smriti Park
+            </h1>
+            <p id="innerP">
+              Buddha Smriti Park, located in Patna, Bihar, is a serene and contemplative sanctuary dedicated to the memory of Lord Buddha. Spanning over 22 acres, this expansive park is a harmonious blend of lush greenery, serene water bodies, and architectural marvels, creating a tranquil haven for visitors to immerse themselves in meditation and reflection. At the heart of the park stands the magnificent Patliputra Karuna Stupa, a towering monument symbolizing peace and compassion, adorned with intricate Buddhist motifs and scriptures. Surrounding the stupa are beautifully landscaped gardens, paved pathways, and seating areas, providing peaceful spaces for visitors to unwind and connect with nature.Buddha Smriti Park also houses the impressive Buddha Memorial Hall, a modern architectural marvel that showcases relics and artifacts related to the life and teachings of Lord Buddha. With its serene ambiance, spiritual significance, and engaging attractions, Buddha Smriti Park offers a transformative experience for visitors, inspiring them to embark on a journey of inner exploration and enlightenment.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/31/17/6c/sanjay-gandhi-jaivik.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Sanjay Gandhi Biological Park</h1>
+            <p id="innerP">
+              The Sanjay Gandhi Biological Park, also known as Patna Zoo, is a sprawling wildlife sanctuary located in Patna, Bihar, India. Named after the prominent Indian political leader, the park spans over 153 acres and serves as a vital center for conservation, education, and recreation. It houses a diverse array of flora and fauna, including indigenous and exotic species of animals, birds, and reptiles. Visitors to the park can embark on safari rides, nature walks, and guided tours to observe and learn about the fascinating wildlife that inhabits its lush environs. The park also features themed enclosures, botanical gardens, and educational exhibits aimed at raising awareness about biodiversity and environmental conservation. With its picturesque landscapes, recreational facilities, and educational programs, the Sanjay Gandhi Biological Park offers a memorable experience for nature lovers, families, and wildlife enthusiasts alike.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/e2/d0/39/vishnu-pad-temple.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Pind Daan Gaya
+            </h1>
+            <p id="innerP">
+              Pind Daan Gaya is a significant ritual performed by Hindus for the salvation of departed souls. Gaya, located in the Indian state of Bihar, is renowned as one of the holiest places for performing Pind Daan ceremonies. According to Hindu belief, performing Pind Daan in Gaya helps the souls of ancestors attain Moksha or liberation from the cycle of birth and death. The ritual involves offering Pind (rice balls) to ancestors by the descendants. The offerings are made at various sacred sites in Gaya, including the famous Vishnupad Temple and the banks of the Falgu River. Pilgrims come from different parts of India to fulfill their ancestral obligations and seek blessings for their departed loved ones. Pind Daan Gaya holds immense cultural and religious significance, drawing devotees who believe in the importance of honoring their ancestors and ensuring their spiritual well-being even after death.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

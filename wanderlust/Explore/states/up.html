@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Uttar Pradesh
+      </h1>
+      <div class="glassmorphism-box">
+        <p>
+          Uttar Pradesh, often referred to as the heartland of India, is a land steeped in history, spirituality, and cultural diversity. Home to iconic landmarks like the Taj Mahal in Agra, a testament to eternal love and one of the Seven Wonders of the World, Uttar Pradesh attracts millions of visitors from around the globe. The city of Varanasi, situated on the banks of the sacred Ganges River, is one of the oldest continuously inhabited cities in the world and a major pilgrimage site for Hindus. Its ancient ghats, bustling markets, and vibrant temples create an atmosphere that is both mystical and captivating. Lucknow, the capital city, is renowned for its rich heritage of art, music, and cuisine, exemplified by its exquisite Mughal architecture, elegant gardens, and mouthwatering Awadhi delicacies. Beyond its famed landmarks, Uttar Pradesh offers a tapestry of experiences, from exploring the historic city of Allahabad, where the Ganges, Yamuna, and mythical Saraswati rivers converge, to discovering the wildlife treasures of Dudhwa National Park. Whether seeking spiritual enlightenment, architectural marvels, or cultural immersion, Uttar Pradesh promises a journey filled with awe-inspiring moments and unforgettable memories.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Taj Mahal
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Agra Fort
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Ganges River
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Sarnath
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Dasaswamedh Ghat
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Wildlife SOS
+</button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Tomb of Itimad-ud-Daulah
+</button>
+        <button class="card-button" onclick="slideToCard(8)">Assi Ghat
+</button>
+        <button class="card-button" onclick="slideToCard(9)">Prem Mandir - Shyama Shyam Dham
+</button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Krishna Janmabhoomi Temple
+</button>
+        <button class="card-button" onclick="slideToCard(11)">Banaras Ghats</button>
+        <button class="card-button" onclick="slideToCard(12)">Manikarnika Ghat
+</button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/9a/30/d6/agra.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Taj Mahal
+            </h1>
+            <p id="innerP">
+              The Taj Mahal, located in Agra, India, is one of the most iconic and celebrated monuments in the world. Built by the Mughal emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal, it is renowned for its breathtaking beauty and architectural grandeur. Constructed between 1631 and 1653, the Taj Mahal is considered a masterpiece of Mughal architecture and is designated as a UNESCO World Heritage Site. The main mausoleum is adorned with intricate marble carvings, inlaid precious stones, and intricate geometric patterns, while the surrounding gardens, reflecting pools, and symmetrical structures add to its allure. The Taj Mahal is not only a symbol of love and devotion but also a testament to the artistic and engineering skills of the Mughal craftsmen. It attracts millions of visitors from around the world each year, mesmerizing them with its timeless beauty and romantic history.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/01/08/32/agra-fort.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Agra Fort
+            </h1>
+            <p id="innerP">
+              The Agra Fort, also known as the Red Fort of Agra, is a UNESCO World Heritage Site located in Agra, India. It is a historic fortification constructed by the Mughal emperor Akbar in the 16th century and later expanded by his successors, including Shah Jahan, who built the Taj Mahal. The Agra Fort served as the main residence of the Mughal emperors until the capital was shifted to Delhi. The fort's architecture combines elements of Persian, Turkish, and Indian styles, reflecting the cultural synthesis of the Mughal era. It encompasses a vast complex of palaces, courtyards, mosques, and gardens, including notable structures such as the Jahangiri Mahal, Khas Mahal, Diwan-i-Khas, and Diwan-i-Aam. The fort's imposing red sandstone walls, intricately carved marble decorations, and strategic location overlooking the Yamuna River make it a significant historical and architectural landmark. Visitors to the Agra Fort can explore its rich history, marvel at its architectural splendor, and enjoy panoramic views of the Taj Mahal from its ramparts.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/2e/83/cc/photo4jpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Ganges River
+            </h1>
+            <p id="innerP">
+              The Ganges River, also known as the Ganga, is one of the most sacred and revered rivers in the world, flowing through India and Bangladesh. It originates from the Gangotri Glacier in the Himalayas and travels over 2,500 kilometers across the northern plains of India before emptying into the Bay of Bengal. The Ganges holds immense cultural, religious, and spiritual significance for millions of people, particularly Hindus, who consider it a goddess and mother figure. It is believed that bathing in the Ganges cleanses one of sins and leads to spiritual purification. Along its banks, countless cities, towns, and villages thrive, and the river sustains a diverse ecosystem of flora and fauna. Despite facing pollution and environmental challenges, the Ganges remains a lifeline for millions of people, serving as a source of water, livelihood, and inspiration for countless generations.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/7f/e0/5f/caption.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Sarnath
+            </h1>
+            <p id="innerP">
+              Sarnath, located near Varanasi in Uttar Pradesh, India, is an ancient city of profound significance in Buddhism. It is revered as the place where Lord Buddha delivered his first sermon, known as the Dhammacakkappavattana Sutta, marking the inception of the Buddhist sangha and the dissemination of the Buddha's teachings. The site boasts several important Buddhist monuments, including the Dhamek Stupa, Chaukhandi Stupa, and the Ashoka Pillar, all of which bear witness to Sarnath's rich historical and spiritual legacy. Pilgrims and visitors flock to Sarnath from around the world to pay homage to the Buddha, to meditate in the serene surroundings, and to explore the profound teachings of Buddhism. Sarnath's timeless aura and ancient ruins serve as a beacon for spiritual seekers and history enthusiasts alike, offering a glimpse into the origins of one of the world's major religions.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/f0/86/f7/dasaswamedh-ghat.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Dasaswamedh Ghat
+            </h1>
+            <p id="innerP">
+              Dasaswamedh Ghat is one of the oldest and most prominent ghats (steps leading down to a river) along the banks of the sacred Ganges River in the city of Varanasi, Uttar Pradesh, India. Its name translates to "the Ghat of Ten Horses," referring to the ancient Vedic ritual of the dasa ashwamedha, or the sacrifice of ten horses, which was said to have been performed here. Dasaswamedh Ghat is renowned for its vibrant and bustling atmosphere, where numerous religious ceremonies, rituals, and cultural activities take place throughout the day. The ghat is particularly famous for the Ganga Aarti, a mesmerizing ritual performed every evening by priests, where lamps are offered to the river as a form of worship, accompanied by chanting and music. Dasaswamedh Ghat holds immense spiritual significance for Hindus and is a focal point for pilgrims and visitors seeking blessings and spiritual solace on the banks of the sacred Ganges.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/c8/87/e4/wildlife-sos.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Wildlife SOS
+            </h1>
+            <p id="innerP">
+              Wildlife SOS is a non-profit organization based in India dedicated to the rescue, rehabilitation, and conservation of wildlife, particularly focusing on endangered species and animals in distress. Founded in 1995 by Kartick Satyanarayan and Geeta Seshamani, Wildlife SOS operates wildlife rescue centers, rehabilitation facilities, and conservation projects across India. The organization works tirelessly to rescue animals from exploitative situations such as circuses, roadside attractions, and illegal captivity, providing them with medical care, shelter, and, when possible, releasing them back into their natural habitats. Wildlife SOS also runs education and outreach programs to raise awareness about wildlife conservation and the importance of protecting natural habitats. Through their efforts, Wildlife SOS has become a leading voice for animal welfare and conservation in India, advocating for the ethical treatment of animals and the preservation of biodiversity.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/1b/13/cf/20190114-120443-largejpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Tomb of Itimad-ud-Daulah
+            </h1>
+            <p id="innerP">
+              The Tomb of Itimad-ud-Daulah, located in Agra, India, is a Mughal mausoleum often referred to as the "Baby Taj" due to its resemblance to the Taj Mahal. Built between 1622 and 1628, it is considered a precursor to the Taj Mahal and is renowned for its intricate marble inlay work and delicate craftsmanship. The tomb was commissioned by Nur Jahan, the wife of Emperor Jahangir, in memory of her father, Mirza Ghiyas Beg, who held the title of Itimad-ud-Daulah, meaning "Pillar of the State." The mausoleum is set amidst beautiful gardens and features a white marble structure adorned with intricate floral motifs, semi-precious stones, and exquisite carvings. The Tomb of Itimad-ud-Daulah is a masterpiece of Mughal architecture and is a popular tourist attraction in Agra, offering visitors a glimpse into the rich artistic heritage of the Mughal era.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ae/ed/5d/a-view-of-the-ghats-taken.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Assi Ghat
+            </h1>
+            <p id="innerP">
+              Assi Ghat is one of the most revered ghats (steps leading down to a river) along the banks of the Ganges River in the ancient city of Varanasi, Uttar Pradesh, India. Situated at the confluence of the Ganges and the Assi River, it holds great religious and cultural significance. Assi Ghat is named after the Assi River, and according to Hindu mythology, it is believed to be the place where the revered Hindu god Shiva once dropped his sword (Asi) after slaying a demon. The ghat is known for its serene ambiance, where visitors can witness various religious rituals, yoga practices, and cultural activities. Pilgrims and devotees often visit Assi Ghat to take a holy dip in the Ganges and to perform prayers and rituals. The ghat is also a popular destination for tourists seeking to experience the spiritual and cultural essence of Varanasi, particularly during festivals and religious ceremonies.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/70/2c/08/lightings-at-prem-mandir.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Prem Mandir - Shyama Shyam Dham
+            </h1>
+            <p id="innerP">
+              Prem Mandir Shyama Shyam Dham is a grand temple complex located in the town of Vrindavan, Uttar Pradesh, India. Dedicated to Radha and Krishna, it is a magnificent structure built entirely of white marble. The temple complex is known for its intricate carvings, stunning architecture, and vibrant spiritual atmosphere. Prem Mandir is adorned with beautifully sculpted scenes from the life of Lord Krishna and Radha, depicting their divine love and pastimes. Inside the temple, devotees can participate in various religious ceremonies, attend spiritual discourses, and immerse themselves in devotional music and chanting. The temple complex also features lush gardens, illuminated fountains, and a musical fountain show, adding to its enchanting ambiance. Prem Mandir Shyama Shyam Dham is a popular pilgrimage destination and a center for spiritual seekers, offering a serene and uplifting environment for worship and meditation.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/04/b6/94/krishna-janma-bhoomi.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Krishna Janmabhoomi Temple
+            </h1>
+            <p id="innerP">
+              Krishna Janmabhoomi Temple, situated in Mathura, Uttar Pradesh, India, is a revered Hindu pilgrimage site believed to be the birthplace of Lord Krishna. The temple complex encompasses various shrines, including the main sanctum where Lord Krishna is said to have been born. Devotees flock to this sacred site to offer prayers and seek blessings, especially during festivals like Janmashtami, celebrating Krishna's birth. The temple's architecture reflects traditional Hindu design, adorned with intricate carvings and vibrant decorations that evoke a sense of divine splendor. Surrounding the temple, the bustling streets of Mathura are alive with the fervor of devotion and spirituality, making it a vibrant center of religious activity. As one of the holiest sites in Hinduism, Krishna Janmabhoomi Temple holds profound significance for devotees who come to pay homage to Lord Krishna and experience the sanctity of his divine presence.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/b1/33/f8/banaras-ghats.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Banaras Ghats
+            </h1>
+            <p id="innerP">
+              Banaras, also known as Varanasi, is renowned for its iconic ghats lining the banks of the sacred Ganges River. Each ghat holds its own significance and history, contributing to the vibrant tapestry of life in the city. From the bustling Dasaswamedh Ghat, where the mesmerizing Ganga Aarti ceremony takes place every evening, to the serene Assi Ghat, popular for yoga and spiritual practices, the ghats of Banaras offer a diverse range of experiences. Whether it's the ancient Manikarnika Ghat and Harishchandra Ghat, where cremations are conducted amidst prayers and rituals, or the majestic architecture of Man Mandir Ghat and Panchganga Ghat, each ghat tells a story of devotion, tradition, and spirituality. Visiting the ghats of Banaras is an immersive experience that allows one to witness the timeless rituals, vibrant culture, and spiritual fervor that define this ancient city.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/22/14/4b/photo3jpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Manikarnika Ghat
+            </h1>
+            <p id="innerP">
+              Manikarnika Ghat is one of the oldest and most sacred ghats along the banks of the Ganges River in Varanasi, Uttar Pradesh, India. It holds immense significance in Hindu mythology and tradition, as it is believed to be the place where the Hindu goddess Parvati dropped her earring (Manikarnika) while bathing in the river. It is also considered one of the main ghats for cremation in Varanasi, with cremation fires burning continuously throughout the day and night. According to Hindu beliefs, cremation at Manikarnika Ghat ensures moksha, or liberation from the cycle of birth and death. The ghat bustles with activity, with families conducting funeral rites, priests chanting sacred mantras, and visitors witnessing the solemn rituals. Despite its association with death, Manikarnika Ghat is also considered a place of spiritual awakening, where devotees seek blessings and contemplate the transient nature of life. It is a powerful symbol of the cycle of life and death, and a testament to the enduring spiritual heritage of Varanasi.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Gujarat</h1>
+      <div class="glassmorphism-box">
+        <p>
+          Gujarat, located in the western part of India, is a state known for its rich cultural heritage, vibrant traditions, and historical significance. The bustling city of Ahmedabad, the state's largest city and former capital, is a UNESCO World Heritage Site renowned for its exquisite Indo-Islamic architecture, including the iconic Jama Masjid and the intricately carved Adalaj Stepwell. Gujarat is also the birthplace of Mahatma Gandhi, and visitors can explore his legacy at the Sabarmati Ashram in Ahmedabad and the Gandhi Smarak Sangrahalaya in Rajkot. The state's coastline along the Arabian Sea offers picturesque beaches like Diu, Somnath, and Dwarka, dotted with ancient temples and vibrant fishing villages. Gujarat's rich cultural heritage is celebrated through its colorful festivals, traditional dance forms like Garba and Dandiya Raas, and mouthwatering cuisine, which includes iconic dishes like dhokla, fafda, and Gujarati thali. The state is also home to the majestic Gir Forest National Park, the last refuge of the Asiatic lion, and the Rann of Kutch, a vast salt marsh known for its stunning landscapes and vibrant culture. Whether exploring its historic landmarks, indulging in its culinary delights, or experiencing its natural beauty, Gujarat promises a journey filled with warmth, hospitality, and unforgettable experiences.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Gandhi Ashram
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Somnath Mahadev Mandir
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Dwarkadhish Temple
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Swaminarayan Akshardham
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Sabarmati Riverfront
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Adalaj Step-well
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">White Desert 
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">Kankaria Lake
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Lukshmi Vilas Palace
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Rani Ki vav
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Great Rann of Kutch
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">Somnath Temple
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/13/29/e2/img-20181017-121036-largejpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Gandhi Ashram
+            </h1>
+            <p id="innerP">
+              Gandhi Ashram, also known as Sabarmati Ashram, rests on the banks of the Sabarmati River in Ahmedabad, Gujarat, India. Established in 1917 by Mahatma Gandhi, it became the epicenter of India's freedom struggle. Gandhi resided here from 1917 to 1930, leading numerous movements for India's independence from British rule. Today, it stands as a living museum to Gandhi's life and teachings. Visitors can explore his living quarters, office, and the prayer ground where he conducted daily prayers and meditations. The ashram also houses a museum showcasing artifacts, photographs, and writings related to Gandhi's philosophy of nonviolence, truth, and social justice. It continues to attract visitors worldwide seeking inspiration from Gandhi's legacy and teachings of peace and social change.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/32/ca/9f/somnath-rudraksh-sringar.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Somnath Mahadev Mandir
+              </h1>
+            <p id="innerP">
+              Somnath Mahadev Mandir, situated in Prabhas Patan near Veraval in Gujarat, India, is a revered Hindu temple dedicated to Lord Shiva. Dating back over 2,500 years, it is one of the twelve Jyotirlinga shrines symbolizing the cosmic light of Lord Shiva. The temple, steeped in ancient history, showcases splendid architecture blending Chalukya and Solanki styles. Its main sanctum houses a sacred lingam, representing Lord Shiva, worshiped fervently by devotees. Surrounded by a serene ambiance and overlooking the Arabian Sea, the temple offers a tranquil and spiritually enriching experience. Pilgrims and tourists visit to seek blessings, witness religious rituals, and immerse themselves in the divine aura of this sacred site. Somnath Mahadev Mandir holds profound significance in Hindu mythology and remains a cherished pilgrimage destination for devotees from far and wide.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/1d/77/5f/other-side-view-from.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Dwarkadhish Temple
+            </h1>
+            <p id="innerP">
+              Dwarkadhish Temple, located in the town of Dwarka in Gujarat, India, is a revered Hindu temple dedicated to Lord Krishna, also known as Dwarkadhish. Believed to have been built over 2,500 years ago, the temple is one of the Char Dham pilgrimage sites and holds immense religious significance for devotees of Lord Krishna. Its architectural grandeur reflects a splendid blend of ancient craftsmanship, adorned with intricate carvings, ornate pillars, and majestic spires. The temple's main sanctum houses the idol of Lord Krishna, adorned with devotion by pilgrims from across the country. Dwarkadhish Temple, associated with the ancient kingdom of Lord Krishna, offers a serene and spiritually uplifting experience for visitors exploring its rich cultural heritage. With its timeless beauty and profound spiritual ambiance, the temple continues to inspire awe and reverence in the hearts of millions of devotees seeking blessings and divine grace.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/cf/b3/75/main-temple-building.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Swaminarayan Akshardham
+            </h1>
+            <p id="innerP">
+              Swaminarayan Akshardham, nestled in New Delhi, India, stands as a grand Hindu temple complex and spiritual-cultural campus honoring Bhagwan Swaminarayan. Constructed in 2005, Akshardham epitomizes traditional Indian architecture, adorned with intricate carvings, majestic domes, and ornate sculptures showcasing India's rich cultural heritage. The focal point, Akshardham Mandir, dazzles with its breathtaking beauty and intricate stone carvings depicting deities and celestial beings. Alongside the mandir, visitors can explore attractions such as the Yagnapurush Kund, a mesmerizing musical fountain, and the Hall of Values, an interactive exhibition celebrating Indian culture and spirituality. Swaminarayan Akshardham serves not only as a place of worship but also as a hub for cultural and educational activities, promoting values of peace, harmony, and spirituality. Drawing millions of visitors globally, it stands as a timeless symbol of India's spiritual legacy and cultural richness, inspiring awe and reverence in all who visit.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/ee/6e/ef/this-photo-of-riverfront.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Sabarmati Riverfront
+            </h1>
+            <p id="innerP">
+              The Sabarmati Riverfront project, located in Ahmedabad, Gujarat, India, is a transformative urban redevelopment initiative that has revitalized the banks of the Sabarmati River. Envisioned to enhance the city's infrastructure and public spaces, the project transformed the once neglected riverfront into a vibrant hub of activity and recreation. Stretching along the river's banks, the Sabarmati Riverfront features beautifully landscaped gardens, promenades, and recreational areas where residents and visitors can relax, exercise, and enjoy scenic views of the river. The project also includes cultural and entertainment zones, amphitheaters, and event spaces for hosting festivals and performances. Moreover, the riverfront has facilitated the development of commercial and residential complexes, contributing to the city's economic growth and urban renewal. The Sabarmati Riverfront project stands as a shining example of sustainable urban development, fostering community engagement, environmental conservation, and economic prosperity in Ahmedabad.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/95/37/1b/adalaj-step-well.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Adalaj Step-well
+            </h1>
+            <p id="innerP">
+              The Adalaj Stepwell, situated in the village of Adalaj near Ahmedabad, Gujarat, India, is a stunning example of ancient Indian architecture and engineering. Built in the 15th century by Queen Rudabai in memory of her husband, the stepwell serves as both a functional water resource and a spiritual sanctuary. The intricately carved stone walls and pillars of the stepwell depict scenes from Hindu mythology, showcasing exquisite craftsmanship and artistic prowess. The stepwell's unique design allows visitors to descend into its depths, where they can admire the cool, shaded interiors and marvel at the beauty of its ornate architecture. The Adalaj Stepwell stands as a testament to the ingenuity and creativity of its builders, offering a glimpse into India's rich cultural heritage and architectural legacy. Today, it remains a popular tourist attraction and a cherished symbol of Gujarat's cultural heritage.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/44/21/17/white-desert.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">White Desert 
+            </h1>
+            <p id="innerP">
+              The White Desert, also known as the Great Rann of Kutch, located in Bhuj, Gujarat, India, is a mesmerizing salt marsh and desert landscape famed for its surreal beauty. Stretching across the vast expanse of Kutch, the White Desert showcases shimmering white salt flats, undulating sand dunes, and unique geological formations. During the dry season, the salt flats extend as far as the eye can see, creating a breathtakingly beautiful and desolate landscape reminiscent of a lunar surface.Visitors to the White Desert can explore its pristine wilderness, embark on camel safaris or jeep rides across the salt flats, and witness spectacular sunsets painting the sky in vibrant hues. The desert also hosts the annual Rann Utsav, a vibrant cultural festival celebrating the region's rich heritage with folk music and dance performances, handicraft exhibitions, and local cuisine.With its ethereal beauty and immersive cultural experiences, the White Desert offers a truly unforgettable journey into the heart of Gujarat's natural and cultural heritage.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/69/7c/12/photo1jpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Kankaria Lake
+            </h1>
+            <p id="innerP">
+              Kankaria Lake, situated in Ahmedabad, Gujarat, India, is a historic water body and popular recreational spot. Built in the 15th century by Sultan Qutb-ud-Din Ahmad Shah II, it has transformed into a cherished destination. Surrounded by landscaped gardens and pathways, it offers tranquility amidst city life. Visitors can stroll along the lakefront, go boating, or relax in the gardens. The Kankaria Zoo within the premises houses various animal species, attracting wildlife enthusiasts. The lake also offers entertainment with a children's park, toy train, and balloon rides. Cultural events at the amphitheater add vibrancy. Kankaria Lake, with its beauty, recreational activities, and cultural events, is beloved by locals and tourists alike, offering a perfect blend of leisure and natural charm in the heart of Ahmedabad.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/52/24/3b/lukshmi-vilas-palace.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Lukshmi Vilas Palace
+            </h1>
+            <p id="innerP">
+              Lukshmi Vilas Palace, located in Vadodara, Gujarat, India, is a magnificent royal residence and one of the largest private residences in the world. Built in the late 19th century by Maharaja Sayajirao Gaekwad III, the palace boasts stunning architecture blending Indo-Saracenic, Indo-Gothic, and Neoclassical styles. Spread over a vast area, it features grand halls, opulent interiors, and beautifully landscaped gardens, reflecting the opulence and grandeur of the Gaekwad dynasty.The palace houses a remarkable collection of artifacts, including paintings, sculptures, and decorative arts, showcasing the rich cultural heritage of Gujarat. Visitors can explore the various wings and chambers of the palace, marveling at its architectural splendor and historical significance.Today, Lukshmi Vilas Palace is open to the public as a museum, offering visitors a glimpse into the lavish lifestyle of the royal family and the grandeur of a bygone era. With its exquisite architecture, ornate interiors, and fascinating history, Lukshmi Vilas Palace stands as a testament to Vadodara's rich cultural heritage and remains a must-visit destination for tourists exploring Gujarat.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/27/ee/d1/rani-ki-vav.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Rani Ki vav
+            </h1>
+            <p id="innerP">
+              Rani Ki Vav, located in Patan, Gujarat, India, is a UNESCO World Heritage Site and an architectural marvel dating back to the 11th century. Built by Queen Udayamati in memory of her husband King Bhimdev I of the Solanki dynasty, it served as a stepwell and a sacred place for water conservation and religious rituals.The stepwell is renowned for its intricate and ornate carvings, which adorn the walls, pillars, and ceilings. These carvings depict various deities, mythological scenes, and celestial beings, showcasing exceptional craftsmanship and artistic prowess.Rani Ki Vav features a series of stepped terraces descending into the ground, leading visitors to the water level. The stepped corridors are adorned with sculptures of Hindu gods and goddesses, including Vishnu, Shiva, and various incarnations of the divine.The highlight of Rani Ki Vav is the central well, which remains filled with water throughout the year. The water was not only a vital resource for the local community but also symbolized the sacredness and purity of the site.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/bc/23/9e/great-rann-of-kutch.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Great Rann of Kutch
+            </h1>
+            <p id="innerP">
+              The Great Rann of Kutch, situated in Gujarat, India, is one of the world's largest salt marshes, spanning vast expanses of white salt flats. This natural wonder captivates visitors with its surreal landscape, particularly during the dry season when the shimmering salt crystals create an otherworldly vista. The region offers a mesmerizing experience as travelers explore the expansive wilderness and witness breathtaking sunsets painting the horizon in vibrant hues. The annual Rann Utsav, a cultural festival, further enriches the experience by showcasing the rich heritage of Kutch through folk music, dance performances, handicraft exhibits, and local cuisine. With its stunning natural beauty and vibrant cultural offerings, the Great Rann of Kutch stands as a must-visit destination for those seeking to immerse themselves in the unique charm of Gujarat's desert landscape.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/61/81/52/il-tempio.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Somnath Temple
+            </h1>
+            <p id="innerP">
+              The Somnath Temple, located in the town of Somnath in Gujarat, India, is one of the twelve Jyotirlinga shrines and holds immense religious significance for Hindus. Rebuilt several times over centuries due to various invasions, the current structure stands as a symbol of resilience and devotion. The temple's architecture is a blend of ancient and contemporary styles, adorned with intricate carvings and sculptures. Devotees flock to the temple to seek blessings from Lord Shiva, whose lingam is enshrined within the sanctum sanctorum. The temple's location near the Arabian Sea adds to its spiritual ambiance, making it a serene and sacred pilgrimage site. Witnessing the Aarti ceremony, with the sound of bells and chants filling the air, is a deeply moving experience for visitors. Somnath Temple is not just a religious landmark but also a cultural treasure, representing the enduring faith and heritage of India.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

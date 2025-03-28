@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Ladakh
+      </h1>
+      <div class="glassmorphism-box">
+        <p>
+          Nestled amidst the majestic Himalayas, Ladakh, often referred to as the "Land of High Passes," is a captivating destination renowned for its unparalleled beauty and rich cultural heritage. Tourists are drawn to Ladakh's breathtaking landscapes, featuring snow-capped peaks, vast barren valleys, and shimmering azure lakes like Pangong and Tso Moriri, offering an ideal backdrop for adventure activities such as trekking, mountaineering, and river rafting. Beyond its scenic allure, Ladakh boasts a vibrant cultural tapestry shaped by centuries of Buddhist influence, with ancient monasteries like Hemis, Thiksey, and Diskit dotting the landscape and hosting colorful festivals such as Hemis Festival and Losar. Visitors can immerse themselves in the region's cultural heritage through interactions with the warm and hospitable locals, predominantly of Tibetan descent, experiencing traditional festivities and rituals. Despite its remote location and challenging terrain, Ladakh continues to captivate travelers seeking authenticity and serenity amidst the grandeur of the Himalayas, remaining a must-visit destination for those in search of unique experiences and profound connections with nature and tradition.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Pangong Tso
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Thiksey Monastery
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Hall of Fame
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Khardung La
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Nubra Valley</button>
+        <button class="card-button" onclick="slideToCard(6)">Gurdwara Pathar Sahib
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Confluence of the Indus and Zanskar Rivers
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">Diskit Gompa
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Changla Pass
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Dras War Memorial
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Tso Moriri
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">Alchi Monastery
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/00/2f/67/img-20180620-wa0007-largejpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Pangong Tso
+            </h1>
+            <p id="innerP">
+              Pangong Tso, situated at an altitude of about 4,350 meters in the Ladakh region of Jammu and Kashmir, is a mesmerizing high-altitude lake renowned for its stunning beauty and surreal landscapes. Extending from India to Tibet, the lake's crystal-clear blue waters stretch across a vast expanse, reflecting the surrounding snow-capped peaks and dramatic skies, creating a breathtaking panorama. Pangong Tso gained international fame after being featured in the movie "3 Idiots," attracting travelers from around the world to witness its otherworldly charm. Visitors can indulge in activities like camping by the lakeshore, taking leisurely walks along its pristine banks, and capturing mesmerizing photographs of the ever-changing hues of the lake. Pangong Tso's remote location and rugged terrain add to its allure, offering adventurers a thrilling journey amidst the raw and untouched landscapes of the Himalayas. With its unparalleled beauty and serene ambiance, Pangong Tso is a must-visit destination for anyone exploring the enchanting landscapes of Ladakh.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/00/30/75/thiksey-monastery.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Thiksey Monastery
+            </h1>
+            <p id="innerP">
+              Perched majestically on a hilltop in the Ladakh region of Jammu and Kashmir, Thiksey Monastery is a magnificent Buddhist monastery renowned for its architectural grandeur and spiritual significance. Modeled after the famous Potala Palace in Lhasa, Tibet, Thiksey Monastery is one of the largest monasteries in Ladakh and serves as an important center of Tibetan Buddhism. The monastery complex houses numerous prayer halls, stupas, and intricately decorated temples adorned with exquisite murals, thangkas, and statues of Buddha. Visitors to Thiksey Monastery can witness monks engaged in prayer ceremonies, observe ancient Buddhist rituals, and marvel at the stunning views of the surrounding Himalayan landscape from the monastery's vantage point. The serene ambiance and spiritual aura of Thiksey Monastery make it a serene retreat for meditation, contemplation, and spiritual enlightenment, attracting pilgrims and travelers seeking solace amidst the tranquil beauty of Ladakh's mountains.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/09/77/91/hall-of-fame.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Hall of Fame
+            </h1>
+            <p id="innerP">
+              The Hall of Fame, located in Leh, Ladakh, is a museum and memorial dedicated to the Indian Army's valor, sacrifices, and contributions to the nation, particularly in the region of Ladakh. This museum showcases exhibits highlighting the history, culture, and strategic importance of Ladakh, as well as the Indian Army's role in safeguarding the region's borders. Visitors to the Hall of Fame can explore displays featuring artifacts, photographs, documents, and weaponry related to various military operations, including the Kargil War. Additionally, the museum pays homage to the brave soldiers who have laid down their lives in defense of the nation through memorial sections and audio-visual presentations. The Hall of Fame serves as a tribute to the indomitable spirit of the Indian Army and offers visitors insights into the challenges and triumphs of military life in the rugged terrain of Ladakh.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/54/95/13/khardungla-pass.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Khardung La
+            </h1>
+            <p id="innerP">
+              Khardung La, nestled in the Ladakh region of Jammu and Kashmir, is one of the world's highest motorable mountain passes, reaching an elevation of approximately 5,359 meters above sea level. Renowned for its rugged terrain, breathtaking vistas, and challenging road conditions, Khardung La attracts adventure enthusiasts and thrill-seekers from around the globe. The pass offers mesmerizing panoramic views of the surrounding Himalayan peaks, including the famous Stok Kangri and Saser Kangri, creating a surreal and awe-inspiring landscape. Visitors to Khardung La can embark on adrenaline-pumping journeys along its winding roads, braving steep ascents, hairpin bends, and unpredictable weather conditions. The pass also serves as a vital gateway to the Nubra Valley, providing access to remote villages, ancient monasteries, and breathtaking natural beauty. With its unparalleled scenery and adventurous spirit, Khardung La offers an unforgettable experience for travelers exploring the majestic landscapes of Ladakh.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/b9/e6/1c/nubra-valley.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Nubra Valley
+            </h1>
+            <p id="innerP">
+              Nubra Valley, situated in the northeastern part of Ladakh in Jammu and Kashmir, is a mesmerizing high-altitude desert known for its stark beauty, surreal landscapes, and unique cultural heritage. Encircled by towering mountains, including the majestic Karakoram Range, Nubra Valley boasts breathtaking vistas of sand dunes, lush green oasis-like villages, and glistening rivers cutting through the arid terrain. Visitors to Nubra Valley can explore its enchanting attractions, such as the famous Diskit Monastery with its towering Maitreya Buddha statue, the picturesque Hunder Sand Dunes where double-humped Bactrian camels roam freely, and the ancient villages like Turtuk, offering glimpses into the traditional Ladakhi way of life. Adventure enthusiasts can also partake in activities like camel safaris, trekking, and camping amidst the valley's pristine wilderness. With its unparalleled beauty and rich cultural heritage, Nubra Valley stands as a testament to the raw and untouched splendor of Ladakh's landscapes.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/59/ab/4e/gurdwara-pathar-sahib.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Gurdwara Pathar Sahib
+            </h1>
+            <p id="innerP">
+              Gurdwara Pathar Sahib, located in the Ladakh region of Jammu and Kashmir, is a revered Sikh shrine with a fascinating history and spiritual significance. Situated near the village of Nimmu, the gurdwara is dedicated to Guru Nanak Dev Ji, the founder of Sikhism, who is believed to have visited the site during his travels in the early 16th century.The gurdwara is built around a large boulder, known as "Pathar Sahib," which is believed to have miraculously softened when Guru Nanak Dev Ji sat against it to meditate. The rock bears an imprint of Guru Nanak Dev Ji's back, and devotees consider it a sacred symbol of his divine presence.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/3e/3b/94/photo0jpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Confluence of the Indus and Zanskar Rivers
+            </h1>
+            <p id="innerP">
+              The confluence of the Indus and Zanskar Rivers, situated near the town of Nimmu in the Ladakh region of Jammu and Kashmir, is a breathtaking natural phenomenon where two mighty rivers merge amidst stunning Himalayan landscapes. The Indus River, known as the lifeline of Ladakh, originates in Tibet and flows through the region, while the Zanskar River emerges from the Zanskar Range, offering pristine glacial waters. At the confluence point, the clear turquoise waters of the Indus River blend with the milky turquoise waters of the Zanskar River, creating a mesmerizing contrast of colors against the barren desert landscape. This confluence not only showcases the raw beauty of nature but also holds cultural significance, as it marks the meeting point of two distinct rivers and cultures. Visitors to the confluence can marvel at the serene beauty, witness the unique spectacle of nature, and contemplate the powerful forces that shape the landscapes of Ladakh.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/d8/ee/12/maiteraya-buddha-diskit.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Diskit Gompa
+            </h1>
+            <p id="innerP">
+              Diskit Gompa, perched majestically atop a hill in the Nubra Valley of Ladakh, Jammu and Kashmir, is one of the region's oldest and largest monasteries. Founded in the 14th century by Changzem Tserab Zangpo, a disciple of the renowned Tibetan Buddhist scholar Tsongkhapa, Diskit Gompa serves as a significant spiritual and cultural center for the local community and Buddhist practitioners. The monastery's striking architecture, with its whitewashed walls, golden pagoda roofs, and intricately adorned prayer halls, reflects the rich Tibetan Buddhist heritage of the region. Visitors to Diskit Gompa can explore its ancient shrines, vibrant murals, and impressive statues of Buddhist deities, including a towering Maitreya Buddha statue, which offers panoramic views of the valley below. The monastery also hosts colorful festivals like the Dosmoche and Gustor, where monks perform sacred masked dances to commemorate Buddhist teachings and celebrate the victory of good over evil. Diskit Gompa's serene ambiance, cultural richness, and stunning vistas make it a must-visit destination for travelers seeking spiritual enlightenment and immersion in Ladakh's mystical charm.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/2e/c5/bb/caption.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Changla Pass
+            </h1>
+            <p id="innerP">
+              Chang La Pass, nestled in the Ladakh region of Jammu and Kashmir, is one of the highest motorable mountain passes in the world, reaching an elevation of approximately 5,360 meters above sea level. Serving as a vital link between Leh and the Nubra Valley, Chang La Pass offers awe-inspiring views of the surrounding snow-capped peaks and rugged terrain. The journey to Chang La Pass is an adventure in itself, with travelers navigating through winding roads and steep ascents amidst the pristine Himalayan landscapes. Despite the challenging road conditions and unpredictable weather, reaching the summit of Chang La Pass is a rewarding experience, offering a sense of accomplishment and unparalleled vistas of the breathtaking Ladakhi scenery. Visitors often stop at the pass to soak in the panoramic views, take photographs, and savor the serene ambiance of this high-altitude mountain pass, making it a memorable highlight of their journey through Ladakh.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/96/25/0c/drass-war-memorial.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Dras War Memorial
+</h1>
+            <p id="innerP">
+              Dras War Memorial, located in the town of Dras in the Kargil district of Jammu and Kashmir, stands as a solemn tribute to the brave soldiers who laid down their lives during the Kargil War of 1999. Situated in the heart of the picturesque Dras Valley, often referred to as the "Gateway to Ladakh," the memorial commemorates the sacrifices of Indian Army soldiers who valiantly defended the nation's borders against infiltrators from across the Line of Control.The Dras War Memorial features a poignant inscription honoring the courage and valor of the martyrs, along with a symbolic flame perpetually burning in their memory. Visitors to the memorial can pay their respects, offer prayers, and reflect upon the sacrifices made by the soldiers in defense of their country.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/9f/75/00/il-lago.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Tso Moriri
+            </h1>
+            <p id="innerP">
+              Tso Moriri, situated in the remote Changthang region of Ladakh in Jammu and Kashmir, is a stunning high-altitude lake renowned for its pristine beauty and tranquil ambiance. Surrounded by snow-capped peaks and expansive grasslands, Tso Moriri offers breathtaking vistas of its crystal-clear blue waters reflecting the azure skies above. The lake is a designated wetland conservation area and home to a diverse range of flora and fauna, including migratory birds like bar-headed geese and Brahminy ducks. Visitors to Tso Moriri can immerse themselves in the serene surroundings, embark on leisurely walks along the lakeshore, and witness stunning sunrises and sunsets casting magical hues over the landscape. The area surrounding the lake is inhabited by nomadic Changpa tribes, who graze their livestock on the vast grasslands, adding to the region's cultural richness. Tso Moriri's remote location and pristine wilderness make it a paradise for nature lovers and adventurers seeking solace amidst the untouched beauty of Ladakh's landscapes.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/68/43/f9/traditional-timber-roof.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Alchi Monastery
+            </h1>
+            <p id="innerP">
+              Alchi Monastery, nestled in the Alchi village of the Leh district in Ladakh, Jammu and Kashmir, is a renowned Buddhist monastery dating back to the 10th century. It is famed for its exquisite ancient murals, intricate wood carvings, and unique Kashmiri-style architecture, making it a treasure trove of Buddhist art and culture. Unlike other monasteries in the region, Alchi Monastery is built on lowlands, providing easier access for visitors. The complex comprises several temples, including the main temple, which houses a colossal statue of Maitreya Buddha and vibrant frescoes depicting scenes from Buddhist scriptures. The Alchi Monastery holds immense spiritual significance for Buddhists and attracts pilgrims and tourists alike. Its serene ambiance, rich history, and stunning artwork make it a must-visit destination for those exploring the cultural heritage of Ladakh.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat Ã¢ÂÂ¤Ã¯Â¸Â</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

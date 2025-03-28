@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Odisha</h1>
+      <div class="glassmorphism-box">
+        <p>
+          Odisha, located on the eastern coast of India, is a state renowned for its ancient temples, rich cultural heritage, and stunning natural beauty. The capital city of Bhubaneswar, often referred to as the "Temple City of India," is home to magnificent architectural wonders like the Lingaraja Temple, Konark Sun Temple, and Jagannath Temple in Puri. These temples showcase exquisite stone carvings and are significant pilgrimage sites for Hindus. Odisha's coastline stretches along the Bay of Bengal, offering pristine beaches like Puri Beach and Chandrabhaga Beach, where visitors can relax, swim, and enjoy water sports. The state is also blessed with lush forests, scenic hills, and picturesque waterfalls, providing opportunities for wildlife safaris, trekking, and eco-tourism in destinations like Simlipal National Park and Nandankanan Zoological Park. Odisha's rich cultural heritage is celebrated through its vibrant festivals, traditional dance forms like Odissi and Gotipua, and mouthwatering cuisine, which includes iconic dishes like dalma, chhena poda, and seafood delicacies.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Konark Sun Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Shree Jagannath Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Puri Beach</button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Lingaraja Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Nandankanan Zoological Park
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Raghurajpur Artist Village
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Udayagiri Caves
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">Konark Beach
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Mukteswara Temple
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Museum of Tribal Arts & Artifacts
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Dhauli Giri Hills
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">Ram Mandir, Bhubaneswar
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/16/92/b7/konarak-sun-temple.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Konark Sun Temple
+            </h1>
+            <p id="innerP">
+              The Konark Sun Temple, located in Konark, Odisha, India, is a masterpiece of ancient architecture and a UNESCO World Heritage Site. Built in the 13th century by King Narasimhadeva I of the Eastern Ganga Dynasty, the temple is dedicated to the Sun God, Surya. Designed in the form of a colossal chariot with 24 intricately carved wheels, pulled by seven horses, the temple is a stunning example of Kalinga architecture. The temple's intricate sculptures and carvings depict various aspects of life, mythology, and religious beliefs of the time. The main sanctum, once housing a towering statue of the Sun God, is now in ruins, but the grandeur of the temple still captivates visitors with its architectural brilliance and historical significance. The Konark Sun Temple remains a symbol of Odisha's rich cultural heritage and attracts tourists and pilgrims from around the world who come to admire its grandeur and pay homage to the Sun God.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/0e/36/d4/front-view-of-the-temple.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Shree Jagannath Temple
+            </h1>
+            <p id="innerP">
+              The Shree Jagannath Temple, situated in Puri, Odisha, India, is one of the most sacred Hindu temples dedicated to Lord Jagannath, an incarnation of Lord Vishnu. Dating back to ancient times, the temple is renowned for its architectural grandeur, religious significance, and annual Rath Yatra festival. The temple's towering spire, known as the "Shikhara," dominates the skyline of Puri and is adorned with intricate carvings and sculptures depicting various mythological themes. Within the temple complex, devotees worship Lord Jagannath along with his siblings, Lord Balabhadra and Devi Subhadra. The sanctum sanctorum houses the wooden idols of the deities, which are replaced every 12 or 19 years during a sacred ritual known as "Nabakalebara." The Rath Yatra, or chariot festival, held annually, attracts millions of devotees who gather to witness the grand procession of Lord Jagannath, Lord Balabhadra, and Devi Subhadra in elaborately decorated chariots. The Shree Jagannath Temple holds immense spiritual significance and cultural importance, serving as a symbol of devotion and unity for Hindus worldwide.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/e4/b3/8c/puri-beach.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Puri Beach
+            </h1>
+            <p id="innerP">
+              Puri Beach, located in the coastal city of Puri in Odisha, India, is a popular seaside destination renowned for its golden sands, rolling waves, and vibrant atmosphere. Stretching along the Bay of Bengal, this picturesque beach offers visitors a plethora of recreational activities and scenic views. Tourists flock to Puri Beach to enjoy leisurely walks along the shore, basking in the warmth of the sun, and witnessing stunning sunrises and sunsets over the horizon. The beach is also a hub of cultural and religious activities, hosting colorful festivals, beachside markets, and traditional dance performances throughout the year. Visitors can indulge in water sports like swimming, surfing, and jet-skiing, or simply relax and unwind amidst the soothing sounds of the waves. Puri Beach holds a special place in the hearts of locals and tourists alike, offering a perfect blend of natural beauty, cultural vibrancy, and coastal charm for all to enjoy.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ad/a1/f6/lingaraja-temple.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Lingaraja Temple
+            </h1>
+            <p id="innerP">
+              The Lingaraja Temple, located in Bhubaneswar, Odisha, India, is one of the most revered Hindu temples dedicated to Lord Shiva. Constructed in the 11th century during the reign of the Eastern Ganga Dynasty, the temple is an outstanding example of Kalinga architecture and stands as a symbol of Odisha's rich cultural heritage. The main sanctum sanctorum houses a magnificent lingam, representing Lord Shiva, while the temple complex also features shrines dedicated to various deities, including Lord Vishnu and Goddess Parvati. The temple's towering spire, known as the "Deula," rises majestically above the surrounding landscape and is adorned with intricate carvings depicting scenes from Hindu mythology and religious motifs. Devotees and tourists alike visit the Lingaraja Temple to seek blessings, offer prayers, and marvel at its architectural splendor. The temple also plays a significant role in the annual Shivaratri festival, attracting pilgrims from across the country who come to pay homage to Lord Shiva and partake in the festivities. With its divine aura and cultural significance, the Lingaraja Temple remains a sacred haven for spiritual seekers and a cherished landmark of Odisha.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/78/b9/4b/entrance.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Nandankanan Zoological Park
+            </h1>
+            <p id="innerP">
+              Nandankanan Zoological Park, located near Bhubaneswar in Odisha, India, is a renowned wildlife sanctuary and botanical garden. Spread across a sprawling landscape of lush greenery, the park is home to a diverse array of flora and fauna, including rare and endangered species. Visitors to Nandankanan Zoo can explore its expansive grounds and encounter a wide variety of animals, including big cats like lions and tigers, elephants, giraffes, and exotic birds. The zoo is renowned for its successful breeding programs and conservation efforts, playing a vital role in protecting endangered species and preserving biodiversity. In addition to its wildlife attractions, Nandankanan also features a botanical garden with a rich collection of rare plants and trees, making it a paradise for nature enthusiasts and botany lovers. The park offers a range of amenities and attractions, including safari rides, boating, and educational exhibits, making it a popular destination for families, tourists, and wildlife enthusiasts alike.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/f2/00/3b/photo2jpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Raghurajpur Artist Village
+            </h1>
+            <p id="innerP">
+              Raghurajpur Artist Village, nestled in the Puri district of Odisha, India, is a vibrant cultural hub renowned for its rich heritage of traditional art and craft. This picturesque village is home to talented artisans who specialize in various traditional art forms, including Pattachitra (scroll painting), palm leaf engraving, stone and wood carving, and Gotipua dance (a traditional Odissi dance form). As visitors wander through the narrow lanes of Raghurajpur, they can witness artisans at work, meticulously crafting intricate designs and colorful artworks. The village is dotted with small workshops and galleries where visitors can purchase authentic handicrafts directly from the artisans, supporting the local community and preserving these ancient art forms. Raghurajpur also hosts cultural festivals and events throughout the year, showcasing the talents of its artisans and celebrating the region's artistic heritage. A visit to Raghurajpur Artist Village offers a unique opportunity to immerse oneself in the vibrant traditions and artistic legacy of Odisha, making it a must-visit destination for art lovers and cultural enthusiasts.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/aa/2f/d6/img-20170915-125714-largejpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Udayagiri Caves
+            </h1>
+            <p id="innerP">
+              The Udayagiri Caves, located near Bhubaneswar in Odisha, India, are a fascinating archaeological site renowned for their ancient rock-cut cave complexes. Dating back to the 2nd century BCE, these caves served as dwelling places and monastic retreats for Jain monks and ascetics. Carved out of sandstone hills, the caves feature intricately carved facades, sculptures, and inscriptions that depict scenes from Jain mythology and daily life. The caves are divided into various clusters, each with its own unique architectural style and significance. Visitors to the Udayagiri Caves can explore the labyrinthine passages, admire the exquisite carvings, and marvel at the architectural ingenuity of ancient craftsmen. The site offers a glimpse into the rich cultural heritage of Odisha and provides valuable insights into the religious and artistic traditions of ancient India. With its historical significance and architectural beauty, the Udayagiri Caves stand as a testament to the enduring legacy of Jainism and the craftsmanship of bygone eras.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/73/dc/a3/photo9jpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Konark Beach
+            </h1>
+            <p id="innerP">
+              Konark Beach, situated in the coastal town of Konark in Odisha, India, is a pristine stretch of golden sands along the Bay of Bengal. Renowned for its natural beauty and tranquil ambiance, Konark Beach is a popular destination for tourists and locals alike. Visitors can enjoy leisurely walks along the shore, sunbathe on the soft sands, or take a refreshing dip in the azure waters of the sea. The beach offers breathtaking views of the sunrise and sunset, creating a picturesque setting for photography enthusiasts. The nearby Konark Sun Temple adds to the charm of the beach, providing a stunning backdrop against the clear blue skies. Konark Beach is also known for its vibrant local culture, with fishermen casting their nets and colorful boats dotting the shoreline. With its scenic beauty, serene atmosphere, and cultural allure, Konark Beach offers a memorable coastal experience for visitors seeking relaxation and rejuvenation amidst nature's splendor.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/86/e4/5a/temple-complex.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Mukteswara Temple
+            </h1>
+            <p id="innerP">
+              The Mukteswara Temple, located in Bhubaneswar, Odisha, India, is a stunning masterpiece of ancient Kalinga architecture and a significant Hindu pilgrimage site. Built in the 10th century CE, this temple is dedicated to Lord Shiva and is renowned for its exquisite carvings, intricate sculptures, and elaborate architectural details. The temple is known for its ornate torana, or gateway, adorned with intricate sculptures of celestial beings, mythical creatures, and divine motifs. The Mukteswara Temple is also famous for its unique architectural features, including the sculpted figures of various animals and mythical creatures adorning its outer walls. Visitors to the temple can marvel at the intricate carvings that adorn its walls, pillars, and doorways, depicting scenes from Hindu mythology, daily life, and celestial beings. With its rich historical significance and architectural beauty, the Mukteswara Temple stands as a testament to the artistic and spiritual heritage of ancient India and continues to attract devotees and tourists from around the world.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/41/23/af/museum-of-tribal-arts.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Museum of Tribal Arts & Artifacts
+            </h1>
+            <p id="innerP">
+              The Museum of Tribal Arts & Artifacts, located in Bhubaneswar, Odisha, India, is a cultural institution dedicated to preserving and showcasing the rich heritage of the tribal communities of Odisha. The museum houses a diverse collection of artifacts, handicrafts, and artworks representing the traditional lifestyles, customs, and artistic traditions of various tribal groups in the region. Visitors to the museum can explore exhibits featuring intricate wood carvings, vibrant textiles, tribal jewelry, musical instruments, and ritual objects, among other artifacts. The museum also offers insights into the socio-cultural practices, belief systems, and oral traditions of the tribal communities through informative displays and audio-visual presentations. Through its efforts in documentation, research, and outreach, the Museum of Tribal Arts & Artifacts plays a vital role in promoting awareness and appreciation of tribal culture and heritage, fostering dialogue and understanding between different communities, and preserving the legacy of Odisha's indigenous peoples for future generations.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/1c/9b/ca/shanti-stupa-dhauli-giri.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Dhauli Giri Hills
+            </h1>
+            <p id="innerP">
+              Dhauli Giri Hills, situated near Bhubaneswar in Odisha, India, hold immense historical and religious significance. These hills are renowned for the ancient rock edicts of Emperor Ashoka, dating back to the 3rd century BCE, which proclaim his conversion to Buddhism and his advocacy of non-violence and religious tolerance. The site also marks the location of the Kalinga War, a pivotal event in Indian history that led Emperor Ashoka to embrace Buddhism and renounce violence. Today, Dhauli Giri Hills are home to the Dhauli Shanti Stupa, a Buddhist monument built in the 20th century to commemorate peace and harmony. Visitors to Dhauli Giri can explore the tranquil surroundings, visit the various Buddhist shrines and monasteries, and admire the panoramic views of the surrounding countryside. The site serves as a symbol of peace, compassion, and spiritual enlightenment, attracting pilgrims, tourists, and history enthusiasts from around the world.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/35/58/ed/img-20170809-095709-largejpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Ram Mandir, Bhubaneswar
+            </h1>
+            <p id="innerP">
+              Ram Mandir, located in Bhubaneswar, Odisha, India, is a prominent Hindu temple dedicated to Lord Rama, an incarnation of the Hindu god Vishnu. Situated in the heart of the city, the temple is revered by devotees who come to seek blessings and offer prayers to the deity. The architecture of the temple is inspired by traditional Odia style, with intricate carvings and sculptures adorning its exterior and interior. The sanctum sanctorum houses a beautifully adorned idol of Lord Rama, along with idols of his consort Sita and his loyal devotee Hanuman. The temple complex also features other shrines dedicated to various Hindu deities, as well as spacious courtyards and gardens for devotees to relax and meditate. Throughout the year, the temple attracts pilgrims and visitors from across the country, especially during festivals like Rama Navami, when elaborate rituals and celebrations take place to commemorate the birth of Lord Rama. Ram Mandir stands as a symbol of faith and devotion, embodying the timeless ideals of righteousness and devotion espoused in the epic Ramayana.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

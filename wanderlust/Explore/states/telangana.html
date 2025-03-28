@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Telangana</h1>
+      <div class="glassmorphism-box">
+        <p>
+          Telangana, situated in southern India, is a state steeped in history, culture, and modernity. The capital city of Hyderabad, known as the "City of Pearls," is a vibrant metropolis that seamlessly blends its rich heritage with rapid urban development. The iconic Charminar, Golconda Fort, and Qutb Shahi Tombs stand as architectural marvels from the city's illustrious past as a center of the Qutb Shahi dynasty. Hyderabad's culinary scene is equally renowned, with the famous Hyderabadi biryani and delectable sweets like double ka meetha and qubani ka meetha tantalizing taste buds across the globe. Telangana is also home to a rich tradition of arts and crafts, including intricate Bidriware, colorful Pochampally sarees, and exquisite Nirmal paintings. The state's rural hinterland offers serene landscapes dotted with ancient temples, serene lakes, and lush forests, providing a tranquil retreat from the bustle of city life. Telangana's cultural calendar is filled with vibrant festivals like Bonalu and Bathukamma, which showcase the state's rich folklore, music, and dance forms like Perini Thandavam and Lambadi Nrityam. Whether exploring its historic landmarks, savoring its culinary delights, or immersing in its cultural festivities, Telangana promises a journey filled with warmth, hospitality, and unforgettable experiences.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Ramoji Film City
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Golconda Fort
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Wonderla Hyderabad
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Birla Mandir
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Taj Falaknuma Palace
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Salar Jung Museum
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Charminar</button>
+        <button class="card-button" onclick="slideToCard(8)">Chilkur Balaji Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Sri Lakshmi Narasimha Swamy Temple
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Calvary Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Shri Jagannath Temple</button>
+        <button class="card-button" onclick="slideToCard(12)">Buddha Statue
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/f3/ad/1a/filmi-duniya.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Ramoji Film City
+            </h1>
+            <p id="innerP">
+              Ramoji Film City, located in Hyderabad, Telangana, India, is the world's largest film studio complex, sprawling over 2,000 acres. Founded by Ramoji Rao in 1996, it serves as a major film production hub and tourist attraction. The studio complex offers a wide range of facilities and services for film and television production, including sets, sound stages, post-production facilities, and outdoor locations. Ramoji Film City also features themed gardens, entertainment zones, and recreational activities for visitors, making it a popular tourist destination. Visitors can explore various film sets, watch live performances, enjoy rides at the amusement park, and indulge in shopping and dining experiences. The studio complex has been the shooting location for numerous Indian films, television shows, and commercials. Ramoji Film City provides a unique blend of entertainment, education, and cultural immersion, offering visitors a glimpse into the world of cinema and the magic of filmmaking.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/a3/62/98/golkonda-fort.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Golconda Fort
+            </h1>
+            <p id="innerP">
+              Golconda Fort, located in Hyderabad, Telangana, India, is a historic fortress built during the medieval period by the Kakatiya dynasty and later expanded by the Qutb Shahi kings. The fort complex sprawls across a vast area and is renowned for its impressive architecture, strategic location, and rich history. The fort served as the capital of the Qutb Shahi dynasty and played a significant role in the region's history as a center of trade, culture, and military power. Golconda Fort is known for its intricate fortification system, including massive ramparts, bastions, and gates, designed to withstand enemy attacks. The fort also features several palaces, mosques, temples, and gardens within its walls, showcasing the architectural and cultural heritage of the Deccan region. One of the highlights of Golconda Fort is its acoustic marvel, the "clapping hands" effect, where sound echoes can be heard several kilometers away. Today, Golconda Fort is a popular tourist attraction, offering visitors a glimpse into the glorious past of Hyderabad and the Deccan plateau.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/b4/a5/47/flash-tower-is-a-shoot.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Wonderla Hyderabad
+            </h1>
+            <p id="innerP">
+              Wonderla Hyderabad is an expansive amusement park nestled in Shamshabad, Telangana, India, renowned for its thrilling rides and water attractions. Catering to visitors of all ages, the park offers an array of adrenaline-pumping roller coasters, exhilarating water slides, lazy rivers, wave pools, and kiddie rides. Guests can enjoy a day of fun and excitement while exploring the various themed zones and entertainment options scattered throughout the park. Wonderla Hyderabad also provides amenities such as dining facilities, food courts, souvenir shops, and locker rooms to enhance the overall experience. With its vibrant atmosphere, state-of-the-art attractions, and impeccable hospitality, Wonderla Hyderabad serves as a popular destination for families, friends, and adventure enthusiasts seeking a memorable outing filled with laughter, thrills, and lasting memories.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/47/0a/b5/birla-temple.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Birla Mandir
+            </h1>
+            <p id="innerP">
+              The Birla Mandir, also known as the Birla Temple, is a Hindu temple dedicated to Lord Venkateswara, located atop a hill called Naubath Pahad in Hyderabad, Telangana, India. Built by the Birla Foundation in 1976, the temple is renowned for its magnificent architecture, intricate carvings, and serene ambiance. Constructed using white marble, the temple exudes a sense of grandeur and spirituality, with its towering gopuram (temple tower), mandapams (pillared halls), and shrines dedicated to various deities. The main sanctum of the Birla Mandir houses a majestic idol of Lord Venkateswara, along with idols of Goddess Lakshmi and Lord Hanuman. The temple complex also includes smaller shrines dedicated to other Hindu gods and goddesses, as well as landscaped gardens and water features. With its breathtaking views of Hyderabad city and its tranquil surroundings, the Birla Mandir attracts devotees and tourists alike, offering a sacred space for prayer, meditation, and spiritual contemplation.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/c8/76/98/one-of-best-stay-anywhere.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Taj Falaknuma Palace
+            </h1>
+            <p id="innerP">
+              The Taj Falaknuma Palace is a luxurious heritage hotel located in Hyderabad, Telangana, India. Originally built in 1894, the palace was once owned by the Nizam of Hyderabad and served as his royal residence. In 2010, it was restored and converted into a hotel by the Taj Hotels group, preserving its grandeur and historical significance. The palace is known for its stunning architecture, opulent interiors, and panoramic views of Hyderabad city. Guests can experience the royal lifestyle by staying in lavishly appointed suites, dining in majestic halls, and indulging in personalized services fit for royalty. The Taj Falaknuma Palace also offers guided tours for visitors to explore its ornate rooms, elegant courtyards, and sprawling gardens, providing a glimpse into the extravagant lifestyle of the Nizams. With its blend of history, luxury, and hospitality, the Taj Falaknuma Palace offers an unforgettable experience for discerning travelers and history enthusiasts alike.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/68/f3/98/aussenansicht.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Salar Jung Museum
+            </h1>
+            <p id="innerP">
+              The Salar Jung Museum is an iconic museum located in Hyderabad, Telangana, India. Established in 1951, it is one of the largest museums in the country and houses an extensive collection of art, artifacts, and antiques from various civilizations and cultures across the world. The museum's collection was amassed by the Salar Jung family, particularly Nawab Mir Yousuf Ali Khan, Salar Jung III, who served as Prime Minister of the Nizam of Hyderabad. The museum's exhibits include rare manuscripts, paintings, sculptures, textiles, ceramics, furniture, and decorative arts spanning several centuries and continents. Highlights of the Salar Jung Museum's collection include the renowned "Veiled Rebecca" sculpture, the "Double Statue of Mephistopheles and Margaretta," and the "Sword of Tipu Sultan." The museum also features a library, research facilities, and educational programs, making it a significant cultural and educational institution in India.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/12/bf/94/charminar.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Charminar</h1>
+            <p id="innerP">
+              The Charminar is an iconic monument and mosque located in the heart of Hyderabad, Telangana, India. Built in 1591 by Sultan Muhammad Quli Qutb Shah, the founder of Hyderabad, the Charminar is renowned for its stunning architecture and historical significance. The monument is named "Charminar," which translates to "Four Towers" in Urdu, due to its distinctive structure featuring four grand arches supporting four towering minarets. The Charminar serves as a symbol of Hyderabad's rich cultural heritage and is a popular tourist attraction, drawing visitors from around the world to marvel at its intricate design and explore its bustling surroundings. Surrounding the Charminar are vibrant markets selling a variety of goods, including traditional jewelry, clothing, handicrafts, and street food, adding to the lively atmosphere of the area. The Charminar stands as a testament to Hyderabad's glorious past and continues to be a cherished landmark and symbol of the city's identity.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/86/b3/ae/adorable-place.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Chilkur Balaji Temple
+            </h1>
+            <p id="innerP">
+              The Chilkur Balaji Temple, also known as the Visa Balaji Temple, is a popular Hindu temple dedicated to Lord Venkateswara, located in Chilkur, Hyderabad, Telangana, India. What makes this temple unique is its reputation as the "Visa Temple," as many devotees visit here to pray for success in obtaining visas for travel abroad. The temple is believed to have been built over 500 years ago and is nestled amidst serene surroundings, away from the hustle and bustle of the city. Unlike most other temples, Chilkur Balaji Temple does not accept any monetary donations, and there are no hundi (donation box) or priests seeking offerings. Instead, devotees offer prayers and perform a ritual called "pradakshina," which involves circumambulating the temple's inner sanctum multiple times while chanting prayers. The temple's peaceful ambiance and unique customs attract devotees and tourists alike, seeking blessings and divine intervention in their endeavors.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://media-cdn.tripadvisor.com/media/photo-s/27/be/64/4d/yadagirigutta-temple.jpg"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Sri Lakshmi Narasimha Swamy Temple
+            </h1>
+            <p id="innerP">
+              The Sri Lakshmi Narasimha Swamy Temple is a revered Hindu temple dedicated to Lord Narasimha, an incarnation of Lord Vishnu, located in Yadagirigutta, Telangana, India. Situated atop a hill in the Nalgonda district, the temple is surrounded by picturesque scenery and lush greenery, providing a serene and tranquil atmosphere for devotees. The temple is believed to have been constructed several centuries ago and holds immense religious significance among devotees, who throng to seek the blessings of Lord Narasimha for protection, prosperity, and well-being. The main deity of the temple, Lord Lakshmi Narasimha, is depicted in a unique form with Goddess Lakshmi seated on his lap, symbolizing wealth and prosperity. The temple complex also includes shrines dedicated to other deities such as Lord Shiva, Goddess Parvati, and Lord Hanuman. The Sri Lakshmi Narasimha Swamy Temple hosts several festivals and rituals throughout the year, attracting devotees and tourists from far and wide to experience its spiritual ambiance and divine blessings.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/fd/50/4d/caption.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Calvary Temple
+            </h1>
+            <p id="innerP">
+              Calvary Temple is a prominent Christian church located in Hyderabad, Telangana, India. Founded by Pastor Satish Kumar in 2005, the church has grown to become one of the largest congregations in the region, attracting thousands of worshipers each week. Calvary Temple is known for its vibrant worship services, dynamic preaching, and emphasis on prayer and community outreach. The church's main sanctuary is spacious and modern, equipped with state-of-the-art audiovisual technology to enhance the worship experience. Services at Calvary Temple often feature contemporary music, heartfelt prayers, and biblically-based sermons that aim to inspire and encourage believers in their faith journey. In addition to regular worship services, Calvary Temple also hosts various outreach programs, social initiatives, and community events to serve the needs of the local community and spread the message of God's love and compassion. The church's commitment to spiritual growth, evangelism, and social justice has made it a beacon of hope and transformation in Hyderabad and beyond.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/43/79/39/the-gleaming-temple.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Shri Jagannath Temple
+            </h1>
+            <p id="innerP">
+              The Shri Jagannath Temple in Hyderabad, Telangana, India, is a revered Hindu temple dedicated to Lord Jagannath, an incarnation of Lord Vishnu. Situated in Banjara Hills, the temple is known for its distinctive architecture inspired by the famous Jagannath Temple in Puri, Odisha. The main sanctum of the temple houses idols of Lord Jagannath, Lord Balabhadra, and Devi Subhadra, which are worshipped with great devotion by devotees. The temple complex also includes other shrines dedicated to various Hindu deities, including Lord Shiva, Goddess Parvati, and Lord Ganesha. The Shri Jagannath Temple hosts several festivals and rituals throughout the year, including Rath Yatra, which involves the ceremonial procession of deities in elaborately decorated chariots. The temple is a significant spiritual and cultural landmark in Hyderabad, attracting devotees and visitors who seek blessings and spiritual solace in the divine presence of Lord Jagannath.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/9c/13/21/buddha-statue.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Buddha Statue
+            </h1>
+            <p id="innerP">
+              In Hyderabad, Telangana, India, there are several Buddha statues located in various places across the city. One notable Buddha statue can be found at the Hussain Sagar Lake. This statue, known as the "Buddha Statue of Hyderabad," stands on a small island in the middle of the lake and is one of the tallest monolithic statues of Lord Buddha in the world, standing at approximately 18 meters (59 feet) tall. The statue was installed in 1992 and has since become a prominent landmark and tourist attraction in Hyderabad, symbolizing peace and harmony. Visitors can enjoy boat rides on the Hussain Sagar Lake to get a closer view of the Buddha statue and appreciate its serene presence amidst the scenic surroundings. Additionally, there may be other Buddha statues located in Buddhist monasteries, temples, or public parks in Hyderabad, each serving as a symbol of spiritual enlightenment and compassion.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

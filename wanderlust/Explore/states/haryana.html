@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Haryana</h1>
+      <div class="glassmorphism-box">
+        <p>
+          Haryana, located in northern India, is a state steeped in history, culture, and modernity. Its capital, Chandigarh, is a symbol of urban planning excellence and serves as a vibrant hub for art, architecture, and commerce. The state is renowned for its rich agricultural heritage, with vast stretches of fertile land producing grains, fruits, and vegetables that contribute significantly to the nation's food supply. Haryana is also home to Kurukshetra, a city of great religious significance in Hindu mythology, where the epic battle of the Mahabharata is said to have taken place. Visitors can explore its numerous temples, museums, and historic sites, gaining insights into the region's ancient past and spiritual traditions. Additionally, Haryana offers opportunities for eco-tourism and adventure sports, with scenic landscapes, wildlife sanctuaries, and recreational facilities like the Sultanpur Bird Sanctuary and the Surajkund Lake Complex. With its blend of tradition and modernity, Haryana invites travelers to discover its cultural treasures, natural beauty, and dynamic urban centers, making it a compelling destination for exploration and discovery.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">DLF Cyber Hub
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Rangmanch Farms
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Ambience Mall
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Sai Ka Angan Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Leisure Valley Park
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Heritage Transport Museum
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Brahma Sarovar
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">Sheetla Mata Mandir
+          </button>
+        <button class="card-button" onclick="slideToCard(9)">Gurudwara Nada Sahib
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Sultanpur National Park
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Pinjore Gardens
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">NeverEnuf Garden Railway
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/b8/e2/a4/photo5jpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">DLF Cyber Hub
+            </h1>
+            <p id="innerP">
+              DLF Cyber Hub, situated in Gurugram, Haryana, is a bustling commercial complex renowned for its vibrant dining, entertainment, and socializing options. This modern hub offers a diverse range of culinary experiences, with numerous restaurants, cafes, bars, and food courts serving a wide array of cuisines from around the world.Spanning across multiple levels, DLF Cyber Hub features both indoor and outdoor seating areas, creating a lively and dynamic ambiance for visitors to enjoy. The hub is known for its trendy and upscale atmosphere, making it a popular destination for office-goers, families, and young professionals alike.In addition to its culinary offerings, DLF Cyber Hub also hosts live music performances, cultural events, and festivals throughout the year, adding to its appeal as a vibrant social hub in the region.With its wide variety of dining options, entertainment facilities, and lively atmosphere, DLF Cyber Hub has become a go-to destination for food enthusiasts and socialites looking for a memorable and enjoyable experience in Gurugram.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/76/6e/4c/caption.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Rangmanch Farms
+            </h1>
+            <p id="innerP">
+              Rangmanch Farms, located in the outskirts of Delhi, is a tranquil retreat offering a blend of nature, adventure, and relaxation. This countryside destination provides a serene escape from the hustle and bustle of city life, making it ideal for families, friends, and corporate outings.The highlight of Rangmanch Farms is its lush green surroundings, comprising sprawling lawns, fruit orchards, and verdant landscapes. Visitors can engage in a variety of outdoor activities such as nature walks, bird watching, and picnics amidst the scenic beauty of the countryside.For those seeking adventure, Rangmanch Farms offers activities like zip-lining, rock climbing, and obstacle courses, providing thrilling experiences for adrenaline enthusiasts.Moreover, the farm also features traditional Indian entertainment options such as folk dance performances, puppet shows, and camel rides, allowing visitors to immerse themselves in the rich cultural heritage of rural India.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/c5/59/de/photo3jpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Ambience Mall
+            </h1>
+            <p id="innerP">
+              Ambience Mall, situated in Gurugram, Haryana, is one of the largest and most popular shopping destinations in the Delhi-NCR region. Spanning across vast acres, the mall offers a diverse range of retail, entertainment, and dining options, catering to the needs and preferences of shoppers from all walks of life.The mall boasts a wide array of national and international brands, luxury boutiques, and specialty stores, making it a haven for fashion enthusiasts and trendsetters. From high-end fashion apparel and accessories to electronics, home decor, and beauty products, Ambience Mall has something for everyone.Apart from shopping, Ambience Mall provides a plethora of entertainment options, including a multiplex cinema, gaming zones, and indoor amusement parks, ensuring a fun-filled experience for visitors of all ages.Food lovers can indulge in a culinary extravaganza at Ambience Mall's numerous cafes, restaurants, and food courts, offering a diverse range of cuisines from around the world.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/df/bd/30/sai-ka-angan-temple.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Sai Ka Angan Temple
+            </h1>
+            <p id="innerP">
+              Sai Ka Angan Temple, located in Gurugram, Haryana, is a revered spiritual destination dedicated to Shirdi Sai Baba, a revered saint and spiritual leader. The temple exudes a tranquil ambiance, inviting devotees and visitors to experience peace and serenity amidst its sacred surroundings.Devotees flock to Sai Ka Angan to seek blessings, offer prayers, and experience the divine presence of Sai Baba. The temple's architecture is inspired by the Shirdi Sai Baba temple in Maharashtra, featuring a white facade, ornate carvings, and intricately designed interiors.Inside the temple, devotees can participate in daily rituals, bhajans (devotional songs), and aarti ceremonies, creating an atmosphere of devotion and spirituality. The temple also hosts special events and festivals, including Guru Purnima and Sai Baba's Mahasamadhi, which attract large crowds of devotees from far and wide.Sai Ka Angan Temple serves as a sanctuary of faith, compassion, and love, embodying the teachings and principles of Shirdi Sai Baba. It offers solace, guidance, and blessings to all who seek spiritual enlightenment and divine grace.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/d9/37/d7/view-along-the-track.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Leisure Valley Park
+            </h1>
+            <p id="innerP">
+              Leisure Valley Park, nestled in the heart of Gurugram, Haryana, is a sprawling green oasis that offers a serene escape from the urban chaos. Spanning across several acres, the park is a haven for nature lovers, fitness enthusiasts, and families seeking leisurely activities.The park features lush green lawns, scenic jogging tracks, and beautifully landscaped gardens, providing ample space for picnics, outdoor workouts, and leisurely strolls. Visitors can also enjoy activities such as yoga, cycling, and meditation amidst the tranquil surroundings.Leisure Valley Park is known for its vibrant atmosphere and hosts various cultural events, festivals, and concerts throughout the year. The park's amphitheater serves as a venue for performances, art exhibitions, and community gatherings, adding to its charm as a cultural hub in the city.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/d1/2a/67/heritage-transport-museum.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Heritage Transport Museum
+            </h1>
+            <p id="innerP">
+              The Heritage Transport Museum, located in Gurugram, Haryana, is a unique institution dedicated to showcasing the evolution of transportation in India. Spread across several acres, the museum offers a fascinating journey through the history of automobiles, railways, aviation, and maritime transportation.Visitors to the Heritage Transport Museum can explore a vast collection of vintage cars, motorcycles, bicycles, and other vehicles dating back to the late 19th century. The museum also features interactive exhibits, dioramas, and multimedia installations, providing insights into the technological advancements and social impact of transportation over the years.One of the highlights of the museum is its meticulously curated galleries, which showcase rare artifacts, archival photographs, and memorabilia related to India's transport heritage. From steam locomotives and classic automobiles to vintage aircraft and indigenous modes of transport, the museum offers a comprehensive overview of India's rich transportation history.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/c6/54/4c/brahma-sarovar.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Brahma Sarovar
+            </h1>
+            <p id="innerP">
+              Brahma Sarovar, located in Kurukshetra, Haryana, is a sacred water tank revered by Hindus for its religious significance and historical importance. According to Hindu mythology, Brahma Sarovar is believed to be the spot where Lord Brahma performed the cosmic creation ritual (yajna) at the beginning of creation.Spread over several acres, Brahma Sarovar is surrounded by ghats (steps) on all sides, allowing devotees to take ritualistic baths and offer prayers. The tank is also flanked by several temples dedicated to various Hindu deities, enhancing its spiritual aura.Brahma Sarovar is particularly renowned for its religious significance during the solar eclipse, when millions of pilgrims gather to take a holy dip in its waters, believing it to be auspicious and purifying.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/bc/00/19/photo3jpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Sheetla Mata Mandir
+            </h1>
+            <p id="innerP">
+              Sheetla Mata Mandir, located in Gurugram, Haryana, is a revered Hindu temple dedicated to Goddess Sheetla Mata, also known as Mata Masani. The temple holds great religious significance, especially among devotees seeking blessings for good health and protection from diseases.Devotees flock to Sheetla Mata Mandir to offer prayers and seek the blessings of the goddess, particularly during the Hindu festival of Sheetla Ashtami. The temple's architecture reflects traditional Hindu temple design, featuring intricate carvings, colorful decorations, and sacred symbols.The main deity, Sheetla Mata, is worshiped as the goddess of smallpox and other diseases, and devotees often offer special prayers and rituals to seek her protection and blessings.Surrounded by a serene ambiance and lush greenery, Sheetla Mata Mandir provides a peaceful retreat for devotees and visitors seeking solace and spiritual rejuvenation.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/80/4b/25/majestic-entrance-of.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Gurudwara Nada Sahib
+            </h1>
+            <p id="innerP">
+              Gurudwara Nada Sahib, situated in Panchkula, Haryana, is a revered Sikh shrine dedicated to Guru Gobind Singh Ji, the tenth Sikh Guru. The gurudwara holds historical significance as it marks the location where Guru Gobind Singh Ji halted while returning from the Battle of Bhangani in 1688.Devotees visit Gurudwara Nada Sahib to pay their respects and seek blessings from Guru Gobind Singh Ji. The gurudwara's architecture reflects traditional Sikh design, featuring white marble and golden domes, creating a serene and spiritual atmosphere.The gurudwara complex also includes a sarovar (holy pond) where devotees take ritualistic baths and participate in religious ceremonies. Langar (community kitchen) services are also provided, offering free meals to all visitors irrespective of caste, creed, or religion.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/92/69/0e/sultanpur-national-park.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Sultanpur National Park
+            </h1>
+            <p id="innerP">
+              Sultanpur National Park, located in Gurugram, Haryana, is a peaceful sanctuary that offers a haven for birdwatchers and nature enthusiasts. Spanning over 140 acres, the park is home to a diverse range of avian species, making it a popular destination for birdwatching and wildlife photography.The park's wetlands, marshes, and woodlands provide an ideal habitat for both resident and migratory birds, especially during the winter months when numerous species flock to the area from distant lands. Some of the commonly spotted birds include the Siberian crane, greater flamingo, painted stork, and bar-headed goose.Visitors to Sultanpur National Park can explore its well-marked trails, observation towers, and bird hides, allowing for excellent opportunities to observe and photograph birds in their natural habitat. The park also offers facilities such as interpretation centers, nature trails, and guided tours to enhance the visitor experience.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/95/ff/b0/2019-02-23-15-29-51-793.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Pinjore Gardens
+            </h1>
+            <p id="innerP">
+              Pinjore Gardens, also known as Yadavindra Gardens, is a historic Mughal garden located in Pinjore, Haryana. Built in the 17th century by Nawab Fidai Khan, an architect and foster brother of Mughal Emperor Aurangzeb, these gardens are renowned for their exquisite design, lush greenery, and serene ambiance.Spread across several acres, Pinjore Gardens feature terraced lawns, beautiful fountains, pavilions, and intricate water channels, all meticulously planned in typical Mughal style. The garden's layout reflects the concept of Charbagh, with four main quadrants divided by water channels representing the four rivers of the Quranic paradise.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/53/10/d7/neverenuf-garden-railway.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">NeverEnuf Garden Railway
+            </h1>
+            <p id="innerP">
+              NeverEnuf Garden Railway, located in Gurugram, Haryana, is a unique and enchanting miniature railway attraction that captivates visitors of all ages. This delightful destination features intricately crafted miniature train sets, landscapes, and railway models spread across beautifully landscaped gardens.Visitors to NeverEnuf Garden Railway can embark on a fascinating journey through the miniature world of trains, exploring meticulously detailed landscapes, including mountains, valleys, villages, and water bodies. The railway features miniature locomotives, carriages, and railway tracks, all scaled down to perfection to create a lifelike experience.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

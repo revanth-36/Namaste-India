@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Jammu & Kashmir</h1>
+      <div class="glassmorphism-box">
+        <p>
+          Nestled in the northernmost part of India, Jammu and Kashmir is a land of unparalleled beauty, enchanting landscapes, and rich cultural heritage. From the snow-capped peaks of the Himalayas to the serene valleys of Kashmir, this region captivates travelers with its breathtaking scenery. Srinagar, the summer capital, is renowned for its iconic Dal Lake, where visitors can experience the timeless charm of houseboat stays and shikara rides amidst floating gardens and historic Mughal gardens like Shalimar Bagh and Nishat Bagh. The picturesque hill station of Gulmarg beckons adventure enthusiasts with its world-class skiing slopes and scenic trekking trails, while Pahalgam offers a tranquil retreat amidst lush meadows and glistening rivers. Jammu, the winter capital, boasts ancient temples like the Vaishno Devi Shrine and the Raghunath Temple, attracting pilgrims and devotees from far and wide. The region's rich cultural tapestry is reflected in its vibrant festivals, traditional handicrafts, and mouthwatering cuisine, including iconic dishes like Rogan Josh and Wazwan. Whether it's exploring its natural wonders, seeking spiritual solace, or experiencing its warm hospitality, Jammu and Kashmir promises an unforgettable journey for every traveler.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Vaishno Devi Mandir
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Shankaracharya Hill
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Dal Lake
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Indira Gandhi Tulip Garden
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Apharwat Peak
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Sonamarg
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Nigeen Lake
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">Nishat Garden
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Sinthan Top
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Betaab Valley
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Aru Valley
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">Zojila Pass
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/34/98/37/lrm-export-31665251117501.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Vaishno Devi Mandir
+            </h1>
+            <p id="innerP">
+              Vaishno Devi Mandir, nestled in the Trikuta Mountains of Jammu and Kashmir, is one of the holiest Hindu shrines dedicated to Goddess Vaishno Devi. This sacred pilgrimage site attracts millions of devotees annually who embark on a challenging trek to seek the blessings of the goddess. The temple is located inside a cave and houses three natural rock formations representing the three goddesses – Mahakali, Mahalakshmi, and Mahasaraswati. The pilgrimage to Vaishno Devi is considered highly auspicious, and devotees undertake the arduous journey with utmost devotion and faith. Along the trekking route, various facilities such as accommodations, eateries, and resting places are available to pilgrims. The temple complex exudes a spiritual ambiance, offering a serene retreat amidst the scenic beauty of the Himalayas.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/fb/3a/19/shankaracharya-temple.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Shankaracharya Hill
+            </h1>
+            <p id="innerP">
+              Shankaracharya Hill, also known as Takht-e-Suleiman, is a prominent hilltop in Srinagar, Jammu and Kashmir, renowned for its religious and historical significance. Atop the hill stands the Shankaracharya Temple, dedicated to Lord Shiva and believed to have been established by the revered sage Adi Shankaracharya during the 9th century. The temple offers panoramic views of the city of Srinagar and the picturesque Dal Lake, making it a popular pilgrimage site and tourist attraction. Visitors can reach the temple by climbing a flight of stone steps or by road, enjoying the scenic beauty and tranquility of the surroundings. Shankaracharya Hill holds immense spiritual significance for Hindus and serves as a symbol of the rich cultural heritage of the region.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/db/da/18/dal-lake.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Dal Lake
+            </h1>
+            <p id="innerP">
+              Dal Lake, located in Srinagar, Jammu and Kashmir, is a jewel of the Kashmir Valley, renowned for its stunning natural beauty and vibrant culture. This picturesque lake, spread over an area of approximately 18 square kilometers, is fringed by lush greenery, majestic mountains, and traditional houseboats known as 'Shikaras'. Dal Lake is not just a scenic attraction but also a lifeline for the local community, providing livelihoods through activities such as fishing, agriculture, and tourism. Visitors can explore the lake's tranquil waters aboard Shikaras, marvel at the floating vegetable gardens, and witness the bustling activity at the floating markets. Additionally, the lake is dotted with beautiful Mughal gardens, such as Shalimar Bagh and Nishat Bagh, adding to its allure as a must-visit destination in Kashmir. Dal Lake's serene ambiance, cultural richness, and breathtaking vistas make it a true paradise for travelers seeking tranquility and natural beauty.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/f3/ed/05/as-the-spring-has-set.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Indira Gandhi Tulip Garden
+            </h1>
+            <p id="innerP">
+              Indira Gandhi Tulip Garden, located in Srinagar, Jammu and Kashmir, is Asia's largest tulip garden and a mesmerizing attraction known for its vibrant colors and breathtaking beauty. Situated against the backdrop of the Zabarwan Range, this sprawling garden spans over 30 hectares and showcases a stunning variety of tulips in full bloom during the spring season. The garden was established to promote tourism and floriculture in the region and has become a major draw for visitors from all over the world. Apart from tulips, the garden also features a wide array of other flowers, including hyacinths, daffodils, and ranunculus, creating a kaleidoscope of colors that captivates the senses. Visitors to the Indira Gandhi Tulip Garden can stroll along manicured pathways, soak in the panoramic views of the surrounding mountains, and revel in the beauty of nature at its finest.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/ec/b0/41/img-20180131-wa0006-largejpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Apharwat Peak
+            </h1>
+            <p id="innerP">
+              Apharwat Peak, situated in the Pir Panjal Range of the Himalayas, is a majestic mountain peak located in Gulmarg, Jammu and Kashmir. Renowned for its stunning natural beauty and excellent skiing conditions, Apharwat Peak is a paradise for adventure enthusiasts and nature lovers alike. The peak can be reached via the Gulmarg Gondola, one of the highest cable cars in the world, which offers breathtaking views of the surrounding snow-capped mountains and lush valleys during the ascent. At the summit, visitors are treated to panoramic vistas of the Himalayas and the picturesque town of Gulmarg below. In the winter months, Apharwat Peak transforms into a popular skiing destination, attracting skiers and snowboarders from around the globe to its powdery slopes and pristine snowfields. Whether it's skiing, snowboarding, or simply enjoying the scenic beauty, Apharwat Peak offers an unforgettable experience for all who visit.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/e6/80/3b/sonamarg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Sonamarg
+            </h1>
+            <p id="innerP">
+              Sonamarg, translating to "Meadow of Gold," is a breathtaking hill station nestled in the Ganderbal district of Jammu and Kashmir, India. Situated at an altitude of approximately 2,800 meters above sea level, Sonamarg is renowned for its stunning landscapes, pristine glaciers, and lush meadows that are adorned with colorful flowers during the spring and summer seasons. The Sindh River meanders through the valley, adding to its natural charm.Sonamarg serves as the base camp for various treks and expeditions, including the famous trek to the holy Amarnath Cave. Adventure enthusiasts flock to Sonamarg to embark on thrilling activities such as trekking, camping, white-water rafting, and trout fishing in the sparkling rivers.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/b9/99/4d/nagin-lake.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Nigeen Lake
+            </h1>
+            <p id="innerP">
+              Nigeen Lake, situated in Srinagar, Jammu and Kashmir, is a pristine water body renowned for its tranquil ambiance and scenic beauty. Often referred to as the "Jewel in the Crown of Kashmir," Nigeen Lake is smaller and quieter compared to its counterpart, Dal Lake, making it a serene retreat away from the bustling crowds.Surrounded by lush greenery and picturesque mountains, Nigeen Lake offers mesmerizing views and opportunities for leisurely boat rides in traditional Shikaras. Visitors can explore the lake's tranquil waters, marvel at the reflections of the surrounding scenery, and immerse themselves in the serene atmosphere.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/2e/6b/6f/nishat-in-full-bloom.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Nishat Garden
+            </h1>
+            <p id="innerP">
+              Nishat Garden, located on the eastern side of Dal Lake in Srinagar, Jammu and Kashmir, is a magnificent Mughal garden known for its exquisite beauty and historical significance. Built in the 17th century by Asif Khan, the brother of Empress Noor Jehan, Nishat Garden is renowned for its terraced lawns, vibrant flower beds, and mesmerizing fountains. The garden offers panoramic views of the Dal Lake and the snow-capped Pir Panjal mountain range, creating a serene and picturesque ambiance for visitors to enjoy. Nishat Garden is a popular destination for picnics, leisurely strolls, and photography, providing a tranquil retreat amidst the lush greenery and blooming flowers. Its architectural elegance and natural splendor make it a must-visit attraction for tourists exploring the beauty of Kashmir.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/8b/1f/1d/as-you-travel-towards.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Sinthan Top
+            </h1>
+            <p id="innerP">
+              Sinthan Top, located in the Kishtwar district of Jammu and Kashmir, is a breathtaking mountain pass situated at an elevation of approximately 3,900 meters above sea level. Renowned for its panoramic views, pristine landscapes, and exhilarating climate, Sinthan Top is a paradise for nature lovers and adventure enthusiasts.The journey to Sinthan Top is as enchanting as the destination itself, with scenic roads winding through lush meadows, dense forests, and cascading waterfalls. The pass offers mesmerizing vistas of snow-capped peaks, verdant valleys, and azure skies, creating a postcard-perfect setting for photography and relaxation.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/71/3f/53/betaab-valley.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Betaab Valley
+            </h1>
+            <p id="innerP">
+              Betaab Valley, nestled in the lap of the Pir Panjal Range in Pahalgam, Jammu and Kashmir, is a picturesque valley named after the Bollywood movie "Betaab" which was shot extensively here. Blessed with verdant meadows, lush forests, and gushing streams, Betaab Valley offers a serene retreat amidst the stunning Himalayan landscapes.Visitors to Betaab Valley can enjoy leisurely walks along the meandering trails, soak in the tranquility of the surroundings, and marvel at the panoramic views of the snow-capped peaks. The valley is also a popular spot for picnics, photography, and outdoor activities such as horse riding and trekking.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/ec/dc/15/aru-city.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Aru Valley
+            </h1>
+            <p id="innerP">
+              Aru Valley, situated in the Anantnag district of Jammu and Kashmir, is a picturesque valley renowned for its pristine beauty and tranquil ambiance. Tucked away amidst lush meadows, towering mountains, and gurgling streams, Aru Valley offers a serene retreat away from the hustle and bustle of city life.Visitors to Aru Valley can explore its scenic trails, meander through pine forests, and enjoy breathtaking views of the surrounding landscapes. The valley serves as the base camp for various treks, including the trek to the famous Kolahoi Glacier.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/74/21/21/photo1jpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Zojila Pass
+            </h1>
+            <p id="innerP">
+              Zojila Pass, located in the western section of the Himalayas in the Indian union territory of Ladakh, is one of the most significant mountain passes in the region, connecting the Kashmir Valley with the Ladakh region. Situated at an elevation of approximately 3,528 meters above sea level, Zojila Pass is known for its challenging terrain, unpredictable weather conditions, and breathtaking vistas.The pass remains snow-covered for a significant part of the year, making it a vital lifeline for transportation between Srinagar and Leh. It is a crucial link on the National Highway 1 (NH1), connecting the two regions and facilitating the movement of goods and people.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat ❤️</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

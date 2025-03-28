@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Meghalaya</h1>
+      <div class="glassmorphism-box">
+        <p>
+          Nestled in the northeastern corner of India, Meghalaya, often referred to as the "abode of clouds," is a mesmerizing land of lush greenery, cascading waterfalls, and fascinating cultural diversity. The state's capital, Shillong, known as the "Scotland of the East," is renowned for its picturesque landscapes, vibrant music scene, and colonial-era architecture. Meghalaya is home to the matrilineal Khasi, Garo, and Jaintia tribes, each with its unique traditions and customs, which add to the rich cultural tapestry of the region. Cherrapunji and Mawsynram, two of the wettest places on earth, boast breathtaking landscapes adorned with verdant hills, deep gorges, and stunning limestone caves like Mawsmai Cave and Arwah Cave. The state's iconic Living Root Bridges, crafted by the indigenous Khasi and Jaintia tribes using the roots of rubber trees, are a testament to traditional engineering and attract visitors from around the world. Meghalaya's diverse flora and fauna can be explored in its numerous national parks and wildlife sanctuaries, including the UNESCO World Heritage Site of Nokrek National Park. Additionally, Meghalaya offers adventure enthusiasts opportunities for trekking, caving, and river rafting, with destinations like Dawki and Mawphlang offering thrilling outdoor experiences amidst pristine natural surroundings. Whether exploring its natural wonders, immersing in its vibrant culture, or embarking on thrilling adventures, Meghalaya promises a journey filled with awe-inspiring moments and unforgettable memories.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Double Decker Living Root Bridge
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Umiam Lake
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Laitlum Canyons
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Krang Suri Falls
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Nohkalikai Falls
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Dawki River
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Mawsmai Cave
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">Elephant Falls
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Don Bosco Centre for Indigenous Cultures
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Mawphlang Sacred Forest
+          0</button>
+        <button class="card-button" onclick="slideToCard(11)">Roots Bridges
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">Garden of Caves
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/b0/31/f4/the-beaut.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Double Decker Living Root Bridge
+            </h1>
+            <p id="innerP">
+              The Double Decker Living Root Bridge is a natural wonder located in the northeastern state of Meghalaya, India. This unique bridge is formed by the roots of ancient rubber trees, which are intricately woven together over many years to create a sturdy bridge capable of supporting human traffic. What makes this bridge particularly fascinating is its double-decker structure, with one level serving as the base for the other, creating a remarkable sight amid the lush greenery of the surrounding forest. Visitors to the Double Decker Living Root Bridge can marvel at the ingenuity of nature and the skillful craftsmanship of the indigenous Khasi people who have nurtured and maintained these bridges for generations. Trekking through the dense forests to reach this natural marvel is an adventure in itself, offering travelers a glimpse into the rich biodiversity and cultural heritage of Meghalaya.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/b3/91/22/amazing-umium-lake.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Umiam Lake
+            </h1>
+            <p id="innerP">
+              Umiam Lake, also known as Barapani Lake, is a picturesque reservoir located in the Ri-Bhoi district of Meghalaya, India. Created by the damming of the Umiam River, it serves as a major tourist attraction and a source of hydroelectric power generation for the region. The lake's serene blue waters are surrounded by lush green hills and dense forests, offering visitors breathtaking views and a tranquil ambiance. Boating, kayaking, and water sports are popular activities on the lake, allowing visitors to immerse themselves in its natural beauty while enjoying recreational pursuits. Additionally, the lake's scenic surroundings provide opportunities for picnics, nature walks, and photography, making it a perfect destination for both leisure travelers and adventure enthusiasts alike. Whether it's enjoying the stunning sunset views or exploring the nearby attractions, Umiam Lake offers a rejuvenating retreat amidst nature's splendor.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/b5/54/bf/photo6jpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Laitlum Canyons
+            </h1>
+            <p id="innerP">
+              Laitlum Canyons, located near Shillong in Meghalaya, India, is a breathtaking destination known for its stunning panoramic views of the surrounding hills and valleys. Perched at an altitude of around 6,000 feet above sea level, the Laitlum Canyons offer visitors a mesmerizing vista of lush green hills, deep gorges, and cascading waterfalls. The name "Laitlum" translates to "the end of hills," and true to its name, this location provides a dramatic and unforgettable landscape. Visitors can enjoy hiking or trekking along the rugged trails that wind through the canyons, offering glimpses of the region's rich biodiversity and unique rock formations. The viewpoint at Laitlum Canyons is particularly popular during sunrise and sunset, when the changing hues of the sky create a magical ambiance over the rugged terrain. For nature lovers and adventure seekers, Laitlum Canyons is a must-visit destination offering unparalleled beauty and tranquility in the heart of Meghalaya's wilderness.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/9e/62/4e/amazing-place.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Krang Suri Falls
+            </h1>
+            <p id="innerP">
+              Krang Suri Falls, nestled in the pristine forests of Meghalaya, India, is a captivating natural wonder that enthralls visitors with its breathtaking beauty. Located near Amlarem in the Jaintia Hills district, this hidden gem boasts crystal-clear turquoise waters cascading down rugged cliffs into a serene pool below. Surrounded by lush greenery and towering cliffs, the falls create a mesmerizing spectacle, drawing visitors seeking tranquility and adventure alike. The journey to Krang Suri Falls involves traversing through dense forests and descending down stone steps, adding to the allure of the experience. Visitors can take a refreshing dip in the cool, inviting waters or simply bask in the serenity of the surroundings while marveling at the natural spectacle. With its pristine beauty and tranquil ambiance, Krang Suri Falls stands as a testament to the awe-inspiring allure of Meghalaya's natural landscapes, making it a must-visit destination for nature enthusiasts and adventurers alike.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/88/e4/8f/noh-ka-likai-falls.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Nohkalikai Falls
+            </h1>
+            <p id="innerP">
+              Nohkalikai Falls, located near Cherrapunji in the Indian state of Meghalaya, is a spectacular natural wonder renowned as one of the tallest waterfalls in India. Cascading from a height of approximately 340 meters (1,115 feet), the falls plunge dramatically into a turquoise-colored pool below, creating a breathtaking sight against the backdrop of verdant cliffs and lush greenery. The name "Nohkalikai" translates to "Jump of Ka Likai" in the local Khasi language, derived from a tragic legend associated with the waterfall. According to folklore, a woman named Likai jumped from the precipice of the falls after a personal tragedy, making it a poignant and hauntingly beautiful landmark. Visitors can marvel at the awe-inspiring beauty of Nohkalikai Falls from various viewpoints, immersing themselves in the natural splendor of Meghalaya's landscape and experiencing the sheer power and majesty of the cascading waters.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/18/b6/aa/img-20170107-093903216.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Dawki River
+            </h1>
+            <p id="innerP">
+              The Dawki River, nestled in the serene landscapes of Meghalaya in northeastern India, is a mesmerizing natural gem renowned for its crystal-clear waters. Flowing along the India-Bangladesh border, this picturesque river offers stunning views of emerald-green waters that are so transparent that one can see the riverbed with remarkable clarity. The Dawki River is particularly famous for its annual boat race, where traditional Khasi boats glide gracefully over its pristine surface amidst the breathtaking scenery of lush green hills and rocky cliffs. Additionally, the Dawki River is a vital lifeline for local communities, serving as a crucial transportation route for trade between India and Bangladesh. Visitors flock to this idyllic spot to enjoy boat rides, swim in the refreshing waters, and marvel at the ethereal beauty of the Dawki River, making it a must-visit destination for nature lovers and adventure enthusiasts alike.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/91/e2/dd/millions-of-years-heritage.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Mawsmai Cave
+            </h1>
+            <p id="innerP">
+              Mawsmai Cave, located near Cherrapunji in the northeastern state of Meghalaya, India, is a natural wonder that entices visitors with its mystical allure. Carved out of limestone over centuries by the force of water, these caves offer a fascinating glimpse into the underground world. As visitors venture through the narrow passages adorned with stunning stalactites and stalagmites, they are enveloped in an otherworldly atmosphere, illuminated by the soft glow of artificial lighting. The Mawsmai Cave is relatively accessible, making it a popular destination for both adventure seekers and casual tourists. Exploring its dark recesses and marveling at the intricate formations is an unforgettable experience, allowing visitors to connect with the ancient geological forces that shaped this remarkable landscape. Whether you're a nature enthusiast, a photographer, or simply seeking adventure, Mawsmai Cave promises an unforgettable journey into the heart of Meghalaya's natural beauty.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/1d/8a/ce/memories-for-life.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Elephant Falls
+            </h1>
+            <p id="innerP">
+              Elephant Falls, nestled amidst the lush greenery near Shillong, Meghalaya, is a captivating natural wonder that enchants visitors with its cascading beauty. Named after a nearby elephant-shaped rock formation, this waterfall is a popular tourist destination in the region. Divided into three sections, the falls create a mesmerizing spectacle as they tumble down the rocky terrain, surrounded by dense vegetation. Visitors can explore the well-maintained pathways leading to different viewpoints, allowing for stunning vistas of the waterfall from various angles. The sound of rushing water and the cool mist that envelops the area add to the enchanting ambiance, making Elephant Falls a serene retreat for nature lovers and photographers alike. Whether it's to admire the picturesque scenery, take a refreshing dip in the natural pool, or simply bask in the tranquility of the surroundings, a visit to Elephant Falls promises a rejuvenating experience amidst Meghalaya's natural splendor.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/b3/72/4b/don-bosco-center-for.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Don Bosco Centre for Indigenous Cultures
+            </h1>
+            <p id="innerP">
+              The Don Bosco Centre for Indigenous Cultures, located in Shillong, Meghalaya, is a unique institution dedicated to preserving and promoting the rich and diverse indigenous cultures of Northeast India. Housed in a striking seven-story building, the center showcases the art, culture, traditions, and lifestyles of the indigenous communities of the region through various exhibits, artifacts, photographs, and audiovisual presentations. Visitors can explore the vibrant galleries that highlight the distinct customs, languages, attire, festivals, rituals, and handicrafts of the indigenous tribes, providing a comprehensive insight into their heritage and way of life. The center also serves as a research hub and educational resource, facilitating scholarly studies and cultural exchanges to foster appreciation and understanding of the Northeast's indigenous cultures. With its immersive exhibits and informative displays, the Don Bosco Centre offers a captivating journey into the rich tapestry of Northeast India's indigenous heritage, making it a must-visit destination for cultural enthusiasts and curious travelers alike.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/0b/94/c9/sacred-forest.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Mawphlang Sacred Forest
+            </h1>
+            <p id="innerP">
+              The Mawphlang Sacred Forest, nestled in the serene hills of Meghalaya, India, is a mystical enclave steeped in spiritual significance and ecological importance. Revered by the local Khasi tribe, this ancient woodland is shrouded in legends and rituals, serving as a sanctuary for rare flora and fauna. Visitors to the forest are greeted by a canopy of towering trees, lush vegetation, and moss-covered stones, creating an enchanting atmosphere imbued with a sense of reverence and wonder. The forest is home to a diverse array of plant species, some believed to possess medicinal and mystical properties, adding to its allure and cultural significance. Walking through its winding paths, visitors encounter sacred groves, meandering streams, and natural rock formations, each contributing to the forest's mystical charm and spiritual ambiance. Beyond its ecological value, the Mawphlang Sacred Forest stands as a living testament to the harmonious relationship between humanity and nature, inviting travelers to connect with the land's ancient wisdom and timeless beauty.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/00/e1/1f/wow.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Roots Bridges
+            </h1>
+            <p id="innerP">
+              Roots bridges, an iconic feature of Meghalaya's landscape, represent a remarkable synergy between nature and human ingenuity. These unique bridges are crafted by the indigenous Khasi and Jaintia tribes using the aerial roots of the Ficus elastica tree, locally known as "rubber tree." Over generations, the tribespeople train the roots to grow across rivers and streams, eventually forming sturdy bridges capable of supporting human weight. The process of creating these living structures can take several years, with the roots gradually intertwining and strengthening over time. These bridges are not only functional but also sustainable, as they become stronger with age and require minimal maintenance. Today, these natural marvels draw visitors from around the world, offering a glimpse into the rich cultural heritage and ecological wisdom of the indigenous communities of Meghalaya.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/1a/2a/9e/mg-6790-largejpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Garden of Caves
+            </h1>
+            <p id="innerP">
+              The Garden of Caves, located in Meghalaya, India, is a mesmerizing natural attraction showcasing an intricate network of limestone caves adorned with lush greenery. These caves, formed over millions of years through geological processes, offer visitors a unique opportunity to explore the mysterious underworld of the region. Each cave within the garden presents its own distinct features, from stunning stalactites and stalagmites to underground streams and chambers. As visitors traverse through the winding pathways, they are greeted by the ethereal beauty of the cave formations, illuminated by soft natural light filtering through crevices and openings above. The Garden of Caves not only provides a thrilling adventure for spelunkers and nature enthusiasts but also serves as a living testament to the geological wonders of Meghalaya's landscape.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

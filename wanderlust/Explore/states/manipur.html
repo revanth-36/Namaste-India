@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Manipur</h1>
+      <div class="glassmorphism-box">
+        <p>
+          Nestled in the northeastern region of India, Manipur is a picturesque state known for its stunning landscapes, rich cultural heritage, and vibrant traditions. The capital city, Imphal, is steeped in history and serves as a gateway to the state's many attractions. Manipur is renowned for its classical dance form, Manipuri, which is characterized by graceful movements and intricate costumes, often depicting scenes from Hindu mythology. The state is also famous for its indigenous sports, particularly Polo, which is believed to have originated here and is still played with great enthusiasm. Imphal's historic Kangla Fort, once the seat of the Manipuri kings, and the nearby Loktak Lake, the largest freshwater lake in northeastern India, are among the must-visit destinations. Manipur's rich biodiversity is showcased in its national parks and wildlife sanctuaries, including the Keibul Lamjao National Park, home to the endangered Sangai deer, also known as the dancing deer of Manipur. The state's culinary delights, such as Eromba (a traditional Manipuri dish), and its vibrant festivals like the Sangai Festival, which celebrates the state's culture, art, and heritage, are sure to leave a lasting impression on visitors. Whether exploring its cultural treasures, admiring its natural beauty, or immersing in its vibrant traditions, Manipur offers a truly unforgettable experience for travelers seeking off-the-beaten-path adventures.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Dzukou Valley
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">RKCS Museum
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Loktak Lake
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Ema Keithel Market
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Kangla Fort
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Shri Govindajee Temple
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Imphal War Cemetery
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">Imphal Valley
+          </button>
+        <button class="card-button" onclick="slideToCard(9)">ISKCON Imphal, Sri Sri Radha Krishnacandra Temple
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Keibul Lamjao National Park
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Thangal General Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">Manipur Zoological Gardens
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/a8/08/e3/dzuko-valley-trip-2019.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Dzukou Valley
+            </h1>
+            <p id="innerP">
+              Nestled on the border of Nagaland and Manipur in Northeast India, Dzukou Valley stands as a breathtaking testament to nature's splendor. This picturesque valley is renowned for its panoramic vistas, carpeted with lush greenery, vibrant flowers, and meandering streams. Trekking enthusiasts are drawn to its trails, which lead through verdant hills and dense forests, offering encounters with diverse flora and fauna along the way. During the spring season, the valley transforms into a mesmerizing tapestry of colorful blooms, particularly the famed Dzukou Lily, adding to its allure. Camping under the star-studded sky amidst the tranquility of Dzukou Valley is an unforgettable experience, beckoning travelers seeking solace in nature's embrace. With its pristine beauty and serene ambiance, Dzukou Valley remains a cherished destination for those seeking respite from the chaos of urban life.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/7f/f0/72/rkcs-arts-gallery.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">RKCS Museum
+            </h1>
+            <p id="innerP">
+              The RKCS (Rabindra Kanan Central Saheed Minar) Museum, located in Agartala, Tripura, offers visitors a captivating journey through the state's rich cultural and historical heritage. Named after Rabindranath Tagore, the museum showcases an extensive collection of artifacts, artworks, and historical relics that chronicle Tripura's evolution over the centuries. From ancient sculptures to colonial-era artifacts and contemporary artworks, the museum provides a comprehensive insight into the region's diverse cultural tapestry. Visitors can explore various galleries dedicated to art, history, archaeology, and anthropology, offering a nuanced understanding of Tripura's multifaceted identity. The museum's exhibits are meticulously curated, providing a captivating narrative that resonates with both locals and tourists alike. With its intriguing displays and informative presentations, the RKCS Museum stands as a cultural beacon, preserving and celebrating Tripura's rich heritage for generations to come.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/4d/51/27/loktak-lake.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Loktak Lake
+            </h1>
+            <p id="innerP">
+              Loktak Lake, situated in the Indian state of Manipur, is renowned for its unique floating islands called phumdis, which are composed of decomposed organic matter, soil, and vegetation. Covering an area of approximately 236 square kilometers, Loktak is the largest freshwater lake in Northeast India and serves as a vital ecological hotspot. The lake supports a diverse range of flora and fauna, including several endangered species like the brow-antlered deer, also known as the Sangai, which is found exclusively in the surrounding Keibul Lamjao National Park. Loktak Lake is not only a significant biodiversity hotspot but also a crucial resource for local communities, providing livelihoods through fishing and tourism. However, the lake faces challenges such as pollution and habitat loss, highlighting the importance of conservation efforts to preserve this invaluable ecosystem.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/64/58/f2/img-20190501-141512-largejpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Ema Keithel Market
+            </h1>
+            <p id="innerP">
+              Ema Keithel Market, also known as Mother's Market, is a vibrant and historic market located in Imphal, the capital city of Manipur, India. What makes this market unique is that it is entirely run by women, earning it the name "Mother's Market." Here, you can find a wide array of goods, including fresh fruits and vegetables, spices, traditional clothing like phaneks and innaphis, handwoven textiles, handicrafts, and local delicacies. The market serves as a hub for social and cultural exchange, where locals gather not only to shop but also to connect and share stories. Ema Keithel Market is not just a place to buy goods; it's a testament to the resilience and entrepreneurial spirit of Manipuri women, making it a must-visit destination for both tourists and locals alike.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ba/82/4b/kangla-fort-entrance.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Kangla Fort
+            </h1>
+            <p id="innerP">
+              Kangla Fort, situated in Imphal, Manipur, holds significant historical and cultural importance. Once the seat of the Manipuri kings, it's now a symbol of Manipur's rich heritage. The fort encompasses a sprawling complex with various structures, including temples, palaces, and ceremonial houses. Visitors can explore ancient relics, intricate carvings, and architectural marvels that offer glimpses into Manipur's royal past. The fort also holds spiritual significance, with sacred sites like the Govindaji Temple within its walls. Kangla Fort stands as a reminder of Manipur's royal legacy and serves as a cultural landmark attracting tourists and historians alike, eager to delve into the region's captivating history and architecture.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/4d/52/35/govindjee-temple.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Shri Govindajee Temple
+            </h1>
+            <p id="innerP">
+              The Shri Govindajee Temple, located within the Kangla Fort complex in Imphal, Manipur, is a revered Hindu temple dedicated to Lord Krishna. It holds significant religious importance for the people of Manipur and visitors alike. The temple's architecture reflects a blend of traditional Manipuri and Hindu styles, with intricate carvings and vibrant colors adorning its structure. Devotees flock to the temple to offer prayers and seek blessings from Lord Govindjee, especially during festivals like Janmashtami, the birth anniversary of Lord Krishna. The serene ambiance and spiritual aura of the temple make it a tranquil retreat for worshippers and tourists seeking moments of peace and reflection amidst the bustling Kangla Fort complex.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/4e/f8/23/war-cemetery.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Imphal War Cemetery
+            </h1>
+            <p id="innerP">
+              The Imphal War Cemetery stands as a solemn memorial to the soldiers who lost their lives during World War II in the battles fought in and around Imphal, Manipur. Situated amidst serene surroundings, the cemetery serves as a poignant reminder of the sacrifices made by brave soldiers from various nations. Managed by the Commonwealth War Graves Commission, it meticulously maintains the graves of thousands of soldiers, each bearing witness to the tumultuous history of the region. Visitors to the cemetery often find themselves immersed in a somber atmosphere, reflecting on the price of freedom and the human cost of conflict. The neatly arranged rows of headstones, interspersed with carefully tended greenery, offer a place for quiet contemplation and remembrance, ensuring that the valor and sacrifice of those who perished in the war are never forgotten.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/4d/53/da/imphal-valley.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Imphal Valley
+            </h1>
+            <p id="innerP">
+              Nestled amidst the verdant hills of Manipur, the Imphal Valley is a picturesque expanse of natural beauty and cultural heritage. Surrounded by lush greenery and rolling hills, this valley is renowned for its breathtaking landscapes and tranquil ambiance. It serves as the heartland of Manipur, encompassing the capital city of Imphal and several surrounding villages. The valley is adorned with shimmering lakes, meandering rivers, and fertile farmlands, making it a haven for nature enthusiasts and photographers. Moreover, Imphal Valley is steeped in history and cultural significance, with numerous ancient temples, monuments, and traditional markets dotting its landscape. Visitors to the valley can immerse themselves in the rich cultural tapestry of Manipur, explore its vibrant markets, sample local delicacies, and engage with the warm and hospitable locals. Whether one seeks adventure, relaxation, or cultural immersion, the Imphal Valley offers a truly enriching experience that captivates the senses and leaves a lasting impression.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/74/68/5d/img-20190201-084905-largejpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">ISKCON Imphal, Sri Sri Radha Krishnacandra Temple
+            </h1>
+            <p id="innerP">
+              ISKCON Imphal, also known as the Sri Sri Radha Krishnacandra Temple, is a vibrant spiritual center located in the heart of Imphal, Manipur. This temple is dedicated to Lord Krishna and Radha, the divine couple worshipped by devotees of the International Society for Krishna Consciousness (ISKCON). The temple complex exudes serenity and tranquility, providing a sanctuary for spiritual seekers amidst the bustling city life. Visitors are welcomed with the melodious chanting of Hare Krishna mantras and the mesmerizing aroma of incense. The temple offers a range of devotional services, including daily rituals, kirtan (devotional singing), and discourses on Vedic scriptures. The devotees here engage in various outreach activities, such as distributing prasadam (sanctified food) and organizing cultural events to promote spiritual awareness and harmony. ISKCON Imphal serves as a beacon of spiritual enlightenment, inviting people of all backgrounds to experience the timeless wisdom and blissful atmosphere of Vedic culture.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/9f/00/0a/keibul-lamjao-national.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Keibul Lamjao National Park
+            </h1>
+            <p id="innerP">
+              Keibul Lamjao National Park, situated in the Bishnupur district of Manipur, is the world's only floating national park. It is renowned for being the natural habitat of the endangered brow-antlered deer, also known as the Sangai. The park's unique ecosystem consists of phumdis, which are masses of floating vegetation, creating a distinctive landscape. Visitors to the park can explore its diverse flora and fauna, including various species of aquatic plants, birds, and other wildlife. Boat rides through the serene Loktak Lake offer breathtaking views of the surroundings and opportunities for wildlife spotting. Keibul Lamjao National Park not only serves as a haven for biodiversity but also holds cultural significance for the local communities, who have a deep connection to the land and its wildlife. Conservation efforts aim to preserve this precious ecosystem for future generations while promoting sustainable tourism initiatives.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/ab/45/a2/it-is-in-a-college-campus.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Thangal General Temple
+            </h1>
+            <p id="innerP">
+              Thangal General Temple, located in Imphal, Manipur, is a significant religious site revered by both Hindus and Muslims. Dedicated to Thangal, a Muslim saint, the temple attracts devotees seeking blessings and spiritual solace. The temple's architecture reflects a blend of Hindu and Islamic influences, embodying the harmonious coexistence of different faiths in the region. Pilgrims visit the temple to offer prayers, perform rituals, and seek divine intervention for various aspects of life. The serene ambiance and historical significance of Thangal General Temple make it a cultural landmark in Imphal, symbolizing the unity and religious diversity of the local community. Visitors to the temple can experience the rich cultural heritage of Manipur and witness the inclusive spirit that characterizes the region's religious landscape.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/f0/16/4f/manipur-zoological-gardens.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Manipur Zoological Gardens
+              </h1>
+            <p id="innerP">
+              The Manipur Zoological Gardens, situated in Imphal, Manipur, is a prominent attraction showcasing the region's diverse wildlife. Spread across a vast area, the zoo houses a wide variety of animal species, including indigenous and exotic mammals, birds, and reptiles. Visitors can explore the beautifully landscaped enclosures and observe animals in habitats designed to mimic their natural environments. The zoo also plays a crucial role in wildlife conservation efforts, providing a safe haven for endangered species and participating in breeding programs to ensure their survival. Educational programs and guided tours offer visitors insights into the importance of biodiversity and the need for wildlife conservation. The Manipur Zoological Gardens provides a captivating experience for nature enthusiasts and serves as a valuable resource for both recreation and education in the region.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

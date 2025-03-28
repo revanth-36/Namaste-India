@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">West Bengal</h1>
+      <div class="glassmorphism-box">
+        <p>
+          West Bengal, located in eastern India, is a state renowned for its rich history, cultural diversity, and literary heritage. The capital city of Kolkata, also known as the "City of Joy," is a vibrant metropolis that blends colonial-era architecture with bustling markets and cultural landmarks. West Bengal is home to a wealth of architectural wonders, including the iconic Victoria Memorial, the majestic Howrah Bridge, and the historic Dakshineswar Kali Temple. The state's natural beauty is equally captivating, with the lush forests of the Sunderbans, the picturesque hill stations of Darjeeling and Kalimpong, and the pristine beaches of Digha and Mandarmani offering scenic retreats amidst nature. West Bengal's rich cultural heritage is celebrated through its vibrant festivals, traditional music and dance forms like Baul and Chhau, and mouthwatering cuisine, which includes iconic dishes like roshogolla, sandesh, and macher jhol. Whether exploring its historic landmarks, indulging in its culinary delights, or immersing in its cultural festivals, West Bengal promises a journey filled with warmth, hospitality, and unforgettable experiences.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)"> Victoria Memorial Hall
+        </button>
+        <button class="card-button" onclick="slideToCard(2)"> Dakshineswar Kali Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(3)"> Howrah Bridge
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Mother House</button>
+        <button class="card-button" onclick="slideToCard(5)">Park Street</button>
+        <button class="card-button" onclick="slideToCard(6)">Kanchenjunga Mountain</button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Belur Math</button>
+        <button class="card-button" onclick="slideToCard(8)">Tiger Hill
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Padmaja Naidu Himalayan Zoological Park
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)"> Eden Gardens
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Eco Tourism Park
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">Card 12</button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/57/a7/7b/victoria-memorial-hall.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Victoria Memorial Hall
+            </h1>
+            <p id="innerP">
+              The Victoria Memorial Hall, located in Kolkata, West Bengal, India, is an iconic monument that stands as a tribute to Queen Victoria of the British Empire. Built between 1906 and 1921, the memorial is an architectural masterpiece designed in the Indo-Saracenic Revival style, blending British and Mughal elements. The grand edifice features a central dome, towering statues, ornate carvings, and exquisite marble work, making it a symbol of colonial grandeur and historical legacy. The Victoria Memorial houses a vast collection of artifacts, paintings, and sculptures that depict India's rich cultural heritage and colonial history. Visitors to the memorial can explore its galleries, exhibition halls, and lush gardens, immersing themselves in the opulence and nostalgia of the bygone era. The Victoria Memorial stands as a symbol of Kolkata's cultural heritage and serves as a popular tourist attraction, attracting visitors from around the world who come to admire its architectural splendor and learn about India's colonial past.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/0f/f6/bf/dakshineswar-kali-temple.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH"> Dakshineswar Kali Temple
+            </h1>
+            <p id="innerP">
+              Dakshineswar Kali Temple, situated on the eastern bank of the Hooghly River in Kolkata, West Bengal, India, is a renowned Hindu temple dedicated to Goddess Kali. Built in 1855 by Rani Rashmoni, a philanthropist and devotee of Kali, the temple complex is known for its architectural splendor and spiritual significance. The main temple structure houses the idol of Goddess Kali, depicted as the destroyer of evil forces, adorned with garlands of flowers and surrounded by devotees offering prayers and rituals. The temple compound also includes smaller shrines dedicated to other Hindu deities, as well as a bathing ghat on the riverbank where pilgrims take holy dips. Dakshineswar Kali Temple is not only a place of worship but also a center of pilgrimage and spiritual contemplation, attracting devotees and tourists from around the world. The serene ambiance, vibrant rituals, and religious fervor make it a must-visit destination for those seeking spiritual solace and cultural immersion in Kolkata.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/d3/f7/2c/p-20161029-190824-largejpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Howrah Bridge
+            </h1>
+            <p id="innerP">
+              Howrah Bridge, an iconic landmark of Kolkata, West Bengal, India, is one of the busiest cantilever bridges in the world. Spanning the Hooghly River, it connects the city of Kolkata with its twin city, Howrah. Completed in 1943, this engineering marvel stands as a symbol of Kolkata's rich heritage and industrial progress. The bridge, constructed without any nuts or bolts, is made entirely of steel and is supported by pillars on both banks of the river. Howrah Bridge serves as a vital artery for transportation, carrying a constant stream of vehicular, pedestrian, and tram traffic throughout the day. Its distinctive design, coupled with its historical significance, attracts tourists and photographers from around the world. Illuminated by night, the bridge transforms into a dazzling spectacle, reflecting in the waters below and adding to the city's vibrant skyline. Howrah Bridge is not just a means of crossing the river but a cultural icon that embodies the spirit and resilience of Kolkata and its people.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/f7/d5/c3/photo2jpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Mother House</h1>
+            <p id="innerP">
+              Mother House, located in Kolkata, West Bengal, India, is the headquarters of the Missionaries of Charity, the religious congregation founded by Mother Teresa. This simple yet profound establishment served as the residence and spiritual center for Mother Teresa and her fellow sisters. Visitors to Mother House can explore the chapel where Mother Teresa prayed, the room where she lived, and the small museum dedicated to her life and work. The atmosphere at Mother House is one of reverence and humility, reflecting Mother Teresa's dedication to serving the poor and marginalized. Pilgrims and tourists from around the world visit Mother House to pay homage to Mother Teresa and to find inspiration in her message of love, compassion, and selfless service. The peaceful ambiance and spiritual aura of Mother House make it a place of pilgrimage and reflection for people of all faiths and backgrounds.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-s/03/0c/15/75/park-street.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Park Street</h1>
+            <p id="innerP">
+              Park Street, also known as Mother Teresa Sarani, is a bustling thoroughfare in Kolkata, West Bengal, India, renowned for its vibrant nightlife, culinary delights, and cultural attractions. Lined with colonial-era buildings, upscale restaurants, bars, and boutiques, Park Street exudes a charm that captivates locals and visitors alike. From fine dining establishments serving authentic Bengali cuisine to trendy cafes and pubs offering live music and entertainment, the street caters to diverse tastes and preferences. Park Street is also home to several iconic landmarks, including Flurys, a legendary tearoom famous for its delectable pastries and confectionaries, and the Park Street Cemetery, an atmospheric burial ground dating back to the colonial era. Whether exploring its historic avenues, sampling its culinary delights, or immersing oneself in its vibrant nightlife, Park Street offers an unforgettable experience that reflects the rich cultural tapestry of Kolkata.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/f6/77/2b/queen-of-hills.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Kanchenjunga Mountain</h1>
+            <p id="innerP">
+              Kanchenjunga Mountain, located in the Himalayas, straddles the border between Nepal and the Indian state of Sikkim. Standing at an impressive elevation of 8,586 meters (28,169 feet), it is the third highest mountain in the world. Kanchenjunga is revered by both locals and mountaineers for its majestic beauty and spiritual significance. The name "Kanchenjunga" translates to "Five Treasures of the Snow," referring to its five peaks. The mountain is considered sacred by the indigenous peoples of the region, who worship it as the abode of gods and spirits. Climbing expeditions to Kanchenjunga are challenging and require careful planning due to its remote location and unpredictable weather conditions. Despite its formidable reputation, Kanchenjunga attracts adventurers and mountaineers from around the globe who are drawn to its awe-inspiring heights and the allure of conquering one of the world's highest peaks. Additionally, the surrounding Kanchenjunga Conservation Area is a biodiversity hotspot, home to a diverse range of flora and fauna, including rare and endangered species.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/7c/75/a7/beautiful-flower-garden.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Belur Math</h1>
+            <p id="innerP">
+              Belur Math, located on the banks of the Hooghly River in Kolkata, West Bengal, India, is a revered pilgrimage center and the headquarters of the Ramakrishna Math and Ramakrishna Mission. Founded by Swami Vivekananda, a disciple of Sri Ramakrishna Paramahamsa, Belur Math is dedicated to promoting spiritual and humanitarian ideals. The main temple complex, known for its architectural splendor and harmonious blend of Hindu, Islamic, and Christian motifs, houses the shrine of Sri Ramakrishna Paramahamsa. Visitors to Belur Math can explore the serene grounds, visit the temples and meditation halls, and participate in spiritual and educational activities. The campus also includes a museum, a library, and facilities for charitable and social service initiatives. Belur Math is not only a place of worship and contemplation but also a center for cultural exchange and harmony, welcoming people of all faiths and backgrounds to come together in pursuit of truth, harmony, and service to humanity.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/f5/cb/a2/the-morning-show.jpg?w=500&h=-1&s=1"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Tiger Hill
+            </h1>
+            <p id="innerP">
+              Tiger Hill, situated near Darjeeling in the Indian state of West Bengal, is a renowned tourist destination and a prime vantage point to witness the majestic sunrise over the Eastern Himalayas. Rising to an elevation of 2,567 meters (8,422 feet), Tiger Hill offers panoramic views of the snow-capped peaks of Mount Everest, Mount Kanchenjunga, and other Himalayan ranges. Visitors often wake up before dawn and make the journey to Tiger Hill to witness the breathtaking spectacle of the first light of day illuminating the towering peaks in a mesmerizing display of colors. Apart from its sunrise vistas, Tiger Hill is also popular for its serene ambiance, lush greenery, and opportunities for hiking and nature walks. The hill station of Darjeeling itself is a charming destination, known for its tea gardens, toy train, and vibrant cultural heritage. Tiger Hill stands as a testament to the natural beauty and allure of the Eastern Himalayas, captivating travelers with its awe-inspiring vistas and tranquil surroundings.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/dc/c5/d0/caption.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH"> Padmaja Naidu Himalayan Zoological Park
+            </h1>
+            <p id="innerP">
+              Padmaja Naidu Himalayan Zoological Park, located in Darjeeling, West Bengal, India, is a renowned zoological park dedicated to the conservation and preservation of Himalayan wildlife. Named after Padmaja Naidu, the daughter of Sarojini Naidu and former Governor of West Bengal, the park is situated at an altitude of approximately 2,134 meters (7,001 feet) above sea level, offering visitors stunning views of the surrounding Himalayan peaks. The zoo is home to a diverse array of Himalayan fauna, including endangered species such as the snow leopard, red panda, Himalayan wolf, and Tibetan wolf. The park's primary objective is to breed and conserve these rare species in captivity while also raising awareness about the importance of wildlife conservation. Visitors to the Padmaja Naidu Himalayan Zoological Park can explore the spacious enclosures, observe the animals in their natural habitat, and learn about the park's conservation efforts through educational exhibits and interactive displays. The park also serves as a research center for the study of Himalayan biodiversity and ecology, contributing valuable insights to wildlife conservation efforts in the region.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/d8/eb/9b/eden-gardens-stadium.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH"> Eden Gardens
+            </h1>
+            <p id="innerP">
+              Eden Gardens, located in Kolkata, West Bengal, India, is one of the oldest and most iconic cricket stadiums in the world. Established in 1864, it is steeped in history and has witnessed countless memorable cricketing moments over the years. Named after the Eden sisters of the Auckland Castle, the stadium has a seating capacity of over 66,000 spectators, making it one of the largest cricket stadiums globally. Eden Gardens has been the venue for numerous historic matches, including the final of the 1987 Cricket World Cup and the memorable 2001 Test match between India and Australia, famously known as the "Great Test." Besides cricket, the stadium has also hosted football matches, music concerts, and political rallies. With its electric atmosphere, rich heritage, and passionate cricket fans, Eden Gardens holds a special place in the hearts of sports enthusiasts worldwide and remains an integral part of Kolkata's cultural landscape.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/4d/d2/2b/eco-tourism-park.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Eco Tourism Park
+            </h1>
+            <p id="innerP">
+              The Eco Tourism Park, located in Kolkata, West Bengal, India, is a sprawling recreational area that offers visitors a unique blend of natural beauty and eco-friendly attractions. Spread across a vast expanse of reclaimed wetlands, the park features lush greenery, serene lakes, and diverse flora and fauna, providing a tranquil retreat from the urban hustle and bustle. The park offers a wide range of eco-friendly activities and attractions, including boating, cycling, nature walks, and birdwatching, allowing visitors to reconnect with nature and appreciate the biodiversity of the region. The highlight of the park is its innovative design and sustainable infrastructure, which includes solar-powered lighting, rainwater harvesting systems, and eco-friendly waste management practices.
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/16/1f/bb/photo0jpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Mandarmani Beach
+              </h1>
+            <p id="innerP">
+             Mandarmani Beach, located in the East Midnapore district of West Bengal, India, is a pristine and serene coastal destination along the Bay of Bengal. Stretching for approximately 13 kilometers, this beautiful beach boasts of shimmering golden sands, clear azure waters, and tranquil surroundings, making it an ideal retreat for beach lovers and nature enthusiasts. Visitors to Mandarmani can indulge in a variety of activities such as leisurely walks along the shore, sunbathing, beach volleyball, and thrilling water sports like jet skiing and banana boat rides. The beach is also known for its breathtaking sunsets, offering a perfect backdrop for romantic evenings and peaceful moments of contemplation. Additionally, Mandarmani offers a range of accommodation options, including beach resorts and cottages, allowing visitors to enjoy a comfortable and memorable stay amidst the scenic beauty of the coastline. 
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

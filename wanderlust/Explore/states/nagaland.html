@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Nagaland</h1>
+      <div class="glassmorphism-box">
+        <p>
+          Nagaland, located in northeastern India, is a land of vibrant tribal culture, scenic beauty, and rich biodiversity. Home to 16 major tribes and numerous sub-tribes, each with its distinct traditions and customs, Nagaland offers a unique opportunity to immerse oneself in indigenous heritage. The capital city of Kohima is known for its historic World War II cemetery and the annual Hornbill Festival, a colorful celebration of Naga culture featuring traditional music, dance, and cuisine. Beyond the cultural festivities, Nagaland's lush landscapes, rolling hills, and verdant valleys provide a picturesque backdrop for trekking, birdwatching, and exploring the state's numerous wildlife sanctuaries and conservation areas. Dzükou Valley, often referred to as the "Valley of Flowers of the Northeast," is a popular trekking destination renowned for its stunning floral diversity and panoramic views. Nagaland's culinary scene is equally diverse, with traditional Naga dishes like smoked pork with bamboo shoots and fermented soybean stew offering a tantalizing taste of local flavors. Whether exploring its cultural heritage, trekking through its pristine wilderness, or savoring its culinary delights, Nagaland promises a journey filled with warmth, hospitality, and unforgettable experiences.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Kohima War Cemetery
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Kisama Heritage Village
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Khonoma Village
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Naga Heritage Village
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Kohima Museum
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Catholic Church
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Dzuleke Village
+          </button>
+        <button class="card-button" onclick="slideToCard(8)">Japfu Peak
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Longwa Village
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Triple Falls</button>
+        <button class="card-button" onclick="slideToCard(11)">Pulie Badze
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">Doyang River
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/18/de/d6/kohima-war-cemetery.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Kohima War Cemetery
+            </h1>
+            <p id="innerP">
+              The Kohima War Cemetery stands as a solemn testament to the sacrifices made during World War II's Battle of Kohima, often referred to as the "Stalingrad of the East." Situated in Kohima, Nagaland, this meticulously maintained cemetery serves as the final resting place for over 1,420 Commonwealth and Allied soldiers who perished during the intense fighting in 1944. Encircled by verdant hills and lush foliage, the cemetery's serene atmosphere offers a poignant backdrop for reflection and remembrance. Visitors can explore rows of meticulously aligned headstones, each bearing the name, rank, and regiment of the fallen, paying tribute to their courage and valor. The Memorial to the Missing, adorned with the poignant inscription "When You Go Home, Tell Them Of Us And Say, For Their Tomorrow, We Gave Our Today," stands as a poignant reminder of the ultimate sacrifice made by those who fought bravely in defense of freedom. The Kohima War Cemetery stands not only as a memorial to the fallen but also as a symbol of hope, reconciliation, and peace for generations to come.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/67/45/73/entrance-of-kisama-village.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Kisama Heritage Village
+            </h1>
+            <p id="innerP">
+              Kisama Heritage Village, located near Kohima in Nagaland, is a unique cultural enclave that celebrates the rich heritage and traditions of the Naga people. During the annual Hornbill Festival held in December, the village comes alive with vibrant displays of Naga culture, showcasing traditional dances, songs, crafts, and cuisine from various Naga tribes. Visitors have the opportunity to immerse themselves in the diverse cultural tapestry of Nagaland, exploring intricately designed traditional huts, witnessing indigenous rituals and ceremonies, and engaging with skilled artisans who demonstrate age-old crafts such as weaving, pottery, and woodcarving. The village serves as a focal point for preserving and promoting Naga cultural identity, fostering inter-tribal harmony, and offering visitors a deeper understanding of the rich cultural heritage of Nagaland.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/10/b6/3f/the-fields.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Khonoma Village
+            </h1>
+            <p id="innerP">
+              Khonoma Village, nestled in the picturesque hills of Nagaland, is renowned for its rich history, vibrant culture, and sustainable practices. As one of the first green villages in India, Khonoma is celebrated for its conservation efforts and community-based ecotourism initiatives. Visitors to Khonoma can explore the village's terraced fields, which showcase traditional agricultural practices, and learn about the unique Khonoma Gate, symbolizing the village's commitment to conservation and unity. The village is also known for its warrior traditions, with a fascinating history of resistance against British colonization. Today, Khonoma offers visitors a glimpse into Naga heritage through cultural performances, guided tours, and homestay experiences, allowing them to immerse themselves in the warmth and hospitality of the local community while contributing to sustainable tourism efforts.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/8f/9b/22/nagaheritagevillage.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Naga Heritage Village
+            </h1>
+            <p id="innerP">
+              The Naga Heritage Village, situated in Kisama near Kohima, Nagaland, is a captivating cultural hub that offers visitors a deep dive into the rich traditions and heritage of the Naga people. During the Hornbill Festival held annually in December, the village comes alive with vibrant displays of Naga culture, including traditional dances, indigenous crafts, folk songs, and culinary delights. The village showcases the unique customs and lifestyles of the various Naga tribes through meticulously crafted huts, each representing a different tribe. Visitors can immerse themselves in the authentic Naga way of life by participating in interactive workshops, witnessing demonstrations of age-old crafts such as weaving and basket making, and engaging with local artisans and performers. The Naga Heritage Village serves as a living museum, preserving and celebrating the diverse cultural tapestry of Nagaland for generations to come.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/6f/ba/25/excellent-sculptures.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Kohima Museum
+            </h1>
+            <p id="innerP">
+              The Kohima Museum, located in Kohima, Nagaland, offers a comprehensive insight into the history, culture, and heritage of the Naga people and their contributions to the world. Through a diverse range of exhibits, the museum chronicles the fascinating journey of the Nagas, from their ancient origins to contemporary times. Visitors can explore artifacts, photographs, documents, and interactive displays showcasing the traditional lifestyles, customs, and rituals of the various Naga tribes. Additionally, the museum provides valuable insights into the Naga's role in the Second World War, particularly the Battle of Kohima, a significant turning point in the conflict. Through its engaging exhibits and educational programs, the Kohima Museum serves as a vital resource for understanding and appreciating the rich cultural heritage and historical significance of the Naga people.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/d7/5a/f7/the-beautiful-church.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Catholic Church
+            </h1>
+            <p id="innerP">
+              The Catholic Church in Nagaland is a significant religious institution within the state, representing a minority Christian community amidst the predominantly Christian population. The Church plays a vital role in the spiritual and social life of Nagaland, offering worship services, religious education, and community outreach programs. Catholicism in Nagaland has its roots in missionary efforts dating back to the late 19th and early 20th centuries, with missionaries from various Catholic orders establishing churches, schools, and healthcare facilities across the region. Today, the Catholic Church in Nagaland continues to grow, contributing to the cultural and religious diversity of the state while actively engaging in efforts to promote peace, justice, and reconciliation within the community.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/d9/58/91/the-dzuleke-homestay.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Dzuleke Village
+            </h1>
+            <p id="innerP">
+              Dzuleke Village, nestled in the picturesque hills of Nagaland, offers visitors a serene escape into nature and Naga tribal culture. Surrounded by lush forests and verdant valleys, Dzuleke is renowned for its pristine beauty and traditional way of life. The village is inhabited primarily by the Khonoma tribe, known for their rich cultural heritage and sustainable practices. Visitors to Dzuleke can immerse themselves in the local culture by participating in traditional festivities, exploring the village's scenic trails, and interacting with the friendly villagers. The community places a strong emphasis on preserving its natural surroundings, making it an ideal destination for eco-tourism and responsible travel. Dzuleke Village offers a rare opportunity to experience the charm and authenticity of rural Nagaland while enjoying the tranquility of its breathtaking landscapes.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/ca/a1/6f/the-highest-peak-in-the.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Japfu Peak
+            </h1>
+            <p id="innerP">
+              Japfu Peak, standing tall at an elevation of over 3,000 meters, is the second-highest peak in Nagaland and offers an exhilarating trekking experience for adventure enthusiasts. Located near Kohima, the peak is renowned for its lush greenery, diverse flora and fauna, and stunning panoramic views of the surrounding valleys and hills. The trek to Japfu Peak takes visitors through dense forests teeming with rhododendrons, orchids, and bamboo groves, creating a picturesque setting that is both challenging and rewarding. At the summit, trekkers are treated to breathtaking vistas of the Dzukou Valley and the surrounding Naga Hills, making it a popular destination for nature lovers and photographers alike. The trek to Japfu Peak is a memorable journey that offers a unique opportunity to explore the natural beauty and biodiversity of Nagaland while conquering one of its most iconic peaks.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/e9/3e/38/longwa-village.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Longwa Village
+            </h1>
+            <p id="innerP">
+              Longwa Village, nestled in the Mon District of Nagaland, is a unique settlement known for its distinct cultural heritage and traditional way of life. Situated near the India-Myanmar border, the village is inhabited by the Konyak tribe, renowned for their fierce headhunting past and rich cultural traditions. Longwa Village offers visitors a glimpse into the traditional Naga lifestyle, with its iconic longhouses built of bamboo and thatch, where multiple families reside under one roof. The village is also known for its intricate woodcarvings, vibrant handicrafts, and traditional attire adorned by the locals. Visitors to Longwa can experience authentic Naga hospitality, partake in cultural ceremonies and rituals, and witness age-old practices like tattooing and the making of traditional weapons. Moreover, the village offers stunning views of the surrounding hills and lush greenery, adding to its allure as a must-visit destination for those seeking to explore Nagaland's rich cultural heritage.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/13/8b/90/20181015-131709-largejpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Triple Falls
+              </h1>
+            <p id="innerP">
+              Triple Falls is a breathtaking natural attraction located in the serene landscapes of Meghalaya, India. Situated amidst lush greenery and rolling hills, Triple Falls captivates visitors with its cascading beauty formed by three distinct streams converging into one. The falls offer a serene and tranquil environment, providing a perfect escape from the hustle and bustle of city life. Visitors can enjoy the soothing sound of rushing water as they take in the picturesque surroundings and immerse themselves in the natural beauty of the area. Whether it's for photography, relaxation, or simply to connect with nature, Triple Falls offers a memorable experience for all who venture to explore its enchanting waters.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/c7/fa/a9/view-point-of-pulie-badze.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Pulie Badze
+            </h1>
+            <p id="innerP">
+              Pulie Badze is a prominent peak situated near Kohima, the capital city of Nagaland, India. It is revered as a sacred site by the local Angami Naga tribe. The peak is known for its scenic beauty and is often frequented by trekkers and nature enthusiasts seeking adventure and spiritual solace. Pulie Badze offers stunning panoramic views of the surrounding valleys and hills, making it a popular destination for hikers and photographers. The trek to the summit is challenging yet rewarding, with lush forests, diverse flora, and occasional wildlife encounters along the way. At the top, visitors can experience a sense of tranquility and awe as they take in the breathtaking vistas stretching as far as the eye can see. Pulie Badze holds cultural significance for the Angami Naga people and serves as a symbol of their reverence for nature and the ancestral spirits believed to inhabit the mountain.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/df/29/62/doyang-river.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Doyang River
+            </h1>
+            <p id="innerP">
+              The Doyang River is a significant waterway in the northeastern state of Nagaland, India. It flows through the districts of Wokha and Golaghat, eventually joining the Brahmaputra River in Assam. The river is known for its scenic beauty and plays a vital role in the region's ecosystem, supporting diverse flora and fauna along its banks. It also serves as a source of livelihood for local communities, who engage in fishing and agriculture along its fertile plains. The Doyang River is particularly renowned for the annual Amur Falcon migration spectacle, where thousands of these birds flock to the area during their migratory journey, attracting birdwatchers and nature enthusiasts from around the world. Additionally, the river offers opportunities for adventure activities like boating and kayaking, allowing visitors to immerse themselves in the tranquil natural surroundings while exploring the waterway's rich biodiversity.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

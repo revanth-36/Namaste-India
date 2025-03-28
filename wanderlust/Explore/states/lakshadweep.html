@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Lakshadweep</h1>
+      <div class="glassmorphism-box">
+        <p>
+          Lakshadweep, meaning "a hundred thousand islands" in Sanskrit, is a group of stunning coral islands located in the Arabian Sea off the southwestern coast of India. With its crystal-clear turquoise waters, pristine white sandy beaches, and vibrant marine life, Lakshadweep is a paradise for beach lovers, snorkelers, and scuba divers alike. The islands are renowned for their coral reefs, which teem with colorful fish, sea turtles, and other marine creatures, making them ideal for underwater exploration and eco-tourism. The capital city of Kavaratti is home to the beautiful Ujra Mosque, with its intricately carved wooden interiors, and serves as a gateway to the archipelago's attractions. Agatti Island, with its breathtaking lagoon and vibrant coral gardens, is a popular destination for water sports like kayaking, windsurfing, and sailing. Lakshadweep's rich cultural heritage is reflected in its traditional music, dance, and cuisine, which blend Indian and Arab influences. Visitors can indulge in delicious seafood dishes like grilled lobster and coconut-based curries, served with fragrant rice and crispy papadums. Whether lounging on pristine beaches, exploring vibrant coral reefs, or immersing in the local culture, Lakshadweep promises an unforgettable tropical getaway filled with relaxation, adventure, and natural beauty.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Minicoy Island
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Bangaram Island
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Agatti Island
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Kalpeni Islands
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Kavaratti Island Lagoon
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Kadmat Islands
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Island of Thinnakara
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">Kavaratti Island Marine Aquarium
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Pitti Bird Sanctuary
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Chetlat Island
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Bitra Island
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">Kiltan Island
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/83/8e/9c/minicoy-island-beach.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Minicoy Island
+            </h1>
+            <p id="innerP">
+              Minicoy Island, also known as Maliku, is the southernmost island in the Lakshadweep archipelago, located in the Arabian Sea off the southwestern coast of India. Known for its pristine beaches, turquoise waters, and vibrant coral reefs, Minicoy Island is a tropical paradise and a popular tourist destination. The island is characterized by its crescent-shaped coastline, fringed by coconut palms and surrounded by coral reefs, making it ideal for snorkeling, scuba diving, and water sports. Visitors to Minicoy can explore its charming villages, interact with the friendly local community, and experience the unique culture and traditions of the Maliku people, who have their own distinct language, cuisine, and customs. The island also boasts a historic lighthouse, built by the British in the 19th century, offering panoramic views of the surrounding seascape. With its natural beauty, cultural heritage, and warm hospitality, Minicoy Island offers an unforgettable island getaway for travelers seeking relaxation and adventure in a tropical paradise.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/a2/c5/e5/cottages.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Bangaram Island
+            </h1>
+            <p id="innerP">
+              Bangaram Island is a stunning coral island located in the Union Territory of Lakshadweep, India. It is renowned for its pristine white sandy beaches, crystal-clear turquoise waters, and vibrant coral reefs, making it a popular destination for snorkeling, scuba diving, and water sports enthusiasts. The island is part of the Bangaram Atoll, which is situated approximately 7 kilometers (4.3 miles) northeast of Agatti Island, the administrative center of Lakshadweep. Bangaram Island offers a tranquil and secluded atmosphere, with no permanent residents except for staff working at the island's eco-friendly resort. Visitors to Bangaram can relax on its idyllic beaches, swim in its warm waters, explore the colorful marine life in its coral reefs, and enjoy breathtaking sunsets against the backdrop of the Indian Ocean. With its natural beauty and pristine environment, Bangaram Island provides a perfect escape for travelers seeking a peaceful and rejuvenating retreat amidst the splendor of the Lakshadweep archipelago.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/5c/c7/01/agatti-island-god-s-own.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Agatti Island
+            </h1>
+            <p id="innerP">
+              Agatti Island is a picturesque coral island located in the Union Territory of Lakshadweep, India. It serves as the gateway to the Lakshadweep archipelago, with Agatti Airport being the only airport in the region. The island is known for its stunning beaches, clear turquoise waters, and thriving marine life, making it a popular destination for tourists seeking tropical paradise experiences. Visitors to Agatti can indulge in various water sports such as snorkeling, scuba diving, kayaking, and sailing, exploring the vibrant coral reefs and diverse marine ecosystem. The island also offers opportunities for leisurely beach walks, sunbathing, and relaxation amidst the natural beauty of its surroundings. Additionally, Agatti is home to a small local population, and visitors can experience the unique culture and hospitality of the people of Lakshadweep by interacting with the islanders and sampling local cuisine. With its pristine beaches, rich marine biodiversity, and laid-back atmosphere, Agatti Island provides an unforgettable tropical getaway for travelers seeking tranquility and adventure in equal measure.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/63/39/0b/multi-colour-view-of.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Kalpeni Islands
+            </h1>
+            <p id="innerP">
+              Kalpeni Island is one of the inhabited islands in the Union Territory of Lakshadweep, India. It is known for its breathtaking natural beauty, pristine beaches, and vibrant coral reefs. The island is part of the Kalpeni Atoll, which comprises a group of small islets surrounded by turquoise lagoons and coral formations. Kalpeni offers visitors opportunities for snorkeling, scuba diving, and swimming in its clear waters, allowing them to explore the colorful marine life and coral gardens teeming with tropical fish. The island is also home to picturesque white sandy beaches where visitors can relax, sunbathe, and enjoy stunning views of the Indian Ocean. Additionally, Kalpeni has a small local population, and visitors can experience the warm hospitality and unique culture of the islanders by interacting with them and participating in local activities. With its serene ambiance and natural splendor, Kalpeni Island provides an unforgettable tropical retreat for travelers seeking tranquility and adventure in the pristine surroundings of Lakshadweep.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/cd/8d/66/dsc04035-largejpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Kavaratti Island Lagoon
+            </h1>
+            <p id="innerP">
+              Kavaratti Island is the administrative capital of the Union Territory of Lakshadweep, India, and it is renowned for its stunning lagoon. The lagoon surrounding Kavaratti Island is characterized by its mesmerizing turquoise waters, shallow reefs, and vibrant marine life. It is one of the largest lagoons in Lakshadweep and serves as a haven for snorkeling, scuba diving, and other water sports. Visitors to Kavaratti can explore the lagoon's pristine coral reefs, which are home to a diverse array of marine species, including colorful fish, turtles, and reef sharks. The calm and shallow waters of the lagoon make it ideal for beginners and experienced snorkelers alike, providing an immersive underwater experience amidst the natural beauty of Lakshadweep. Additionally, Kavaratti Island itself offers opportunities for sightseeing, cultural experiences, and relaxation on its picturesque beaches, making it a must-visit destination for travelers seeking a tropical paradise getaway.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/0c/f4/2b/snap-from-aggati-jetty.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Kadmat Islands
+            </h1>
+            <p id="innerP">
+              Kadmat Island is one of the stunning islands in the Lakshadweep archipelago, located in the Arabian Sea off the southwestern coast of India. Known for its pristine white sandy beaches, crystal-clear turquoise waters, and vibrant coral reefs, Kadmat Island is a paradise for nature lovers and beach enthusiasts. The island is surrounded by a shallow lagoon teeming with marine life, making it an ideal destination for snorkeling, scuba diving, and swimming. Visitors to Kadmat can explore its colorful coral gardens, encounter a variety of tropical fish, and even spot sea turtles and rays. The island also offers opportunities for leisurely beach walks, sunbathing, and relaxation amidst the serene natural beauty of its surroundings. With its tranquil ambiance, breathtaking views, and abundance of marine biodiversity, Kadmat Island provides an unforgettable tropical escape for travelers seeking peace, adventure, and rejuvenation amidst the splendor of the Lakshadweep archipelago.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/9d/10/01/island-of-thinnakara.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Island of Thinnakara
+            </h1>
+            <p id="innerP">
+              Thinnakara Island is a small, uninhabited island located in the Union Territory of Lakshadweep, India. Situated within the pristine waters of the Arabian Sea, Thinnakara is known for its pristine white sandy beaches, crystal-clear turquoise waters, and vibrant coral reefs. The island is surrounded by a shallow lagoon, making it an ideal destination for snorkeling, swimming, and other water sports. Visitors to Thinnakara can explore its colorful coral gardens, encounter a diverse array of marine life, and enjoy breathtaking views of the surrounding seascape. The island's remote and secluded location offers a peaceful and tranquil retreat amidst the natural beauty of Lakshadweep. With its serene ambiance, untouched beaches, and abundance of marine biodiversity, Thinnakara Island provides an unforgettable tropical getaway for travelers seeking relaxation, adventure, and rejuvenation in the lap of nature.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/81/6d/04/kavaratti-island-marine.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Kavaratti Island Marine Aquarium
+            </h1>
+            <p id="innerP">
+              The Kavaratti Island Marine Aquarium is a popular attraction located on Kavaratti Island, the capital of the Lakshadweep Union Territory in India. It is renowned for its diverse collection of marine life, including colorful fish, coral species, sea turtles, and other marine organisms native to the region's waters. The aquarium serves as an educational and recreational destination, offering visitors the opportunity to learn about the rich biodiversity of the Lakshadweep archipelago and the importance of marine conservation. Visitors can explore various exhibits showcasing different marine habitats, observe marine creatures up close, and gain insights into their behavior and ecological significance. The Kavaratti Island Marine Aquarium also plays a vital role in raising awareness about the fragile marine ecosystem and promoting sustainable tourism practices in the region. It is a must-visit destination for nature enthusiasts, families, and anyone interested in marine life and conservation efforts in Lakshadweep.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/dd/0e/3f/photo1jpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Pitti Bird Sanctuary
+            </h1>
+            <p id="innerP">
+              The Pitti Bird Sanctuary, also known as the Pitti Island Bird Sanctuary, is a protected area located on Pitti Island, one of the uninhabited islands in the Lakshadweep archipelago, India. The sanctuary is renowned for its diverse birdlife, including various species of resident and migratory birds that inhabit the island's lush vegetation and coastal habitats. Pitti Island serves as an important breeding ground and nesting site for seabirds, shorebirds, and waterfowl, making it a haven for birdwatchers and ornithologists. Visitors to the Pitti Bird Sanctuary can observe a wide variety of bird species, including terns, gulls, frigatebirds, herons, and more, in their natural habitat. The sanctuary is accessible via organized tours and boat trips from nearby inhabited islands, providing visitors with the opportunity to explore the island's natural beauty and witness its rich avian diversity. With its scenic landscapes and abundant birdlife, the Pitti Bird Sanctuary offers a unique and memorable experience for nature lovers and bird enthusiasts visiting Lakshadweep.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/1a/2a/a2/chetlat-island.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Chetlat Island
+            </h1>
+            <p id="innerP">
+              Chetlat Island is one of the uninhabited islands in the Lakshadweep archipelago, situated in the Arabian Sea off the southwestern coast of India. It is known for its pristine beaches, crystal-clear waters, and vibrant coral reefs. The island is surrounded by a shallow lagoon, making it an ideal destination for snorkeling, swimming, and diving. Visitors to Chetlat Island can explore its colorful underwater world, encounter a variety of marine life, and enjoy the tranquility of its secluded beaches. The island's remote location and untouched natural beauty make it a perfect retreat for travelers seeking peace and serenity amidst the splendor of Lakshadweep. Chetlat Island offers a unique opportunity to reconnect with nature, unwind on its pristine shores, and experience the unspoiled beauty of one of India's most remote and beautiful islands.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPYKTCBgVV0q6o-xoPpv4xt85zN5H4I38Zbw&s"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Bitra Island
+            </h1>
+            <p id="innerP">
+              Bitra Island is one of the inhabited islands in the Lakshadweep archipelago, located in the Arabian Sea off the southwestern coast of India. It is the smallest inhabited island in Lakshadweep and is home to a small population of residents. Bitra Island is known for its serene ambiance, beautiful beaches, and lush greenery. The island offers visitors a tranquil retreat away from the hustle and bustle of city life, with opportunities for relaxation, beachcombing, and enjoying the natural beauty of the surroundings. While Bitra Island may not have as many tourist amenities or attractions as some of the larger islands in Lakshadweep, it provides a peaceful and authentic island experience for travelers seeking solitude and tranquility amidst the scenic landscapes of the Arabian Sea. 
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGOoue1jiR5hV0xwsCkrXOWQHo6YUEPcgtg&s"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Kiltan Island
+            </h1>
+            <p id="innerP">
+              Kiltan Island is one of the inhabited islands in the Lakshadweep archipelago, situated in the Arabian Sea off the southwestern coast of India. It is known for its picturesque beaches, clear turquoise waters, and vibrant coral reefs, making it a popular destination for snorkeling, diving, and beach holidays. Kiltan Island is home to a small local population, primarily engaged in fishing and coconut cultivation. Visitors to the island can explore its pristine beaches, enjoy water sports activities, and immerse themselves in the local culture and hospitality of the islanders. Kiltan Island offers a serene and laid-back atmosphere, ideal for travelers seeking relaxation and tranquility amidst the natural beauty of Lakshadweep. Whether it's lounging on the beach, snorkeling in the crystal-clear waters, or simply enjoying the island's scenic vistas, Kiltan provides an unforgettable tropical getaway for visitors seeking a slice of paradise in the Arabian Sea.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

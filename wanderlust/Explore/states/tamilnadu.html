@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Tamil Nadu
+      </h1>
+      <div class="glassmorphism-box">
+        <p>
+          Tamil Nadu, located in the southern part of India, is a state renowned for its rich history, vibrant culture, and architectural wonders. The capital city of Chennai, known as the "Gateway to the South," is a bustling metropolis that blends traditional charm with modern amenities. The state is home to some of India's most iconic temples, including the majestic Meenakshi Amman Temple in Madurai, the intricately carved Brihadeeswarar Temple in Thanjavur, and the coastal temple town of Kanyakumari, where the Arabian Sea, Bay of Bengal, and Indian Ocean meet. Tamil Nadu's cultural heritage is celebrated through its classical arts, such as Bharatanatyam dance, Carnatic music, and the ancient martial art of Silambam. The state's cuisine is a gastronomic delight, with flavors ranging from spicy Chettinad dishes to savory dosas and idlis served with tangy sambar and coconut chutney. Tamil Nadu's natural beauty is equally enchanting, with pristine beaches along the Coromandel Coast, lush hill stations like Ooty and Kodaikanal, and the UNESCO-listed Nilgiri Biosphere Reserve, home to a diverse array of flora and fauna. Whether exploring its historic temples, indulging in its culinary delights, or basking in its natural splendor, Tamil Nadu promises a journey filled with cultural richness, culinary delights, and unforgettable experiences.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Madurai Meenakshi Amman Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Kapaleeshwarar Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Marina Beach
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Besant Nagar Beach
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Brihadeeswara Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Arulmigu Ramanatha Swamy Temple
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Snow Kingdom
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">Monuments at Mahabalipuram
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Vivekananda Rock Memorial
+          </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Dhanushkodi Beach Point
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Dhyanalinga Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">Sri Ranganathaswamy Temple
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/71/bf/0e/madurai-meenakshi-temple.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Madurai Meenakshi Amman Temple
+            </h1>
+            <p id="innerP">
+              The Meenakshi Amman Temple, situated in Madurai, Tamil Nadu, India, stands as a magnificent testament to South Indian architecture and Hindu spirituality. Dedicated to Goddess Meenakshi and Lord Sundareswarar, the temple's sprawling complex is adorned with towering gopurams, intricately carved sculptures, and sacred shrines. Pilgrims and tourists flock to this revered site to marvel at its architectural splendor and to pay homage to the divine couple. The temple's vibrant festivals, including the elaborate Meenakshi Thirukalyanam, add to its cultural significance and attract visitors from far and wide. As a center of worship and cultural heritage, the Meenakshi Amman Temple embodies the enduring devotion and reverence of millions of devotees, while also serving as a beacon of spirituality and architectural excellence for generations to come.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/0b/e8/33/kapaleeshwar-temple.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Kapaleeshwarar Temple
+            </h1>
+            <p id="innerP">
+              The Kapaleeshwar Temple, located in the Mylapore neighborhood of Chennai, Tamil Nadu, India, is a renowned Hindu temple dedicated to Lord Shiva. Believed to have been built during the 7th century CE by the Pallava dynasty, the temple is an architectural marvel with its towering gopurams (gateway towers), intricately carved pillars, and vibrant sculptures depicting various deities and mythological figures. The main deity worshipped at the Kapaleeshwar Temple is Lord Kapaleeshwarar, a form of Shiva, along with his consort Goddess Karpagambal. The temple is also famous for its annual Arubathimoovar Festival, which celebrates the sixty-three Nayanars, saints who were devoted to Shiva. Devotees and tourists alike visit the Kapaleeshwar Temple to seek blessings, witness its architectural beauty, and participate in its religious and cultural festivities, making it a cherished landmark in Chennai and a symbol of devotion to Lord Shiva.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/5e/47/63/caption.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Marina Beach
+            </h1>
+            <p id="innerP">
+              Marina Beach, situated in Chennai, Tamil Nadu, India, is one of the longest urban beaches in the world, stretching for approximately 13 kilometers along the Bay of Bengal. Known for its golden sands, rolling waves, and scenic views, Marina Beach is a beloved destination for locals and tourists alike. The beach offers a plethora of activities, from leisurely walks along the shoreline to horse rides and beach sports. Visitors can also indulge in delicious street food from the numerous vendors lining the promenade, offering local delicacies such as crispy fried snacks and fresh seafood. Additionally, landmarks such as the iconic lighthouse and memorials add to the charm of Marina Beach, making it a must-visit attraction in Chennai. Whether it's watching the sunrise, flying kites, or simply soaking in the vibrant atmosphere, Marina Beach offers a delightful experience for everyone.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/33/48/2a/photo0jpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Besant Nagar Beach
+            </h1>
+            <p id="innerP">
+              Basant Nagar Beach, also known as Elliot's Beach, is a popular coastal destination located in the Besant Nagar neighborhood of Chennai, Tamil Nadu, India. Named after Edward Elliot, the Chief Magistrate and Superintendent of Police of Madras during the British colonial era, the beach is known for its serene ambiance, golden sands, and gentle waves. Unlike the bustling Marina Beach, Basant Nagar Beach offers a more tranquil and relaxed atmosphere, making it a favorite spot for locals and tourists seeking a peaceful retreat by the sea. Visitors to Basant Nagar Beach can enjoy leisurely walks along the shoreline, picnics on the sandy shores, and breathtaking views of the Bay of Bengal. The beach also features a promenade lined with palm trees, offering shaded seating areas and vendors selling snacks and refreshments. With its scenic beauty and laid-back vibe, Basant Nagar Beach is a cherished destination for beach lovers in Chennai.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/83/04/d8/brihadeeshwara-temple.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Brihadeeswara Temple
+            </h1>
+            <p id="innerP">
+              The Brihadeeshwara Temple, also known as the Brihadeeswarar Temple or Big Temple, is a UNESCO World Heritage Site located in Thanjavur, Tamil Nadu, India. Built by the Chola dynasty during the 11th century CE, the temple is dedicated to Lord Shiva and is renowned for its towering vimana (temple tower), which is one of the tallest in the world. The temple's architecture is a masterpiece of Dravidian style, characterized by its grandeur, intricate carvings, and exquisite sculptures depicting various deities and mythological figures. The main sanctum of the Brihadeeshwara Temple houses a massive lingam (symbol of Lord Shiva), along with sculptures of Nandi (the bull), the vehicle of Lord Shiva, and other divine beings. The temple complex also includes several shrines, mandapams (pillared halls), and a large courtyard. The Brihadeeshwara Temple is not only a significant religious site but also a symbol of cultural heritage and architectural excellence, attracting visitors from around the world to marvel at its beauty and craftsmanship.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/91/84/f9/the-main-attraction-of.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Arulmigu Ramanatha Swamy Temple
+            </h1>
+            <p id="innerP">
+              The Arulmigu Ramanathaswamy Temple is a historic Hindu temple located on Rameswaram Island in Tamil Nadu, India. Dedicated to Lord Shiva, the temple is renowned for its architectural grandeur, spiritual significance, and sacredness. The temple is believed to have been established by Lord Rama, the seventh avatar of Lord Vishnu, as a token of gratitude for Lord Shiva's blessings during his quest to rescue his wife Sita from the demon king Ravana. The temple complex is vast and features striking Dravidian architecture, with towering gopurams (temple towers), intricate carvings, and ornate sculptures depicting various deities and mythological figures. The main sanctum of the Arulmigu Ramanathaswamy Temple houses a lingam (symbol of Lord Shiva), which is believed to have been consecrated by Lord Rama himself. The temple is also famous for its sacred water tanks, known as the "teerthams," where pilgrims perform ablutions before offering prayers. The Arulmigu Ramanathaswamy Temple is considered one of the holiest shrines in Hinduism and attracts millions of devotees and tourists from around the world each year.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/a9/84/04/the-only-snowfall-destination.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Snow Kingdom
+            </h1>
+            <p id="innerP">
+              Snow Kingdom is an indoor snow park located in Chennai, Tamil Nadu, India, offering a unique escape from the city's tropical climate. The park provides visitors with an immersive winter experience, complete with snow-covered landscapes, ice sculptures, and various snow-based attractions. From exhilarating snow slides and snowball fights to ice skating and sledding, Snow Kingdom offers a range of activities for visitors of all ages to enjoy. The park's icy ambiance and winter-themed decor create a magical atmosphere, making it a popular destination for families, friends, and couples seeking adventure and fun. Whether it's experiencing the thrill of snowboarding or building snowmen, Snow Kingdom provides a refreshing and memorable outing for visitors looking to beat the heat and enjoy the wonders of winter in the heart of Chennai.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/4a/8a/c0/shore-temple.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Monuments at Mahabalipuram
+            </h1>
+            <p id="innerP">
+              Mahabalipuram, or Mamallapuram, in Tamil Nadu, India, is renowned for its ancient rock-cut monuments and temples dating back to the Pallava dynasty. The Shore Temple, overlooking the Bay of Bengal, stands as a magnificent example of Dravidian architecture, dedicated to Lord Shiva and Vishnu. Arjuna's Penance, a colossal rock relief, depicts scenes from Hindu mythology and the Mahabharata. The Pancha Rathas, five monolithic rock-cut temples shaped like chariots, showcase exquisite craftsmanship and devotion to different deities. Krishna's Butter Ball, a natural rock formation, baffles visitors with its precarious balance. Mahabalipuram's Mahishasuramardini Cave Temple and Varaha Cave Temple feature intricate carvings and sculptures, enriching the site's cultural significance. These monuments, recognized as a UNESCO World Heritage Site, attract tourists and history enthusiasts from around the globe, offering a glimpse into India's rich architectural and religious heritage amidst the serene coastal beauty of Mahabalipuram.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/94/8f/da/img-20170304-wa0027-largejpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Vivekananda Rock Memorial
+            </h1>
+            <p id="innerP">
+              The Vivekananda Rock Memorial is a revered monument situated on a rocky island in the midst of the Arabian Sea, near Kanyakumari in Tamil Nadu, India. Built in honor of Swami Vivekananda, a renowned spiritual leader and disciple of Sri Ramakrishna Paramahamsa, the memorial stands as a symbol of his teachings and philosophy. Visitors can reach the memorial by ferry and ascend to the rock, where they can explore the two main structures: the Vivekananda Mandapam and the Shripada Mandapam. The Vivekananda Mandapam houses a meditation hall known as the Dhyana Mandapam, where visitors can meditate and reflect upon Vivekananda's teachings. The Shripada Mandapam, a smaller shrine, is believed to mark the spot where the footprint of Goddess Kanyakumari is found. The Vivekananda Rock Memorial offers breathtaking views of the confluence of the Indian Ocean, the Arabian Sea, and the Bay of Bengal, making it a spiritually uplifting and awe-inspiring destination for pilgrims and tourists alike.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/26/c7/14/photo1jpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Dhanushkodi Beach Point
+            </h1>
+            <p id="innerP">
+              Dhanushkodi Beach Point is a captivating destination located at the southeastern tip of Pamban Island in Tamil Nadu, India. Famous for its breathtaking natural beauty and serene ambiance, the beach offers panoramic views of the confluence of the Bay of Bengal and the Indian Ocean. Dhanushkodi holds historical significance as it is believed to be the place where Lord Rama's mythical bridge, known as Adam's Bridge or Rama Setu, once connected India to Sri Lanka. Visitors can explore the ruins of the abandoned town of Dhanushkodi, which was devastated by a cyclone in 1964, adding to the area's mystique and allure. The pristine white sands, crystal-clear waters, and gentle sea breeze make Dhanushkodi Beach Point an ideal spot for relaxation, photography, and enjoying mesmerizing sunsets. Whether it's soaking in the tranquility of the surroundings or marveling at the natural wonders, Dhanushkodi Beach Point offers an unforgettable experience for nature lovers and adventurers alike.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/58/71/6c/dhyanalinga-temple.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Dhyanalinga Temple
+            </h1>
+            <p id="innerP">
+              The Dhyanalinga Temple is a unique and sacred space located in the foothills of the Velliangiri Mountains near Coimbatore, Tamil Nadu, India. Conceived by Sadhguru Jaggi Vasudev, founder of the Isha Foundation, the temple is not dedicated to any specific deity or religion but serves as a powerful meditative tool and spiritual destination. The Dhyanalinga is a powerful energy form created using ancient yogic practices and consecrated by Sadhguru to offer a transformative spiritual experience to all who visit. The temple complex also includes various other structures, meditation spaces, and gardens, providing visitors with an opportunity for introspection, meditation, and inner exploration. The Dhyanalinga Temple attracts people from all walks of life, seeking solace, spiritual growth, and inner peace amidst the serene and uplifting atmosphere of this sacred space.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/7b/60/14/gopuram.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Sri Ranganathaswamy Temple
+            </h1>
+            <p id="innerP">
+              The Sri Ranganathaswamy Temple, also known as Thiruvarangam, is a revered Hindu temple dedicated to Lord Ranganatha, a form of Lord Vishnu, located in Srirangam, near Tiruchirappalli, Tamil Nadu, India. It is one of the largest temple complexes in India and is considered one of the most important pilgrimage sites for Vaishnavites. The temple is situated on an island formed by the rivers Kaveri and Kollidam, and its architecture is a stunning example of Dravidian style, with towering gopurams (temple towers), intricately carved pillars, and vibrant sculptures adorning its walls. The main sanctum of the Sri Ranganathaswamy Temple houses the reclining deity of Lord Ranganatha, along with shrines dedicated to various other deities. The temple is also famous for its annual 21-day festival called "Vaikuntha Ekadashi," during which devotees throng to the temple to seek the blessings of Lord Ranganatha. The Sri Ranganathaswamy Temple holds immense religious and cultural significance and is a symbol of devotion and spirituality for millions of devotees.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

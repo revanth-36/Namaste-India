@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Rajasthan
+      </h1>
+      <div class="glassmorphism-box">
+        <p>
+          Rajasthan, the land of kings, evokes images of majestic forts, opulent palaces, and vibrant colors against the backdrop of the Thar Desert. With its rich history and cultural heritage, this state offers a tapestry of experiences for travelers. Jaipur, the Pink City and the capital of Rajasthan, mesmerizes with its magnificent palaces like the Hawa Mahal and the City Palace, as well as the imposing Amber Fort, offering panoramic views of the cityscape. Jodhpur, the Blue City, is dominated by the towering Mehrangarh Fort, while Udaipur, the City of Lakes, enchants with its romantic ambiance and serene lakeside palaces like the Lake Palace and the City Palace. Rajasthan's desert cities, including Jaisalmer and Bikaner, beckon with their golden sand dunes, camel safaris, and exquisite havelis adorned with intricate frescoes and carvings. The state's vibrant culture comes to life through its colorful festivals like the Pushkar Camel Fair and the vibrant attire of its people, as well as its rich culinary tradition, featuring delicacies like dal baati churma and ghewar. Whether exploring its architectural wonders, immersing in its cultural festivities, or embarking on desert adventures, Rajasthan promises a journey filled with royal grandeur and timeless charm.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Amber Palace
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Mehrangarh Fort
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Elefantastic
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Jantar Mantar - Jaipur
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Lake Pichola
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Ranakpur Jain Temple
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Keoladeo National Park
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">Sheesh Mahal (Hall of Mirrors)
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Birla Mandir Temple
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Bagore Ki Haveli Museum
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Dargah Sharif
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">Ganesh Handicrafts
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/d3/a8/57/images-30-largejpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Amber Palace
+            </h1>
+            <p id="innerP">
+              The Amber Palace, located in Jaipur, Rajasthan, India, is a magnificent architectural marvel that reflects the grandeur of Rajasthan's royal heritage. Perched atop a hill overlooking Maota Lake, the palace showcases a seamless blend of Rajput and Mughal architectural styles, characterized by intricate carvings, majestic domes, and ornate courtyards. Built in the 16th century by Raja Man Singh I and later expanded by subsequent rulers, the palace boasts a rich history and cultural significance. Visitors to the Amber Palace are mesmerized by its opulent interiors, including the Sheesh Mahal (Mirror Palace), Diwan-i-Khas (Hall of Private Audience), and Sukh Niwas (Hall of Pleasure), adorned with exquisite mirror work, frescoes, and marble inlays. The palace is also renowned for its stunning panoramic views of the surrounding Aravalli hills and lush landscapes. A UNESCO World Heritage Site, the Amber Palace stands as a testament to Rajasthan's architectural splendor and regal legacy, attracting tourists from around the world.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/99/ae/7f/images-14-largejpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Mehrangarh Fort
+            </h1>
+            <p id="innerP">
+              Mehrangarh Fort, perched majestically atop a rocky hill in Jodhpur, Rajasthan, India, is a formidable citadel that narrates the saga of courage, grandeur, and architectural brilliance. Built by Rao Jodha in the 15th century, the fort stands as a symbol of the Rathore dynasty's power and resilience. Its massive walls, towering ramparts, and imposing gates bear testament to its strategic significance and impregnability.Within the fort's sprawling complex lie palaces adorned with intricate carvings, expansive courtyards, and ornate balconies, showcasing the opulent lifestyle of the Rajput rulers. Visitors can explore the museum housed within the fort, which displays a remarkable collection of artifacts, including royal costumes, arms, paintings, and furniture, offering a glimpse into Rajasthan's rich cultural heritage.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/2d/95/9b/family-friendly-experience.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Elefantastic
+            </h1>
+            <p id="innerP">
+              Elefantastic, nestled in the outskirts of Jaipur, Rajasthan, India, offers visitors a unique and immersive experience with elephants. This ethical and conservation-focused sanctuary provides a sanctuary for rescued elephants, offering them a safe and nurturing environment to thrive. Visitors to Elefantastic have the opportunity to interact with these majestic creatures in a responsible and respectful manner, learning about their behavior, care, and conservation efforts. The sanctuary offers a range of activities, including feeding, bathing, and painting with the elephants, allowing visitors to forge meaningful connections with these gentle giants while promoting their well-being and dignity. Elefantastic also educates visitors about the importance of elephant conservation and the threats facing these magnificent animals in the wild. Through its commitment to ethical tourism and wildlife conservation, Elefantastic aims to inspire compassion, awareness, and action to protect elephants and their habitats for future generations.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/10/b5/57/jantar-mantar-jaipur.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Jantar Mantar - Jaipur
+            </h1>
+            <p id="innerP">
+              Jantar Mantar in Jaipur, Rajasthan, India, is a fascinating UNESCO World Heritage Site renowned for its remarkable astronomical instruments and architectural marvels. Built by Maharaja Sawai Jai Singh II in the early 18th century, this monumental observatory serves as a testament to India's scientific heritage and ingenuity. The site comprises a collection of massive stone structures, including sundials, astrolabes, and geometric instruments, meticulously designed to observe celestial phenomena and measure time with astonishing precision.Visitors to Jantar Mantar can marvel at the ingenuity of these ancient instruments and learn about their significance in astronomical research and navigation. The site's iconic structures, such as the Samrat Yantra (Giant Sundial) and the Jai Prakash Yantra (Equatorial Sundial), offer insights into the astronomical knowledge and technological prowess of the era.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/77/15/9a/photo0jpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Lake Pichola
+            </h1>
+            <p id="innerP">
+              Lake Pichola, nestled in the heart of Udaipur, Rajasthan, India, is a serene and picturesque lake that epitomizes the city's charm and beauty. Created in the 14th century by Maharana Udai Singh II, the lake is surrounded by majestic palaces, temples, and ghats, creating a stunning backdrop against the Aravalli hills.Visitors to Lake Pichola can embark on leisurely boat rides, soaking in the panoramic views of the shimmering waters and the architectural splendor of the surrounding landmarks, including the iconic Lake Palace and Jag Mandir. The tranquil ambiance and scenic vistas make it a popular spot for relaxation, photography, and romantic evenings.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/90/cb/b6/one-of-several-other.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Ranakpur Jain Temple
+            </h1>
+            <p id="innerP">
+              The Ranakpur Jain Temple, nestled amidst the lush forests of the Aravalli Range in Rajasthan, India, is a magnificent testament to Jain architecture and spirituality. Built in the 15th century, this stunning marble temple is dedicated to Adinath, the first Tirthankara of Jainism, and is renowned for its intricate carvings, exquisite sculptures, and architectural splendor.Visitors to the Ranakpur Jain Temple are mesmerized by its breathtaking beauty and serene ambiance. The temple's intricate architecture, with its domes, spires, and 1,444 intricately carved marble pillars, leaves visitors awestruck. Each pillar is uniquely adorned with intricate carvings depicting celestial beings, deities, and motifs from Jain mythology.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/e6/56/29/caption.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Keoladeo National Park
+            </h1>
+            <p id="innerP">
+              Keoladeo National Park, located in Bharatpur, Rajasthan, India, is a UNESCO World Heritage Site renowned for its rich biodiversity, especially its avian population. Originally a hunting ground for the Maharajas of Bharatpur, the park was declared a bird sanctuary in 1956 and later upgraded to a national park in 1982.Spread over an area of ​​approximately 29 square kilometers, Keoladeo National Park is a mosaic of wetlands, marshes, and grasslands, making it a vital habitat for a diverse range of flora and fauna. The park is particularly famous for being a wintering ground for migratory birds, with over 370 species recorded, including Siberian cranes, pelicans, herons, and eagles.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/8e/20/db/photo9jpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Sheesh Mahal (Hall of Mirrors)
+              8</h1>
+            <p id="innerP">
+              The Sheesh Mahal, also known as the Hall of Mirrors, is a dazzling architectural marvel located within the historic forts and palaces of Rajasthan, India. Adorned with intricate mirror work, colorful glass mosaics, and ornate frescoes, this opulent chamber reflects the artistic grandeur and cultural richness of the region. Originally constructed as a royal residence, the Sheesh Mahal features walls and ceilings embellished with thousands of tiny mirrors, creating a mesmerizing play of light and reflection. Visitors to the Sheesh Mahal are captivated by its enchanting beauty and intricate craftsmanship, which showcase the skill and creativity of the artisans of yesteryears. Today, the Sheesh Mahal stands as a cherished heritage site and a testament to the enduring legacy of Rajasthan's royal heritage, inviting visitors to step back in time and immerse themselves in its regal ambiance and timeless elegance.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/d9/d4/08/birla-mandir-temple.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Birla Mandir Temple
+            </h1>
+            <p id="innerP">
+              The Birla Mandir Temple in Rajasthan, India, stands as a magnificent testament to modern Hindu temple architecture. Located in the heart of Jaipur, the temple, also known as the Laxmi Narayan Temple, was constructed by the renowned Birla family in the 1980s.Built entirely of pristine white marble, the temple exudes serenity and grandeur, with intricate carvings, sculpted pillars, and ornate domes adorning its exterior. Inside, the main sanctum houses beautifully crafted idols of Lord Vishnu and Goddess Lakshmi, along with other Hindu deities.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/fc/2e/5a/peace-resides-here-for.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Bagore Ki Haveli Museum
+            </h1>
+            <p id="innerP">
+              The Bagore Ki Haveli Museum, located on the picturesque shores of Lake Pichola in Udaipur, Rajasthan, India, is a captivating showcase of Rajput architecture and cultural heritage. Originally built in the 18th century as a grand mansion for the Prime Minister of Mewar, this splendid haveli has been meticulously preserved and transformed into a museum, offering visitors a glimpse into the opulent lifestyle of Rajasthan's royal era. As visitors explore the intricately carved balconies, courtyards, and chambers adorned with exquisite frescoes and mirror work, they are transported back in time to the lavish world of the Mewar dynasty. The museum's rich collection of artifacts, including antique furniture, traditional costumes, and musical instruments, provides fascinating insights into the region's history and craftsmanship. Additionally, the Bagore Ki Haveli Museum hosts enchanting evening cultural performances, featuring folk music, dance, and puppet shows, further enriching the experience and celebrating the vibrant cultural heritage of Udaipur.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/e6/ff/fd/view-from-a-room-behind.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Dargah Sharif
+            </h1>
+            <p id="innerP">
+              The Dargah Sharif, located in Ajmer, Rajasthan, India, is a revered Sufi shrine that holds deep spiritual significance for devotees of all faiths. Built in the 13th century, the Dargah is the final resting place of the Sufi saint Khwaja Moinuddin Chishti, who is widely revered for his teachings of love, compassion, and unity. Pilgrims from around the world visit the Dargah to seek blessings, offer prayers, and pay homage to the revered saint.The Dargah complex comprises several ornate structures, including the main tomb, mosque, courtyards, and marble pavilions, adorned with intricate carvings and embellishments. The atmosphere at the Dargah is imbued with a sense of devotion and spirituality, as devotees engage in rituals, recite prayers, and participate in qawwali sessions, creating a harmonious ambiance of reverence and piety.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/92/4b/02/ganesh-handicrafts-out.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Ganesh Handicrafts
+            </h1>
+            <p id="innerP">
+              Ganesh Handicrafts in Jaipur, Rajasthan, India, is a treasure trove of exquisite handcrafted wonders reflecting the region's rich cultural heritage. From intricately carved wooden artifacts to vibrant textiles and ornate jewelry, the shop showcases a diverse array of traditional Rajasthani handicrafts. Each piece, meticulously crafted by skilled local artisans, exudes a timeless charm and tells a story of tradition, craftsmanship, and heritage. Visitors are enchanted by the shop's vibrant ambiance and the craftsmanship evident in every creation. Whether browsing for a unique souvenir or simply marveling at the beauty of Rajasthani artistry, Ganesh Handicrafts offers a captivating shopping experience that celebrates the artistic richness of Rajasthan in all its glory.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat ❤️</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

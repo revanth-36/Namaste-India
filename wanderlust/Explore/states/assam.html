@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Assam</h1>
+      <div class="glassmorphism-box">
+        <p>
+          Assam, nestled in the northeastern part of India, is a land of breathtaking landscapes, diverse cultures, and rich biodiversity. The mighty Brahmaputra River, which flows through the heart of the state, shapes its fertile plains and provides sustenance to its people. The capital city of Guwahati serves as the gateway to Assam and is home to the revered Kamakhya Temple, a major pilgrimage site for Hindus. Assam's tea gardens, spread across vast swathes of land, produce some of the finest teas in the world, and a visit to one of these plantations offers a glimpse into the state's colonial past and tea-making process. The Kaziranga National Park, a UNESCO World Heritage Site, is renowned for its population of endangered one-horned rhinoceroses and is a haven for wildlife enthusiasts. Assam's rich cultural heritage is reflected in its vibrant festivals, traditional music and dance forms, and exquisite handloom and handicraft traditions. The state's cuisine, characterized by its use of aromatic herbs and spices, includes delectable dishes like Assamese fish curry and bamboo shoot pickle. Whether exploring its natural wonders, immersing in its cultural heritage, or indulging in its culinary delights, Assam promises a journey filled with warmth, hospitality, and unforgettable experiences.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Kamakhya Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Pobitora Wildlife Sanctuary
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Purva Tirupati Shri Balaji temple
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Umananda Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Kaziranga National Park
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Kakochang Waterfalls
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Brahmaputra River
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">ISKCON Guwahati
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Regional Science Center
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Mask Masking at Samaguri Satra
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Saraighat Bridge
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">Navagraha Temple
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/5f/2f/9d/20180318-200321-largejpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Kamakhya Temple
+            </h1>
+            <p id="innerP">
+              The Kamakhya Temple is a revered Hindu temple dedicated to the goddess Kamakhya, located atop the Nilachal Hill in Guwahati, Assam, India. It is one of the most prominent and sacred temples in the region and is considered one of the Shakti Peethas, where body parts of the goddess Sati are said to have fallen. The temple complex comprises several shrines, mandapas, and other structures, built in a blend of Hindu and indigenous architectural styles. The main sanctum of the Kamakhya Temple houses a sculpted image of the goddess Kamakhya, symbolizing the power of fertility and womanhood. The temple is particularly renowned for its annual Ambubachi Mela, a fertility festival celebrated in June, during which devotees from across the country gather to worship the goddess and seek her blessings. The Kamakhya Temple holds immense religious significance and is visited by millions of devotees and pilgrims each year, making it a vital spiritual and cultural landmark in Assam.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/14/5a/4f/mother-and-the-child.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Pobitora Wildlife Sanctuary
+            </h1>
+            <p id="innerP">
+              Pobitora Wildlife Sanctuary is a renowned wildlife reserve located in the Morigaon district of Assam, India. Known for its dense population of Indian one-horned rhinoceroses, Pobitora is often referred to as the "Mini Kaziranga" due to its similarities with the famous Kaziranga National Park. The sanctuary is spread over an area of approximately 38 square kilometers and is characterized by lush grasslands, marshes, and wetlands, providing an ideal habitat for a diverse range of flora and fauna. Apart from the one-horned rhinoceroses, Pobitora is home to other wildlife species such as wild boars, Asiatic water buffaloes, elephants, and various species of birds, making it a paradise for nature enthusiasts and birdwatchers. Visitors to Pobitora Wildlife Sanctuary can explore the park on jeep safaris or elephant safaris, offering opportunities to observe the rich wildlife and scenic landscapes up close. Pobitora Wildlife Sanctuary is a must-visit destination for wildlife enthusiasts and nature lovers exploring the northeastern region of India.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/3f/cf/08/temple.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Purva Tirupati Shri Balaji temple
+            </h1>
+            <p id="innerP">
+              The Purva Tirupati Shri Balaji Temple, also known as the Venkateswara Temple, is a revered Hindu temple dedicated to Lord Venkateswara, located in Guwahati, Assam, India. Situated in the Khanapara area of the city, the temple is a popular pilgrimage destination for devotees seeking the blessings of Lord Balaji. The temple complex features a majestic main shrine dedicated to Lord Venkateswara, along with smaller shrines dedicated to other Hindu deities. The architecture of the temple reflects traditional South Indian temple design, with intricately carved pillars, ornate ceilings, and colorful sculptures depicting various mythological themes. Devotees visit the Purva Tirupati Shri Balaji Temple to offer prayers, perform rituals, and seek divine blessings for prosperity, happiness, and well-being. The temple also hosts various religious ceremonies and festivals throughout the year, attracting devotees from across the region. The serene ambiance and spiritual atmosphere of the temple make it a tranquil retreat for worshippers and visitors alike.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/35/9d/d3/img-20181031-151341-largejpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Umananda Temple
+            </h1>
+            <p id="innerP">
+              The Umananda Temple is a revered Hindu temple dedicated to Lord Shiva, situated on the Peacock Island (also known as Umananda Island) in the Brahmaputra River, near the city of Guwahati in Assam, India. The temple holds immense religious significance and is believed to have been constructed during the 17th century AD by the Ahom king Gadadhar Singha. According to Hindu mythology, the island is associated with the legend of Lord Shiva, who is believed to have resided here in the form of Bhayananda. The temple attracts devotees and pilgrims from all over the country, especially during the festival of Shivratri, when special prayers and rituals are conducted. Apart from its religious significance, the Umananda Temple is also known for its scenic beauty, offering panoramic views of the Brahmaputra River and the surrounding hills. Visitors to the temple can reach the island via ferry or motorboat from Guwahati, enjoying a serene and picturesque journey across the river.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/76/c2/80/caption.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Kaziranga National Park
+            </h1>
+            <p id="innerP">
+              Kaziranga National Park, nestled in the floodplains of the Brahmaputra River in Assam, India, stands as a sanctuary of remarkable biodiversity and natural splendor. Spread across approximately 430 square kilometers, this UNESCO World Heritage Site is renowned worldwide for its thriving population of Indian one-horned rhinoceroses, alongside significant numbers of Bengal tigers, Asian elephants, and wild water buffalo. The park's diverse landscape, ranging from tall elephant grass to dense forests and marshlands, provides a haven for an array of wildlife species, including numerous birds and reptiles. Visitors to Kaziranga have the opportunity to embark on thrilling safari experiences, including elephant and jeep safaris, allowing them to immerse themselves in the park's wilderness and witness its majestic inhabitants in their natural habitat. Beyond its role as a tourist destination, Kaziranga National Park plays a vital role in wildlife conservation efforts, safeguarding endangered species and preserving the rich ecological heritage of the region for future generations to cherish and admire.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/da/e7/6c/kakochang-waterfalls.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Kakochang Waterfalls
+            </h1>
+            <p id="innerP">
+              Kakochang Waterfalls, located in the Dima Hasao district of Assam, India, is a stunning natural attraction nestled amidst lush greenery and rolling hills. Cascading from a height of approximately 30 meters, the falls create a mesmerizing spectacle as the water plunges into a serene pool below. Surrounded by dense forests and vibrant vegetation, Kakochang offers a tranquil escape into nature, making it a popular destination for nature lovers and adventure seekers alike. Visitors can enjoy the scenic beauty of the falls, relax amidst the peaceful ambiance, and even take a refreshing dip in the cool waters. The area around Kakochang is also known for its biodiversity, with opportunities for birdwatching and exploring the diverse flora and fauna of the region. Whether it's a leisurely day trip or an adventurous trek through the wilderness, Kakochang Waterfalls promises an unforgettable experience immersed in the beauty of Assam's natural landscapes.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="hhttps://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/b4/fa/c2/brahmaputra-river.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Brahmaputra River
+            </h1>
+            <p id="innerP">
+              The Brahmaputra River, known as the "Son of Brahma," is one of the major rivers of Asia, flowing through China, India, and Bangladesh. Originating in the Himalayas, near Lake Mansarovar in Tibet, it traverses across the Tibetan Plateau before entering India through the state of Arunachal Pradesh. As it journeys through the Indian states of Assam and Meghalaya, the Brahmaputra is joined by several tributaries, including the Dibang, Lohit, and Subansiri rivers, which significantly contribute to its volume. The river then enters Bangladesh, where it merges with the Ganges to form the world's largest river delta, the Sundarbans Delta, before emptying into the Bay of Bengal. The Brahmaputra plays a vital role in the economy and culture of the region, supporting agriculture, transportation, and livelihoods of millions of people. Its rich biodiversity and scenic landscapes make it a popular destination for river cruises, wildlife enthusiasts, and tourists seeking to explore the natural wonders of Northeast India and Bangladesh.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/3b/8b/6c/iskcon-guwahati.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">ISKCON Guwahati
+            </h1>
+            <p id="innerP">
+              ISKCON Guwahati, also known as Sri Sri Radha Govind Temple, is a prominent temple dedicated to Lord Krishna and Radha, located in Guwahati, Assam, India. The temple is a part of the International Society for Krishna Consciousness (ISKCON), a worldwide spiritual organization founded by A.C. Bhaktivedanta Swami Prabhupada in 1966. ISKCON Guwahati aims to spread the teachings of Lord Krishna as presented in the Bhagavad Gita and other Vedic scriptures. The temple complex features a beautifully adorned shrine of Radha and Krishna, where devotees gather to offer prayers, perform rituals, and participate in kirtan (devotional singing) and bhajan (spiritual music). The temple also conducts various spiritual and educational programs, including lectures, seminars, and festivals, to promote spiritual growth and awareness among its followers. ISKCON Guwahati welcomes visitors and devotees from all walks of life, providing a serene and vibrant atmosphere for worship and spiritual contemplation in the heart of Guwahati.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/2e/0d/3d/fighter-aircraft-installed.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Regional Science Center
+            </h1>
+            <p id="innerP">
+              The Regional Science Centre, located in Guwahati, Assam, is an educational institution dedicated to promoting science awareness and education among the public, especially students. The center features interactive exhibits, hands-on activities, and educational programs aimed at making science learning engaging and accessible to people of all ages. Visitors to the Regional Science Centre can explore various themes in science and technology, including physics, biology, astronomy, and environmental science, through interactive displays and demonstrations. The center also hosts workshops, seminars, and science shows to further enrich the learning experience and encourage curiosity and innovation. The Regional Science Centre plays a crucial role in fostering scientific literacy and fostering a culture of scientific inquiry and discovery in the region, serving as a valuable resource for students, teachers, and the general public alike.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/a4/10/5c/mask-masking-at-sangri.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Mask Masking at Samaguri Satra
+            </h1>
+            <p id="innerP">
+              Mask making at Samaguri Satra is a traditional craft practiced by the artisans of Majuli Island in Assam, India. Samaguri Satra is a renowned Vaishnavite monastery known for its expertise in the art of mask making, particularly the masks used in the Bhaona performances, which are traditional Assamese plays based on mythological stories from the Hindu epics. The artisans at Samaguri Satra handcraft masks from bamboo, clay, and cloth, meticulously carving intricate designs and painting them with vibrant colors. These masks depict various characters from Hindu mythology, such as gods, goddesses, demons, and mythical creatures, and are an integral part of the Bhaona performances, where they are worn by actors to bring the stories to life. Mask making at Samaguri Satra is not only a cultural tradition but also a means of preserving and promoting Assamese heritage and artistry for future generations to appreciate and admire. Visitors to Majuli Island can witness the mask making process firsthand and even participate in workshops to learn the craft from skilled artisans.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/59/03/a2/saraighat-bridge-over.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Saraighat Bridge</h1>
+            <p id="innerP">
+              The Saraighat Bridge is a vital transportation link spanning the Brahmaputra River in Assam, India. It connects the city of Guwahati on the north bank with the town of North Guwahati on the south bank, serving as a crucial artery for both vehicular and pedestrian traffic in the region. Completed in 1962, the Saraighat Bridge was the first road-cum-rail bridge to be built over the Brahmaputra River and played a significant role in facilitating transportation and trade between the northern and southern parts of Assam. The bridge is named after the historic Battle of Saraighat, fought between the Ahom Kingdom and the Mughal Empire in 1671 near the site of the bridge. Spanning approximately 1.4 kilometers, the Saraighat Bridge stands as a symbol of engineering prowess and connectivity, contributing to the socio-economic development and prosperity of the region.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ef/25/b1/another-view-of-the-temple.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Navagraha Temple
+            </h1>
+            <p id="innerP">
+              The Navagraha Temple, located in Guwahati, Assam, is a revered Hindu temple dedicated to the nine celestial bodies, or grahas, in Vedic astrology. The temple is situated atop Chitrachal Hill in the eastern part of the city and is one of the most important pilgrimage sites for devotees seeking blessings for planetary alignment and astrological harmony. Each of the nine grahas, including the Sun (Surya), Moon (Chandra), Mars (Mangala), Mercury (Budha), Jupiter (Brihaspati), Venus (Shukra), Saturn (Shani), Rahu (ascending lunar node), and Ketu (descending lunar node), is worshipped in a separate shrine within the temple complex. Devotees visit the Navagraha Temple to perform rituals, prayers, and pujas to appease the planetary deities and seek their blessings for good fortune, health, and prosperity. The temple's serene ambiance, scenic location, and religious significance make it a popular destination for spiritual seekers and tourists visiting Guwahati.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

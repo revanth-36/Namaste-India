@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Himachal Pradesh</h1>
+      <div class="glassmorphism-box">
+        <p>
+          Nestled amidst the majestic Himalayas, Himachal Pradesh is a picturesque paradise that beckons travelers with its serene landscapes and rich cultural heritage. Offering a perfect blend of scenic beauty and adventure, this state is adorned with snow-capped peaks, lush valleys, and glistening rivers. Shimla, the capital city, captivates visitors with its colonial charm, while Manali allures with its stunning vistas and adventurous pursuits like trekking, skiing, and paragliding. The hill station of Dharamshala, home to the Dalai Lama, invites spiritual seekers to explore its Tibetan monasteries and tranquil surroundings. For nature enthusiasts, places like Spiti Valley and Kinnaur offer rugged terrain and unmatched natural beauty. Himachal Pradesh is also renowned for its vibrant cultural festivals, including the famous Kullu Dussehra and the Fagli Festival of Kinnaur. Whether it's indulging in thrilling outdoor activities, immersing in spiritual experiences, or simply soaking in the breathtaking vistas, Himachal Pradesh promises an unforgettable journey for all who venture into its embrace.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Hidimba Devi Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">The Mall
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Solang Valley
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Jakhu Hanuman Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Triund Hill
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Norbulingka Institute
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Spiti Valley
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">Beas River
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Dainkund Peak
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Rohtang Pass
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Viceregal Lodge
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">Manikaran Gurudwara
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2c/33/5f/at-the-time-of-summers.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Hidimba Devi Temple
+            </h1>
+            <p id="innerP">
+              Hidimba Devi Temple, nestled in Manali, Himachal Pradesh, is a revered Hindu shrine honoring Hidimba Devi, a figure from the Mahabharata epic. Constructed in a distinct architectural style using wooden logs and intricate carvings, this ancient temple is nestled amidst dense cedar forests, offering a serene and spiritual atmosphere. Hidimba Devi, worshiped as a goddess of nature and fertility, is believed to have meditated here, gaining divine powers. The temple attracts pilgrims and tourists alike, drawn by its religious significance and natural beauty. Surrounded by lush greenery and towering trees, it provides a tranquil setting for prayer and meditation. Additionally, visitors can explore the nearby Dhungri Van Vihar, a nature park with walking trails and picnic spots, offering a serene escape amidst the scenic splendor of Manali.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/ba/74/fe/the-mall.jpg?w=500&h=-1&s=1
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">The Mall
+            </h1>
+            <p id="innerP">
+              The Mall in Himachal Pradesh is a bustling commercial and cultural hub situated in the heart of Shimla, the state capital. This iconic street is lined with shops, restaurants, cafes, and colonial-era buildings, making it a popular destination for both locals and tourists.Visitors to The Mall can enjoy leisurely strolls along the pedestrian-friendly promenade, taking in the sights and sounds of the vibrant surroundings. The street is adorned with colorful storefronts, bustling markets, and street vendors selling local handicrafts and souvenirs.The Mall also serves as a social and cultural center, with theaters, libraries, and heritage buildings dotting its landscape. Visitors can explore landmarks such as the Christ Church, Gaiety Theater, and Scandal Point, each offering a glimpse into Shimla's rich history and colonial past.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/b2/79/37/solang-valley-manali.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Solang Valley
+            </h1>
+            <p id="innerP">
+              Solang Valley, nestled amidst the picturesque landscapes of Himachal Pradesh, is a popular tourist destination renowned for its breathtaking natural beauty and thrilling adventure activities. Located near the town of Manali, Solang Valley is surrounded by snow-capped peaks, lush greenery, and cascading waterfalls, making it a paradise for nature lovers and adventure enthusiasts alike.During the winter months, Solang Valley transforms into a winter wonderland, offering opportunities for skiing, snowboarding, and snowmobiling on its pristine slopes. The valley is also famous for its annual Winter Carnival, where visitors can enjoy cultural performances, snow sculpting competitions, and other festivities amidst the snow-covered landscape.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/20/e6/59/looking-up-the-steps.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Jakhu Hanuman Temple
+            </h1>
+            <p id="innerP">
+              The Jakhu Hanuman Temple, perched atop the Jakhu Hill in Shimla, Himachal Pradesh, is a revered Hindu shrine dedicated to Lord Hanuman, the monkey god. This ancient temple holds great religious significance and is frequented by devotees and tourists seeking blessings and spiritual solace.One of the highlights of the Jakhu Hanuman Temple is its towering statue of Lord Hanuman, which stands at a height of over 108 feet, making it one of the tallest statues of Lord Hanuman in the world. The statue is visible from various parts of Shimla and serves as a prominent landmark in the city.To reach the temple, visitors can embark on a scenic trek through the lush forests of Jakhu Hill, enjoying panoramic views of the surrounding mountains and valleys along the way. Legend has it that Lord Hanuman rested on Jakhu Hill during his search for the Sanjeevani herb mentioned in the Hindu epic Ramayana.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/42/10/8e/triund-hill.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Triund Hill
+            </h1>
+            <p id="innerP">
+              Triund Hill, located near McLeodGanj in Himachal Pradesh, is a popular trekking destination renowned for its stunning panoramic views of the Dhauladhar mountain range and the Kangra Valley. Situated at an altitude of approximately 2,850 meters above sea level, Triund offers a relatively easy trekking route suitable for beginners and experienced trekkers alike.The trek to Triund Hill begins from McLeod Ganj, passing through dense forests of oak, rhododendron, and cedar trees, offering glimpses of exotic flora and fauna along the way. As trekkers ascend higher, they are rewarded with breathtaking vistas of the snow-capped peaks of the Dhauladhar range and the lush green valleys below.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/ff/27/31/deden-tsuklagkhang-temple.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Norbulingka Institute
+            </h1>
+            <p id="innerP">
+              The Norbulingka Institute, nestled in the serene Kangra Valley near Dharamshala, Himachal Pradesh, is a renowned center for Tibetan art and culture preservation. Established in 1988 by the Tibetan spiritual leader, the 14th Dalai Lama, and his supporters, the institute is dedicated to the preservation and promotion of traditional Tibetan arts and crafts.The institute's sprawling campus is dotted with traditional Tibetan-style buildings, lush gardens, and scenic vistas, creating a tranquil and picturesque setting for visitors. At Norbulingka, artisans and craftsmen meticulously create exquisite works of art, including thangka paintings, wood carvings, metal crafts, and traditional Tibetan textiles.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/d8/62/4c/dhankar-lake.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Spiti Valley
+            </h1>
+            <p id="innerP">
+              Spiti Valley, nestled in the remote trans-Himalayan region of Himachal Pradesh, is a mesmerizing destination known for its stark landscapes, ancient monasteries, and rich cultural heritage. Situated at high altitudes, Spiti Valley offers breathtaking vistas of rugged mountains, deep gorges, and barren deserts, creating a surreal and otherworldly atmosphere.The valley is dotted with picturesque villages, where traditional Tibetan Buddhist culture thrives amidst the harsh terrain. Visitors to Spiti Valley can explore ancient monasteries such as Key Monastery, Dhankar Monastery, and Tabo Monastery, which are renowned for their intricate murals, ancient scriptures, and serene ambiance.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/46/76/ba/photo2jpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Beas River
+            </h1>
+            <p id="innerP">
+              The Beas River, originating from the Himalayas and flowing through Himachal Pradesh and Punjab, is one of the most significant rivers in northern India. Known for its pristine beauty and cultural significance, the Beas River holds a special place in the hearts of locals and tourists alike.Flowing through picturesque valleys and lush green landscapes, the Beas River provides a lifeline to the communities living along its banks. Its crystal-clear waters are not only a source of irrigation for agriculture but also support a rich diversity of flora and fauna.The Beas River is also a popular destination for adventure activities such as river rafting, kayaking, and fishing, offering thrilling experiences amidst the breathtaking scenery of the Himalayan foothills.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/ed/3a/e3/img-20160415-220504-largejpg.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Dainkund Peak
+            </h1>
+            <p id="innerP">
+              Dainkund Peak, situated near Dalhousie in the state of Himachal Pradesh, is one of the highest points in the region, offering panoramic views of the surrounding Himalayan mountains and verdant valleys. Known for its scenic beauty and tranquil ambiance, Dainkund Peak is a popular destination for nature lovers, trekkers, and photography enthusiasts.The trek to Dainkund Peak is relatively easy and passes through dense forests of pine and deodar trees, offering refreshing glimpses of flora and fauna along the way. As visitors ascend higher, they are treated to breathtaking vistas of the majestic Himalayan ranges and the picturesque valleys below.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/99/b8/d7/rohtang-pass.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Rohtang Pass
+            </h1>
+            <p id="innerP">
+              Rohtang Pass, located in the eastern Pir Panjal Range of the Himalayas, is a breathtaking mountain pass in Himachal Pradesh, India. Situated at an elevation of approximately 3,978 meters above sea level, Rohtang Pass is renowned for its stunning natural beauty, panoramic views, and adventurous activities.The pass serves as a gateway to the picturesque Lahaul and Spiti valleys and is a popular destination for tourists seeking to experience the beauty of the Himalayas. Visitors to Rohtang Pass can marvel at the snow-capped peaks, glaciers, and cascading waterfalls that adorn the landscape, creating a mesmerizing vista that captivates the senses.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/ff/a4/24/viceregal-lodge-turned.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Viceregal Lodge
+            </h1>
+            <p id="innerP">
+              The Viceregal Lodge, also known as Rashtrapati Niwas, is an architectural marvel located in Shimla, Himachal Pradesh. Built during the British Raj, this magnificent building served as the summer residence of the Viceroy of India until India's independence in 1947.Designed by British architect Henry Irwin, the Viceregal Lodge showcases a blend of Jacobethan and Scottish baronial architectural styles. Its grandiose structure features sandstone and grey limestone, intricate woodwork, and sprawling lawns, reflecting the opulence and grandeur of the colonial era.Today, the Viceregal Lodge houses the Indian Institute of Advanced Study (IIAS), a prestigious research institute dedicated to the humanities and social sciences. The institute's library, museum, and conference halls are housed within the historic building, preserving its rich heritage while fostering intellectual discourse and academic pursuits.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/47/b3/64/photo0jpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Manikaran Gurudwara
+            </h1>
+            <p id="innerP">
+              Manikaran Sahib Gurudwara, nestled in the Parvati Valley near Kullu in Himachal Pradesh, is a revered Sikh shrine known for its religious significance and natural hot springs. The gurudwara holds great importance for Sikh devotees and is also visited by people of other faiths seeking spiritual solace and healing.According to Sikh tradition, Guru Nanak Dev Ji, the founder of Sikhism, visited Manikaran Sahib Gurudwara during his travels, and the gurudwara was subsequently established to commemorate his visit. The gurudwara is dedicated to Guru Nanak Dev Ji and is adorned with beautiful architecture and Sikh religious symbols.One of the unique features of Manikaran Sahib Gurudwara is its natural hot springs, which are believed to have healing properties. Pilgrims often take a dip in the hot springs as part of their religious rituals and to seek relief from various ailments.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

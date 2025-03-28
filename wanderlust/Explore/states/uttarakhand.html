@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Uttarakhand
+      </h1>
+      <div class="glassmorphism-box">
+        <p>
+          Nestled in the lap of the Himalayas, Uttarakhand is a haven for nature lovers and adventure enthusiasts alike. With its majestic mountains, verdant valleys, and sacred rivers, this state offers a diverse range of experiences. Visitors can embark on treks through the enchanting trails of the Garhwal and Kumaon regions, witnessing breathtaking vistas of snow-capped peaks and pristine forests along the way. The holy cities of Haridwar and Rishikesh beckon pilgrims and spiritual seekers with their ancient temples and the sacred waters of the Ganges. Uttarakhand is also renowned for its wildlife sanctuaries and national parks, including Jim Corbett National Park, home to the majestic Bengal tiger. Adventure seekers can indulge in thrilling activities such as white-water rafting, paragliding, and skiing in destinations like Auli and Mussoorie. Whether seeking tranquility in the serene hills or an adrenaline rush in the great outdoors, Uttarakhand promises an unforgettable experience for every traveler.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Nainital Lake
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Triveni Ghat
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Ganga Aarti at Haridwar
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Har ki Pauri
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Kedarnath Mandir
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Ram Jhula
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Lakshman Jhula Bridge
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">The Beatles Ashram
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Goddess Naina Devi</button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Shri Badrinath Ji Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Kainchi Dham Neem Karoli Baba Ashram
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">Jageshwar Dham
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/2e/b4/5d/nainital-lake.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Nainital Lake
+            </h1>
+            <p id="innerP">
+              Nainital Lake, nestled amidst the picturesque town of Nainital in Uttarakhand, India, is a serene haven of natural beauty. Encircled by lush hills, this tranquil freshwater body spans approximately 1.5 square kilometers, offering visitors a peaceful retreat amidst stunning scenery. Boating is a popular pastime here, allowing guests to glide leisurely across the clear waters while taking in the breathtaking views. Surrounding the lake, charming promenades and verdant gardens invite leisurely strolls and idyllic picnics. As the sun sets, the sky transforms into a canvas of golden hues, casting a magical glow over the tranquil waters. Whether admiring the distant snow-capped peaks or simply basking in the serenity of nature, Nainital Lake promises a rejuvenating escape for those seeking solace amidst the Himalayan landscape.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/a9/84/bb/triveni-ghaat-entrance.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Triveni Ghat
+            </h1>
+            <p id="innerP">
+              Triveni Ghat, located in the sacred town of Rishikesh in Uttarakhand, India, is a revered spiritual destination along the banks of the holy Ganges River. It serves as a significant pilgrimage site where devotees gather to perform rituals, take holy dips, and offer prayers to the river. The ghat is renowned for its spiritual ambiance and is believed to be the confluence of three sacred rivers: the Ganges, Yamuna, and Saraswati. Every evening, the ghat comes alive with the enchanting sound of devotional chants and the mesmerizing spectacle of the Ganga Aarti, a ritualistic ceremony where lamps are offered to the river as a form of worship. Triveni Ghat holds immense cultural and religious significance and attracts visitors seeking spiritual enlightenment and inner peace.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/94/f4/c1/img-20190518-191715-largejpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Ganga Aarti at Haridwar
+            </h1>
+            <p id="innerP">
+              The Ganga Aarti at Haridwar is a mesmerizing and spiritually uplifting ceremony held on the banks of the holy river Ganges in the city of Haridwar, Uttarakhand, India. This sacred ritual takes place every evening at Har Ki Pauri, a renowned ghat that holds great religious significance. As dusk descends, priests clad in traditional attire perform intricate rituals with fire, flowers, and incense, while chanting hymns and prayers dedicated to the river goddess Ganga. Devotees and visitors gather along the ghats to witness the spectacle, offering their prayers and seeking blessings. The ambiance is imbued with devotion, as the flickering flames and the rhythmic chants create a sense of transcendence, fostering a deep spiritual connection with the divine. The Ganga Aarti at Haridwar is a deeply moving experience that leaves a lasting impression on all who witness it, reinforcing the sacred bond between humanity and the sacred river.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/bf/37/f4/ganga-aarti-at-har-ki.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Har ki Pauri
+            </h1>
+            <p id="innerP">
+              Har Ki Pauri, situated on the banks of the sacred Ganges River in the holy city of Haridwar, Uttarakhand, India, holds immense religious significance and is revered as one of the most auspicious ghats in the country. Translated to "Steps of Lord Shiva," Har Ki Pauri is believed to be the spot where Lord Shiva and Lord Vishnu once left their footprints. Pilgrims from all over the world gather here to take holy dips in the Ganges, believing it cleanses them of their sins and bestows blessings upon them. The ghat is particularly renowned for its evening Ganga Aarti, a captivating ritual where priests offer prayers and light lamps to the river, accompanied by devotional chants and hymns. Har Ki Pauri is not only a place of spiritual significance but also a vibrant center of cultural and religious activities, attracting devotees and tourists alike seeking solace, blessings, and a connection with the divine.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/9e/9c/14/kedarnath-mandir.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Kedarnath Mandir
+            </h1>
+            <p id="innerP">
+              The Kedarnath Temple, nestled in the breathtaking Himalayan range of Uttarakhand, India, stands as a symbol of devotion and spirituality. Dedicated to Lord Shiva, this ancient temple is one of the holiest pilgrimage sites for Hindus and holds immense religious significance. Situated at an altitude of 3,583 meters (11,755 feet) above sea level, reaching the temple involves a challenging trek through stunning mountainous terrain, adding to its allure and sanctity. Legend has it that the temple was built by the Pandavas, the legendary figures from the Hindu epic Mahabharata. Despite facing natural calamities and centuries of wear, the temple has stood the test of time, attracting devotees who seek the blessings of Lord Shiva and the spiritual serenity of the Himalayas. The Kedarnath Temple is not just a place of worship but also a beacon of faith and resilience, inspiring pilgrims to embark on a journey of self-discovery and devotion amidst the majestic beauty of nature.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+  <div class="slider-image-wrapper">
+    <img
+      class="slider-image"
+      src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/8d/93/a1/beautiful-view-from-the.jpg?w=500&h=-1&s=1"
+      alt="SliderImg"
+    />
+  </div>
+  <div class="slider-item-content">
+    <h1 id="innerH">Ram Jhula
+    </h1>
+    <p id="innerP">
+      Ram Jhula is a suspension bridge spanning the Ganges River in the city of Rishikesh, Uttarakhand, India. Built in the 1980s, it is one of the iconic landmarks of Rishikesh and an important pedestrian bridge connecting the eastern and western banks of the river. Ram Jhula is named after Lord Rama, a central figure in the Hindu epic Ramayana, who is believed to have crossed the river at this spot during his exile. The bridge offers stunning views of the river, surrounding mountains, and nearby ashrams. Similar to its counterpart, Lakshman Jhula, Ram Jhula is lined with temples, ashrams, and shops, making it a vibrant and bustling area frequented by tourists and pilgrims. Visitors can walk across the bridge, enjoying the serene ambiance and immersing themselves in the spiritual and cultural heritage of Rishikesh.
+    </p>
+  </div>
+</div>
+
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/c1/54/4f/lakshman-jhula.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Lakshman Jhula Bridge
+            </h1>
+            <p id="innerP">
+              Lakshman Jhula is a prominent suspension bridge that spans the Ganges River in the town of Rishikesh, Uttarakhand, India. Named after Lord Lakshman, a central figure in the Hindu epic Ramayana, the bridge holds great religious and historical significance. Legend has it that Lakshman, the younger brother of Lord Rama, crossed the river at this spot using a jute rope bridge during their exile. The current bridge, constructed in 1939, replaced the original jute rope bridge. Lakshman Jhula is a popular tourist attraction and pilgrimage site, offering panoramic views of the Ganges and the surrounding hills. The bridge is lined with temples, ashrams, and shops, creating a vibrant and spiritual atmosphere. Visitors often cross the bridge on foot, soaking in the serene ambiance and immersing themselves in the rich cultural heritage of Rishikesh.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/35/f4/a3/ashram-building.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">The Beatles Ashram
+            </h1>
+            <p id="innerP">
+              The Beatles Ashram, also known as the Chaurasi Kutia Ashram, is located in Rishikesh, Uttarakhand, India. It gained fame in the 1960s when the Beatles, along with other celebrities, stayed there to learn transcendental meditation from Maharishi Mahesh Yogi. The ashram, nestled in the serene foothills of the Himalayas, became a creative retreat for the band members, inspiring many of their songs. Despite falling into disrepair after the Maharishi left, the ashram remains a pilgrimage site for Beatles fans and spiritual seekers alike. Visitors can explore the overgrown ruins covered in vibrant graffiti, reflecting the site's unique blend of music, spirituality, and counterculture history. Today, the Beatles Ashram serves as a poignant reminder of the band's transformative journey and the enduring legacy of their time spent in Rishikesh.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/27/53/c3/durga-puja.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Goddess Naina Devi</h1>
+            <p id="innerP">
+              Goddess Naina Devi is a revered deity worshiped primarily in the northern parts of India, particularly in the state of Himachal Pradesh and in the town of Nainital in Uttarakhand. She is believed to be an incarnation of the Hindu goddess Shakti, the divine feminine energy. The Naina Devi Temple, dedicated to her, is situated atop the Naina Hill overlooking the picturesque Naini Lake in Nainital. Devotees flock to the temple to seek her blessings for protection, prosperity, and overall well-being. Legend has it that Goddess Naina Devi's eyes fell at the very spot where the temple stands today, hence the name "Naina," which means eyes in Hindi. The temple holds special significance during the Nanda Devi festival, celebrated with great fervor and devotion by devotees from far and wide. The worship of Goddess Naina Devi is deeply ingrained in the cultural and spiritual fabric of the region, drawing pilgrims and visitors seeking solace and divine blessings.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/4e/b5/f6/badrinath-temple.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Shri Badrinath Ji Temple
+            </h1>
+            <p id="innerP">
+              The Shri Badrinath Ji Temple, located in the town of Badrinath in the Chamoli district of Uttarakhand, India, is one of the most sacred Hindu pilgrimage sites. Dedicated to Lord Vishnu, it is one of the Char Dham pilgrimage destinations, attracting devotees from all over the world. Situated amidst the majestic Himalayas on the banks of the Alaknanda River, the temple is believed to have been established by Adi Shankaracharya in the 8th century. The main deity, Lord Badrinarayan (a form of Lord Vishnu), is depicted in a meditative posture. The temple is open to devotees only for a few months each year due to extreme weather conditions, and during the rest of the year, the deity is worshipped at the Narsimha Temple in Joshimath. The pilgrimage to Badrinath is considered a spiritually enriching experience, offering devotees an opportunity to seek blessings and immerse themselves in the divine atmosphere of the Himalayas.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/d9/42/37/kainchi-dham-temple-is.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Kainchi Dham Neem Karoli Baba Ashram
+            </h1>
+            <p id="innerP">
+              The Kainchi Dham Neem Karoli Baba Ashram is a spiritual retreat located near the town of Nainital in Uttarakhand, India. It was established in the mid-20th century by the revered saint Neem Karoli Baba, also known as Maharaj-ji, who was a highly revered figure known for his simplicity, wisdom, and unconditional love. The ashram is nestled amidst the picturesque Kumaon Hills and attracts devotees and spiritual seekers from around the world. It serves as a place for meditation, satsang (spiritual gatherings), and self-reflection. Neem Karoli Baba's teachings emphasized love, service, and devotion to God, and his ashram continues to uphold these principles, providing a peaceful sanctuary for those on the path of spiritual awakening. The ashram's serene ambiance, lush surroundings, and the presence of Neem Karoli Baba's samadhi (final resting place) make it a sacred destination for seekers of all backgrounds.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/2d/16/91/jageshwar-temple.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Jageshwar Dham
+            </h1>
+            <p id="innerP">
+              Jageshwar Dham, located in the Almora district of Uttarakhand, India, is a sacred pilgrimage site dedicated to Lord Shiva. It is renowned for its cluster of ancient temples, many of which date back to the 9th to 13th centuries. Surrounded by dense Deodar forests and set amidst the serene Himalayan landscape, Jageshwar Dham exudes a tranquil and mystical ambiance. The main temple, Jageshwar Temple, is dedicated to Lord Jageshwar, a form of Lord Shiva, and features a prominent lingam (symbol of Shiva). The site is believed to be one of the twelve 'Jyotirlingas' (lingams representing Lord Shiva) and holds immense religious significance for devotees. Apart from the main temple, there are numerous smaller temples dedicated to various Hindu deities, adding to the spiritual charm of the place. Pilgrims and tourists visit Jageshwar Dham to seek blessings, immerse themselves in meditation, and explore the rich architectural and cultural heritage of the region.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

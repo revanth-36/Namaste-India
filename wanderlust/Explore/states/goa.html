@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Goa</h1>
+      <div class="glassmorphism-box">
+        <p>
+         Goa, situated on the western coast of India, is a small state renowned for its sun-kissed beaches, vibrant nightlife, and rich cultural heritage. The state's capital city of Panaji, also known as Panjim, is a charming blend of Portuguese and Indian influences, with its colorful colonial-era buildings, narrow streets, and bustling markets. Goa's coastline stretches along the Arabian Sea, offering pristine beaches like Calangute, Baga, and Anjuna, where visitors can relax on golden sands, swim in crystal-clear waters, and indulge in water sports like parasailing, jet skiing, and banana boating. The state is also home to a wealth of architectural wonders, including the UNESCO-listed Old Goa, with its majestic churches like the Basilica of Bom Jesus and the Se Cathedral, and the historic Fort Aguada, which offers panoramic views of the Arabian Sea. Goa's rich cultural heritage is celebrated through its vibrant festivals, traditional music, and dance forms like Fugdi and Dekhnni, as well as its mouthwatering cuisine, which includes iconic dishes like vindaloo, xacuti, and bebinca. Whether lounging on its sun-drenched beaches, exploring its historic landmarks, or dancing the night away at its lively clubs and beach shacks, Goa promises a journey filled with warmth, fun, and unforgettable experiences.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Palolem Beach
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Agonda Beach
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Baga Beach
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Basilica of Bom Jesus
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Cavelossim Beach
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Varca Beach
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Sheek Emporium aka Armani Boutique De Goa
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">Benaulim Beach
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Dudhsagar Falls
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Arambol Beach
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Candolim Beach
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">Morjim Beach
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/59/82/3a/beach-attached-to-the.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Palolem Beach
+            </h1>
+            <p id="innerP">
+              Palolem Beach, located in South Goa, is a pristine crescent-shaped shoreline surrounded by towering coconut palms and serene turquoise waters. Renowned for its natural beauty and laid-back atmosphere, Palolem Beach is a favorite destination for travelers seeking tranquility and relaxation. The soft golden sands stretch along the coastline, providing ample space for sunbathing, leisurely walks, and beach games. The gentle waves of the Arabian Sea make it ideal for swimming, while the calm waters are perfect for kayaking and paddleboarding. Palolem Beach is also famous for its picturesque backdrop, with dramatic cliffs framing the horizon and creating a postcard-perfect setting for sunset views. Visitors can enjoy breathtaking vistas as the sun dips below the horizon, casting a warm glow over the sea and the surrounding landscape. With its relaxed vibe, stunning scenery, and range of activities, Palolem Beach offers a rejuvenating escape from the hustle and bustle of everyday life. Whether you're seeking solitude, adventure, or simply a peaceful retreat, Palolem Beach promises an unforgettable experience for travelers of all ages.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/7c/44/65/far-right-end-agonda.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Agonda Beach
+            </h1>
+            <p id="innerP">
+              Agonda Beach, nestled in the serene coastal town of Agonda in the state of Goa, is a pristine stretch of coastline renowned for its natural beauty and tranquil ambiance. This secluded beach, surrounded by palm trees and gentle sea breezes, offers visitors a peaceful retreat away from the hustle and bustle of city life. Agonda Beach is characterized by its soft white sands, crystal-clear waters, and breathtaking sunsets, making it an ideal spot for sunbathing, swimming, and leisurely walks along the shore. The beach's serene atmosphere and picturesque vistas also make it a popular destination for yoga and meditation, with many visitors seeking solace and relaxation amidst nature's splendor. Whether you're looking for a quiet escape or an idyllic setting to reconnect with yourself, Agonda Beach promises an unforgettable experience in Goa's coastal paradise.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/3e/36/95/baga-sea-beach.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Baga Beach
+            </h1>
+            <p id="innerP">
+              Baga Beach, nestled in the vibrant coastal town of Goa, is renowned for its lively ambiance, golden sands, and plethora of water sports. This bustling shoreline is a favorite among tourists and locals alike, offering a perfect blend of relaxation and excitement.The soft sands of Baga Beach stretch for miles, providing ample space for sunbathing, beach volleyball, or simply lounging under the shade of colorful umbrellas. The clear blue waters of the Arabian Sea invite visitors to take a refreshing dip or indulge in thrilling water sports such as parasailing, jet skiing, and banana boat rides.Along the shore, vibrant beach shacks serve up delicious seafood and refreshing drinks, creating a festive atmosphere that lasts from sunrise to sunset. As evening falls, Baga Beach transforms into a lively hub of activity, with beach parties, live music, and bonfires lighting up the night.Whether you're looking for adventure, relaxation, or a taste of Goa's vibrant nightlife, Baga Beach offers an unforgettable experience for visitors of all ages. With its vibrant energy and stunning scenery, it's no wonder Baga Beach is one of the most popular destinations in Goa.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/d6/93/6c/medallion-with-holy-trinity.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Basilica of Bom Jesus
+            </h1>
+            <p id="innerP">
+              The Basilica of Bom Jesus, located in Old Goa, is a UNESCO World Heritage Site and one of the most iconic landmarks in the region. This historic church, built in the 16th century, is renowned for housing the mortal remains of St. Francis Xavier, a revered Jesuit missionary.The Basilica's stunning Baroque architecture, with its intricately carved facade and elegant interiors, reflects the grandeur of its colonial past. Inside, visitors can admire the ornate altars, exquisite paintings, and intricate woodwork that adorn the church, providing a glimpse into Goa's rich cultural heritage.The highlight of the Basilica is the silver casket containing the relics of St. Francis Xavier, which draws pilgrims and visitors from around the world seeking blessings and spiritual solace.The Basilica of Bom Jesus is not just a place of worship but also a symbol of Goa's enduring faith and cultural legacy. Whether you're a history buff, a devout pilgrim, or simply curious about the region's heritage, a visit to this majestic church is a truly enriching experience.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/bb/f0/88/sunset-from-the-dome.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Cavelossim Beach
+            </h1>
+            <p id="innerP">
+              Cavelossim Beach, nestled in the serene village of Cavelossim in South Goa, is a pristine and relatively quiet stretch of coastline known for its tranquil ambiance and natural beauty. This picturesque beach, bordered by swaying palm trees and gentle waves, offers visitors a peaceful retreat away from the crowds and hustle of more popular beaches in the region.Cavelossim Beach is renowned for its soft white sands, crystal-clear waters, and scenic views of the Arabian Sea. It provides an ideal setting for leisurely walks, sunbathing, and swimming in the calm and shallow waters. The beach's serene atmosphere makes it a perfect spot for relaxation and rejuvenation amidst nature's splendor.While Cavelossim Beach is quieter compared to some of its neighboring beaches, it still offers a range of amenities including beach shacks serving delicious Goan cuisine and refreshing drinks. Visitors can also indulge in activities such as dolphin watching, boat cruises, and water sports like parasailing and jet skiing.Whether you're seeking solitude, adventure, or simply a tranquil escape, Cavelossim Beach promises a memorable experience in the unspoiled beauty of South Goa's coastline.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/93/fb/37/img-20190514-184239909.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Varca Beach
+            </h1>
+            <p id="innerP">
+              Varca Beach, nestled in the southern part of Goa, is a tranquil and picturesque shoreline known for its pristine beauty and relaxed atmosphere. With its soft white sands, swaying palm trees, and clear blue waters, Varca Beach offers visitors a serene escape from the hustle and bustle of everyday life.The beach stretches for miles along the coastline, providing plenty of space for sunbathing, leisurely walks, and beachcombing. The gentle waves of the Arabian Sea make it ideal for swimming and water sports, while the calm waters offer a peaceful environment for relaxation and rejuvenation.Varca Beach is also famous for its charming fishing village, where visitors can witness traditional Goan life and sample fresh seafood at local eateries. The village provides a glimpse into the rich cultural heritage of Goa, with its colorful houses, bustling markets, and friendly locals.Whether you're seeking solitude, adventure, or simply a tranquil retreat by the sea, Varca Beach offers an idyllic setting for visitors of all ages. With its natural beauty and laid-back vibe, it's no wonder Varca Beach is considered one of the hidden gems of Goa.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/78/da/d4/armani-boutique-de-goa.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Sheek Emporium aka Armani Boutique De Goa
+            </h1>
+            <p id="innerP">
+              The Sheek Emporium, also known as Armani Boutique De Goa, is a stylish and upscale fashion boutique located in the vibrant state of Goa. This boutique offers a curated selection of high-end fashion apparel, accessories, and lifestyle products, catering to discerning customers looking for luxury and sophistication.At the Sheek Emporium, visitors can browse through a range of designer clothing collections, including iconic brands like Armani, known for their impeccable craftsmanship, timeless designs, and premium quality fabrics. From chic dresses and elegant suits to stylish accessories and footwear, the boutique showcases a diverse array of fashion-forward items for both men and women.In addition to clothing and accessories, the Sheek Emporium also features a carefully curated selection of home decor items, beauty products, and unique gifts, making it a one-stop destination for luxury shopping in Goa.Whether you're a fashion enthusiast, a trendsetter, or simply looking to indulge in some retail therapy, the Sheek Emporium offers a sophisticated shopping experience amidst the vibrant ambiance of Goa's fashion scene.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/01/32/50/sunset-at-benaulim-beach.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Benaulim Beach
+            </h1>
+            <p id="innerP">
+              Benaulim Beach, located in South Goa, India, is a pristine and tranquil stretch of coastline known for its golden sands, clear waters, and laid-back atmosphere. Nestled between Colva Beach to the north and Varca Beach to the south, Benaulim offers a more serene alternative to the bustling beaches of North Goa. Visitors to Benaulim can enjoy leisurely walks along the shoreline, bask in the sun on the soft sands, and take refreshing dips in the Arabian Sea. The beach is relatively less crowded compared to other popular beaches in Goa, making it ideal for those seeking relaxation and solitude. Benaulim also offers opportunities for water sports such as jet skiing, parasailing, and banana boat rides for the more adventurous visitors. The beach is fringed with shacks and restaurants serving delicious seafood and refreshing beverages, allowing visitors to indulge in a culinary delight while enjoying panoramic views of the sea. With its natural beauty and tranquil ambiance, Benaulim Beach provides a perfect escape for sun-seekers and beach lovers looking to unwind in a serene coastal paradise.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/91/5d/14/dudhsagar-falls.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Dudhsagar Falls
+            </h1>
+            <p id="innerP">
+              Dudhsagar Falls, situated in the Bhagwan Mahavir Wildlife Sanctuary in Goa, India, is one of the most majestic waterfalls in the country. Translated to "Sea of Milk" in English, Dudhsagar Falls cascades from a height of approximately 310 meters (1,017 feet) and is renowned for its breathtaking beauty and natural splendor. The waterfall, surrounded by lush greenery and dense forests, creates a mesmerizing spectacle as it plunges into a pool below, forming a cloud of mist that resembles milk flowing down the mountainside. Accessible via a scenic trek through the forest or by a thrilling jeep safari, Dudhsagar Falls offers visitors the opportunity to immerse themselves in the pristine wilderness of Goa's hinterland. The area around the waterfall is also home to diverse flora and fauna, making it a paradise for nature enthusiasts and adventure seekers alike. Whether it's swimming in the refreshing waters, trekking through the wilderness, or simply marveling at the awe-inspiring sight of the cascading falls, Dudhsagar offers an unforgettable experience amidst the natural beauty of Goa's countryside.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/0f/4b/0e/arambol-beach.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Arambol Beach
+            </h1>
+            <p id="innerP">
+              Arambol Beach, nestled in the northernmost part of Goa, India, is a charming and laid-back destination known for its serene ambiance and bohemian vibe. Fringed by towering cliffs and lined with golden sands, Arambol Beach offers a tranquil retreat away from the bustling crowds of other popular Goa beaches. The beach is a favorite among backpackers, hippies, and alternative travelers, who are drawn to its relaxed atmosphere and vibrant community. Visitors to Arambol can enjoy leisurely walks along the shoreline, soak up the sun on the soft sands, and take refreshing dips in the Arabian Sea. The beach is also known for its vibrant nightlife, with beachside shacks and bars offering live music, bonfire parties, and cultural performances. Arambol is also a hub for yoga, meditation, and holistic therapies, with numerous wellness centers and alternative healing practices available for those seeking rejuvenation and spiritual growth. With its natural beauty, bohemian charm, and eclectic atmosphere, Arambol Beach offers a unique and unforgettable experience for travelers looking to escape the ordinary and embrace the free-spirited lifestyle of Goa's coastal communities.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/f6/9b/8f/candolim-beach.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Candolim Beach
+            </h1>
+            <p id="innerP">
+              Candolim Beach, situated in North Goa, India, is a picturesque and serene stretch of coastline known for its pristine sands, gentle waves, and laid-back ambiance. Less crowded than some of Goa's more popular beaches, Candolim offers visitors a peaceful retreat amidst the natural beauty of the Arabian Sea. The beach is ideal for leisurely walks along the shoreline, sunbathing on the soft sands, and taking refreshing swims in the crystal-clear waters. Water sports enthusiasts can also indulge in activities such as parasailing, jet skiing, and banana boat rides offered by local operators. Candolim Beach is also known for its scenic sunsets, providing a perfect backdrop for romantic strolls or quiet moments of reflection. The beachfront is dotted with shacks and eateries serving delicious Goan cuisine and refreshing beverages, allowing visitors to savor the flavors of the region while enjoying panoramic views of the sea. With its tranquil ambiance, natural beauty, and range of recreational activities, Candolim Beach offers an idyllic escape for travelers seeking relaxation and rejuvenation on Goa's pristine coastline.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/27/06/b7/view.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Morjim Beach
+            </h1>
+            <p id="innerP">
+              Morjim Beach, located in North Goa, India, is a tranquil and scenic stretch of coastline known for its pristine sands, serene atmosphere, and abundant wildlife. Often referred to as "Little Russia'' due to its popularity among Russian tourists, Morjim Beach offers a laid-back alternative to the more crowded beaches of Goa. The beach is lined with palm trees and dotted with beach shacks and cafes, creating a relaxed and inviting setting for visitors. Morjim is also famous for its thriving population of Olive Ridley sea turtles, which nest along the shores from November to March. Visitors can participate in turtle-watching tours organized by local conservation groups to observe these magnificent creatures in their natural habitat. Morjim Beach is also a popular spot for water sports such as kitesurfing, parasailing, and jet skiing, offering opportunities for adventure and excitement. Whether it's lounging on the soft sands, enjoying water sports, or observing sea turtles in their natural environment, Morjim Beach offers a serene and unforgettable experience for visitors seeking relaxation and natural beauty on Goa's coastline.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

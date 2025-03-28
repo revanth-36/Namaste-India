@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Madhya Pradesh
+      </h1>
+      <div class="glassmorphism-box">
+        <p>
+          Madhya Pradesh, located in central India, is a state known for its rich history, diverse landscapes, and cultural heritage. The state's capital city of Bhopal is a blend of ancient history and modernity, with its historic landmarks like the majestic Gohar Mahal and the iconic Taj-ul-Masajid juxtaposed against modern architecture and bustling markets. Madhya Pradesh is home to a wealth of architectural wonders, including the UNESCO World Heritage Sites of Khajuraho Group of Monuments, renowned for its exquisite temple sculptures depicting intricate details of human emotions and life, and the Sanchi Stupa, one of the oldest stone structures in India and an important Buddhist pilgrimage site. The state's natural beauty is equally captivating, with lush forests, majestic rivers, and picturesque hills offering opportunities for wildlife safaris, trekking, and adventure sports. The Bandhavgarh and Kanha National Parks are renowned for their tiger populations and provide thrilling wildlife experiences amidst dense forests and grasslands. Madhya Pradesh's rich cultural heritage is celebrated through its vibrant festivals, traditional dance forms like Giddha and Kalbelia, and mouthwatering cuisine, which includes iconic dishes like poha, bhutte ka kees, and bafla. Whether exploring its historic landmarks, immersing in its natural beauty, or indulging in its culinary delights, Madhya Pradesh promises a journey filled with history, adventure, and unforgettable experiences.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Khajuraho Temples
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Shree Mahakaleshwar Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">VR Darshan at Mahakal Lok
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Shri Omkareshwar Jyotirlinga
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Khajrana Ganesh Mandir
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Kanha National Park
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Gwalior Fort
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">Buddhist Monuments at Sanchi
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Rock Shelters of Bhimbetka
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Sarafa Bazaar
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Dhuandhar Falls
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">Orchha Fort
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/1d/24/a5/visit-famous-khajuraho.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Khajuraho Temples
+            </h1>
+            <p id="innerP">
+              The Khajuraho Group of Monuments is a UNESCO World Heritage Site located in Madhya Pradesh, India. These temples, built between the 9th and 11th centuries by the Chandela dynasty, are renowned for their stunning architecture and intricate carvings. The temples are known for their depiction of various aspects of life, including love, spirituality, and daily activities, through intricate sculptures and carvings. While originally there were around 85 temples, only about 25 remain today, spread across different complexes, including the Western Group, Eastern Group, and Southern Group of temples. The Khajuraho temples are particularly famous for their erotic sculptures, which represent the Kama Sutra and celebrate the union of divine and human love. Beyond their artistic significance, the temples also serve as a symbol of India's rich cultural and architectural heritage, attracting visitors from around the world to marvel at their beauty and historical importance.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/46/95/1d/shri-mahakaleshwar-temple.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Shree Mahakaleshwar Temple
+            </h1>
+            <p id="innerP">
+              The Shree Maha Kaleshwar Temple is a revered Hindu temple dedicated to Lord Shiva, located in the ancient city of Ujjain in Madhya Pradesh, India. It is one of the twelve Jyotirlingas, which are considered to be the most sacred abodes of Lord Shiva. The temple is situated on the banks of the holy Shipra River and is visited by millions of devotees every year, especially during the auspicious occasion of Mahashivaratri. The presiding deity, Lord Maha Kaleshwar (another name for Lord Shiva), is worshipped with great devotion and reverence by pilgrims seeking blessings for spiritual growth, prosperity, and liberation from worldly sufferings. The temple complex also includes other shrines dedicated to various deities, as well as sacred ponds and ghats where devotees perform rituals and take holy dips. The Shree Maha Kaleshwar Temple holds immense religious significance and is considered one of the holiest pilgrimage destinations for followers of Hinduism.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/06/80/ca/durlabh-darshan-kendra.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">VR Darshan at Mahakal Lok
+            </h1>
+            <p id="innerP">
+              VR (Virtual Reality) darshan at Mahakal Lok refers to the virtual reality-based pilgrimage experience offered at the Mahakaleshwar Jyotirlinga temple in Ujjain, Madhya Pradesh, India. This innovative technology allows devotees to experience the sacred ambiance of the temple and witness the divine darshan of Lord Mahakaleshwar from anywhere in the world through virtual reality headsets or immersive VR experiences. The VR darshan provides an opportunity for devotees who are unable to visit the temple in person to still connect with the deity and participate in the religious rituals and prayers. It enhances accessibility and inclusivity, allowing people of all backgrounds and physical abilities to experience the spiritual sanctity of the temple and receive the blessings of Lord Mahakaleshwar. Additionally, VR darshan can also serve as a tool for promoting tourism and cultural heritage by offering immersive experiences to a wider audience.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/d6/2e/3a/shri-omkareshwar-jyotirlinga.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Shri Omkareshwar Jyotirlinga
+            </h1>
+            <p id="innerP">
+              Shri Omkareshwar is a revered Hindu temple dedicated to Lord Shiva, located on the sacred island of Mandhata or Shivapuri in the Narmada River, Madhya Pradesh, India. The temple is one of the twelve Jyotirlingas, which are considered the holiest abodes of Lord Shiva. The temple complex is situated in a picturesque setting surrounded by the serene waters of the Narmada River and lush green hills. Devotees flock to the temple to offer prayers and seek blessings from Lord Omkareshwar for spiritual upliftment, prosperity, and fulfillment of desires. The presiding deity, Lord Omkareshwar, is worshipped with great reverence and devotion. The temple complex also includes other shrines dedicated to various deities, as well as sacred ponds and ghats where devotees perform rituals and take holy dips. The Shri Omkareshwar Temple holds immense religious significance and is considered one of the most sacred pilgrimage destinations for devotees of Lord Shiva.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/e2/a4/98/temple.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Khajrana Ganesh Mandir
+            </h1>
+            <p id="innerP">
+              The Khajrana Ganesh Mandir is a prominent Hindu temple dedicated to Lord Ganesh, located in Indore, Madhya Pradesh, India. The temple is renowned for its large statue of Lord Ganesh, which is believed to be one of the oldest and most powerful representations of the deity in the region. Devotees from all walks of life visit the temple to seek the blessings of Lord Ganesh for success, prosperity, and removal of obstacles. The temple is especially crowded during festivals such as Ganesh Chaturthi, when elaborate rituals and celebrations take place to honor the deity. The Khajrana Ganesh Mandir also has a rich history and cultural significance, attracting pilgrims and tourists alike to experience its spiritual ambiance and architectural splendor. The temple complex includes other shrines dedicated to various Hindu deities, as well as facilities for worship, meditation, and religious ceremonies. Overall, the Khajrana Ganesh Mandir is a cherished landmark and a symbol of devotion in the city of Indore.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/bf/aa/90/kanha-national-park.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Kanha National Park
+            </h1>
+            <p id="innerP">
+              Kanha National Park is a renowned tiger reserve and wildlife sanctuary located in the state of Madhya Pradesh, India. Spread across an area of approximately 940 square kilometers, it is one of the largest and most well-preserved protected areas in the country. The park is famous for its rich biodiversity, dense forests, and diverse ecosystems, providing a habitat for a wide variety of flora and fauna. Kanha National Park is particularly known for its population of Bengal tigers, which are one of the key attractions for visitors. Other prominent wildlife species found in the park include Indian leopards, sloth bears, Indian wild dogs, barasingha (swamp deer), and many species of birds and reptiles. The park offers safari tours and nature walks for visitors to explore its wilderness and observe its wildlife in their natural habitat. Kanha National Park is not only a haven for wildlife enthusiasts and nature lovers but also plays a crucial role in conservation efforts to protect India's natural heritage.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/40/a3/7d/cartoline-da-gwalior.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Gwalior Fort
+            </h1>
+            <p id="innerP">
+              Perched atop a steep hill in the city of Gwalior, Madhya Pradesh, India, the Gwalior Fort stands as a magnificent testament to the region's rich history and architectural splendor. With origins dating back over a millennium, the fort has served as a strategic stronghold for various rulers and dynasties, including the Tomaras, Mughals, Marathas, and Scindias. Its imposing walls enclose a sprawling complex of palaces, temples, water tanks, and monuments, showcasing a blend of Hindu, Muslim, and Jain architectural styles. Among its notable attractions are the intricately carved Sas-Bahu Temples, the towering Teli Ka Mandir, and the elegant Man Singh Palace. Beyond its historical significance, the Gwalior Fort holds cultural and mythological importance in Indian folklore. Today, it stands as a UNESCO World Heritage Site and a popular tourist destination, inviting visitors to marvel at its grandeur, explore its labyrinthine passageways, and soak in the panoramic views of the city below.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/5f/96/14/buddhist-monuments-at.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Buddhist Monuments at Sanchi
+            </h1>
+            <p id="innerP">
+              The Buddhist Monuments at Sanchi comprise a UNESCO World Heritage Site located in Sanchi, Madhya Pradesh, India. Dating back to the 3rd century BCE, these ancient monuments are among the oldest and most well-preserved Buddhist structures in the world. The site is renowned for its Great Stupa, which is the focal point of the complex and stands as a symbol of Buddhist architecture and artistry. The Great Stupa is surrounded by a series of intricately carved gateways (toranas), stupas, monasteries (viharas), and other structures, all adorned with exquisite sculptures and reliefs depicting scenes from the life of Buddha and Buddhist mythology. These monuments are not only architectural marvels but also hold immense religious and cultural significance for Buddhists around the world. Visitors to the Buddhist Monuments at Sanchi can explore the site's rich history, admire its craftsmanship, and experience a sense of tranquility amidst the serene surroundings.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/f2/46/98/rock-shelters-of-bhimbetka.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Rock Shelters of Bhimbetka
+            </h1>
+            <p id="innerP">
+              The Rock Shelters of Bhimbetka are a UNESCO World Heritage Site located in the Raisen District of Madhya Pradesh, India. Dating back to the Paleolithic era, these rock shelters are among the earliest human settlements in the Indian subcontinent, with evidence of human occupation dating back over 30,000 years. The site comprises a series of natural rock formations and caves adorned with prehistoric rock paintings, depicting scenes of everyday life, hunting, dancing, and religious rituals of ancient civilizations. The paintings provide valuable insights into the cultural, social, and artistic evolution of early humans, making Bhimbetka a significant archaeological site. The name "Bhimbetka" is derived from the mythological figure Bhima from the Hindu epic Mahabharata, who is believed to have rested here during his exile. Today, the Rock Shelters of Bhimbetka attract visitors, historians, and archaeologists from around the world, offering a glimpse into the distant past and the artistic endeavors of our ancestors.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/48/e6/ca/sarafa-bazaar.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Sarafa Bazaar
+            </h1>
+            <p id="innerP">
+              Sarafa Bazaar is a bustling market located in the heart of Indore, Madhya Pradesh, India. While it operates primarily as a jewelry market during the day, it transforms into a vibrant street food paradise at night. As the sun sets, the narrow lanes of Sarafa Bazaar come alive with a plethora of food stalls offering a wide variety of mouthwatering snacks and delicacies. From traditional Indore specialties like poha, jalebi, and sabudana khichdi to chaats, kebabs, dosas, and sweets, Sarafa Bazaar caters to every palate and craving. The bustling atmosphere, colorful lights, and aromatic flavors create an unforgettable dining experience for locals and tourists alike. Sarafa Bazaar's reputation as one of the best street food destinations in India has earned it a dedicated following and made it a must-visit spot for food enthusiasts exploring the culinary delights of Madhya Pradesh.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/b4/bd/56/view-of-the-waterfall.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Dhuandhar Falls
+            </h1>
+            <p id="innerP">
+              Dhuandhar Falls is a mesmerizing waterfall located on the Narmada River in Bhedaghat, near Jabalpur in the state of Madhya Pradesh, India. The name "Dhuandhar" translates to "smoke cascade," aptly describing the phenomenon that occurs when the cascading water hits the rocks below, creating a misty spray that resembles smoke rising from the depths. The waterfall plunges down from a height of approximately 30 meters, creating a stunning spectacle of roaring water, swirling mist, and sheer natural beauty. Visitors can witness the breathtaking sight of Dhuandhar Falls from various viewpoints along the riverbank, or they can take boat rides to get closer to the waterfall and feel its thundering power. The area surrounding Dhuandhar Falls is also known for its marble rocks, which tower over the Narmada River, creating a dramatic backdrop for the cascading waters. Dhuandhar Falls is not only a popular tourist destination but also a sacred site revered by pilgrims for its natural beauty and spiritual significance.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/1d/24/96/the-marvellous-orchha.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Orchha Fort
+            </h1>
+            <p id="innerP">
+              The Orchha Fort complex is a historic fortress located in the town of Orchha in the Tikamgarh district of Madhya Pradesh, India. Constructed in the 16th century by the Bundela Rajput rulers, the fort complex comprises several palaces, temples, and other structures, all built atop a rocky island on the Betwa River. The prominent structures within the fort complex include the Jahangir Mahal, a palace built by Raja Bir Singh Deo in honor of Emperor Jahangir during his visit to Orchha; the Raj Mahal, the royal residence of the Bundela kings; and the Ram Raja Temple, a sacred Hindu temple dedicated to Lord Rama. The fort complex is known for its stunning architecture, intricate frescoes, and beautiful carvings, which showcase a blend of Mughal and Rajput architectural styles. Today, the Orchha Fort complex is a popular tourist destination, attracting visitors with its rich history, cultural heritage, and architectural splendor.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Chandigarh</h1>
+      <div class="glassmorphism-box">
+        <p>
+          Chandigarh, the meticulously planned city and the capital of both Punjab and Haryana, is a modern marvel that seamlessly blends urban sophistication with lush greenery. Designed by renowned architect Le Corbusier, the city boasts wide boulevards, landscaped gardens, and iconic structures like the Capitol Complex and the Open Hand Monument, symbolizing peace and unity. The Rock Garden, created entirely from industrial and urban waste, showcases the ingenuity of its creator, Nek Chand, and is a testament to the city's artistic spirit. Sukhna Lake, an artificial reservoir at the foothills of the Shivalik range, offers a tranquil escape with boating facilities and picturesque sunsets. Chandigarh is also a paradise for shoppers and food enthusiasts, with bustling markets like Sector 17 and Sector 22 offering a vibrant array of handicrafts, clothing, and delectable street food. Whether exploring its architectural wonders, basking in its natural beauty, or indulging in its cultural delights, Chandigarh promises a memorable experience for every visitor.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">The Rock Garden of Chandigarh
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Sukhna Lake
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Elante Mall
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">ISKCON Temple Chandigarh
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">Chandigarh Rose Garden
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Urban Theka
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Mahendra Chaudhary Zoological Park
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">Panjab University
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Leisure Valley
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Sector 17 Market
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Timber Trail
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">Terraced Garden
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/4c/43/64/the-rock-garden-of-chandigarh.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">The Rock Garden of Chandigarh
+            </h1>
+            <p id="innerP">
+              The Rock Garden of Chandigarh, in India, is a vast sculpture garden created by Nek Chand. Built with recycled materials, it features thousands of sculptures, waterfalls, and pathways. Visitors explore a whimsical world of art and nature, marveling at sculptures of animals, humans, and mythical creatures. The garden is a testament to creativity and environmental stewardship, showcasing the beauty that can emerge from discarded materials. A visit to the Rock Garden offers a unique and enchanting experience, celebrating human ingenuity and the transformative power of art.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/56/9f/6f/sukhna-lake.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Sukhna Lake
+            </h1>
+            <p id="innerP">
+              Sukhna Lake, nestled in Chandigarh, India, is a serene reservoir that serves as a popular recreational spot for locals and tourists alike. Created in 1958 by damming the Sukhna Choe stream, the lake spans approximately 3 square kilometers and is surrounded by lush greenery, jogging tracks, and gardens.Visitors to Sukhna Lake can enjoy a leisurely stroll along the promenade, rent paddle boats or rowboats to explore the calm waters, or simply relax and admire the scenic beauty. The lake is a haven for birdwatchers, with migratory birds flocking to its shores during the winter months.Surrounded by the Shivalik Hills, Sukhna Lake offers breathtaking views of the sunrise and sunset, making it a popular spot for photography enthusiasts. The lake's tranquil ambiance and picturesque setting provide the perfect escape from the hustle and bustle of city life, offering visitors a chance to unwind and reconnect with nature.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/81/80/07/elante-mall.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Elante Mall
+            </h1>
+            <p id="innerP">
+              Elante Mall, located in Chandigarh, India, is one of the largest shopping malls in the region, offering a comprehensive retail and entertainment experience. Spread over an expansive area, the mall features a diverse range of stores, restaurants, and entertainment options, making it a popular destination for shoppers and leisure seekers alike.With over 200 premium national and international brands, Elante Mall caters to all shopping preferences, from fashion and accessories to electronics and home decor. The mall also houses a hypermarket, providing shoppers with a one-stop destination for their everyday needs.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/c7/9b/0f/sri-sri-radha-madhav.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">ISKCON Temple Chandigarh
+            </h1>
+            <p id="innerP">
+              The ISKCON Temple in Chandigarh, India, is a spiritual oasis nestled amidst the bustling cityscape. Dedicated to Lord Krishna, the temple is part of the International Society for Krishna Consciousness (ISKCON) and serves as a center for devotion, meditation, and spiritual learning.The temple's architecture is a blend of modern and traditional styles, with intricate carvings, colorful murals, and ornate domes adorning its facade. Inside, visitors are greeted with a serene ambiance and sacred atmosphere, where they can participate in prayers, bhajans (devotional songs), and arati (rituals) conducted throughout the day.The temple also hosts various spiritual and educational programs, including lectures, seminars, and workshops on ancient scriptures such as the Bhagavad Gita and the Srimad Bhagavatam. Visitors can learn about the teachings of Lord Krishna and the principles of bhakti yoga (the path of devotion) while immersing themselves in the temple's tranquil surroundings.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/6f/3e/b6/zakhir-hussain-rose-garden.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Chandigarh Rose Garden
+            </h1>
+            <p id="innerP">
+              The Chandigarh Rose Garden, also known as Zakir Hussain Rose Garden, is a lush expanse of natural beauty located in Chandigarh, India. Spread over 30 acres, it is one of the largest rose gardens in Asia and a beloved attraction for locals and tourists alike.The garden is home to thousands of rose bushes, showcasing an incredible variety of roses in different colors, sizes, and fragrances. Visitors can stroll along the winding pathways, surrounded by vibrant blooms, and marvel at the beauty and diversity of the floral displays.In addition to roses, the garden also features numerous other plants, trees, and shrubs, creating a tranquil and picturesque environment for relaxation and recreation. Benches and seating areas are scattered throughout the garden, providing opportunities for visitors to sit, unwind, and enjoy the serene ambiance.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/33/71/7c/urban-theka.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Urban Theka
+            </h1>
+            <p id="innerP">
+              Urban Theka, situated in Chandigarh, India, is a popular destination for food, drinks, and live entertainment. This vibrant establishment combines the ambiance of a traditional theka (local liquor shop) with modern urban vibes, offering a unique and exciting experience for patrons.The menu at Urban Theka features a variety of flavorful dishes inspired by Indian street food and regional cuisine, along with a wide selection of beverages including cocktails, mocktails, and spirits. Guests can indulge in delicious bites while enjoying the lively atmosphere and upbeat music.In addition to its culinary offerings, Urban Theka also hosts live performances by local artists, bands, and DJs, adding to the dynamic energy of the space. Whether it's a casual night out with friends, a celebration, or a special event, Urban Theka provides a lively and welcoming environment for socializing and relaxation.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/c6/02/ae/img-20180924-wa0006-largejpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Mahendra Chaudhary Zoological Park
+            </h1>
+            <p id="innerP">
+              Mahendra Chaudhary Zoological Park, located in Chhatbir, Punjab, India, is a sprawling wildlife sanctuary and conservation center. Spanning over 202 acres, the zoo is home to a diverse array of animal species, including mammals, birds, reptiles, and amphibians, providing visitors with an opportunity to observe and learn about wildlife in a naturalistic setting.The zoo is named after Mahendra Chaudhary, a former Chief Minister of Punjab, and is renowned for its spacious enclosures and well-maintained habitats that mimic the animals' natural environments. Visitors can explore the park on foot or by battery-operated vehicles, with designated pathways and viewing areas providing optimal visibility of the animals.Some of the highlights of Mahendra Chaudhary Zoological Park include its big cat enclosures, which house lions, tigers, and leopards, as well as its diverse collection of avian species, including colorful parrots, majestic eagles, and exotic waterfowl. The zoo also features reptile houses, primate enclosures, and a dedicated children's zoo, making it a family-friendly destination for visitors of all ages.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/9c/5f/d4/stuc-pu-largejpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Panjab University
+            </h1>
+            <p id="innerP">
+              Panjab University, located in Chandigarh, India, is one of the oldest and most prestigious universities in the country. Established in 1882, it has a rich history of academic excellence and has consistently been ranked among the top universities in India.The university campus, spread over 550 acres, is renowned for its lush greenery, scenic beauty, and architectural heritage. It houses a diverse range of academic departments, research centers, libraries, and administrative buildings, providing students with access to world-class facilities and resources.Panjab University offers a wide range of undergraduate, postgraduate, and doctoral programs across various disciplines, including humanities, social sciences, natural sciences, engineering, law, and management. The university is known for its strong emphasis on research and innovation, with faculty members actively engaged in cutting-edge research projects and collaborations with international institutions.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/aa/bf/2c/leisure-valley.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Leisure Valley
+            </h1>
+            <p id="innerP">
+              Leisure Valley, located in Chandigarh, India, is a sprawling green space and recreational hub in the heart of the city. Spanning several kilometers, Leisure Valley comprises a series of interconnected gardens, parks, and promenades, offering residents and visitors alike a peaceful retreat from the urban hustle and bustle.One of the highlights of Leisure Valley is its beautifully landscaped gardens, which feature lush lawns, vibrant flower beds, and shaded pathways perfect for leisurely strolls or picnics with family and friends. The gardens are meticulously maintained and provide a serene setting for relaxation and rejuvenation amidst nature's beauty.In addition to its gardens, Leisure Valley also boasts a network of walking and jogging trails, making it a popular destination for outdoor enthusiasts and fitness enthusiasts. Visitors can enjoy scenic views of the surrounding greenery as they engage in their daily exercise routines or simply soak in the tranquil ambiance.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/ca/f4/7a/sector-17-market.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Sector 17 Market
+            </h1>
+            <p id="innerP">
+              Sector 17 Market, situated in the heart of Chandigarh, India, is a bustling commercial hub and shopping district renowned for its vibrant atmosphere and diverse array of retail offerings. Spanning several blocks, Sector 17 Market is one of the city's premier shopping destinations, attracting visitors from near and far.The market is characterized by its wide boulevards, tree-lined sidewalks, and well-planned layout, creating a pleasant and inviting environment for shoppers. Here, visitors can explore a plethora of stores, boutiques, and outlets selling everything from fashion apparel and accessories to electronics, home decor, books, and handicrafts.In addition to its retail options, Sector 17 Market is home to numerous cafes, restaurants, and eateries serving a variety of cuisines to suit every palate. Whether it's grabbing a quick snack, enjoying a leisurely meal, or indulging in street food delights, visitors can find a diverse range of dining options to satisfy their cravings.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/8f/ef/f0/timber-trail.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Timber Trail
+            </h1>
+            <p id="innerP">
+              Timber Trail, nestled in the picturesque surroundings of Parwanoo, Himachal Pradesh, India, is a renowned hill station and leisure destination offering breathtaking views and thrilling experiences. Accessible via a cable car ride, Timber Trail is perched atop the Shivalik Range, providing visitors with panoramic vistas of the lush green valleys below.One of the main attractions of Timber Trail is its iconic cable car ride, which takes visitors on a scenic journey through the verdant hills, offering mesmerizing views of the surrounding landscape. The cable car ride is not only a thrilling adventure but also a perfect opportunity for nature lovers and photography enthusiasts to capture the beauty of the Himalayan foothills.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/8a/bd/d4/different-varieties-chrysanthe.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Terraced Garden
+            </h1>
+            <p id="innerP">
+              Terraced Garden in Chandigarh, India, is a picturesque botanical garden nestled in Sector 33. Its terraced layout, adorned with vibrant flower beds and lush greenery, offers visitors a serene retreat. The garden showcases a stunning variety of seasonal blooms, from roses to orchids, creating a colorful spectacle. Its manicured lawns and winding pathways invite leisurely strolls and moments of relaxation. With shaded seating areas and gentle breezes, it's an ideal spot to unwind amidst nature's beauty. Terraced Garden also hosts cultural events and festivals, adding to its charm and vibrancy throughout the year. Whether enjoying a peaceful walk or attending an event, visitors find solace and rejuvenation in this verdant oasis in the heart of Chandigarh.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/u/1/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+      <h1 id="mainH1">Punjab</h1>
+      <div class="glassmorphism-box">
+        <p>
+          Punjab, the land of five rivers, is a vibrant and culturally rich state in northern India. Renowned for its warm hospitality, mouthwatering cuisine, and lively festivals, Punjab offers a delightful blend of tradition and modernity. The city of Amritsar, home to the iconic Golden Temple, is a spiritual hub that attracts pilgrims from around the world to its serene surroundings and community kitchens offering free meals to all. The Wagah Border ceremony, a daily military ceremony at the India-Pakistan border, is a testament to the state's patriotic fervor and draws crowds of spectators cheering for their respective nations. Punjab's capital city, Chandigarh, designed by the renowned architect Le Corbusier, boasts a unique blend of urban planning and green spaces, with attractions like the Rock Garden and Sukhna Lake. The state's rural heartland is dotted with lush green fields of wheat and mustard, providing a picturesque backdrop for exploring its rustic charm and experiencing the traditional Punjabi way of life. From lively bhangra performances to indulgent Punjabi cuisine, Punjab offers a sensory feast for travelers seeking cultural immersion and warm hospitality.
+        </p>
+      </div>
+
+    <h2 id="mainH2">Our top pics for you !!</h2>
+    <!-- Buttons -->
+    <div class="card-buttons">
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(1)">Golden Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(2)">Jallianwala Bagh
+        </button>
+        <button class="card-button" onclick="slideToCard(3)">Mata Lal Devi Mandir
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(4)">Akal Takht
+        </button>
+        <button class="card-button" onclick="slideToCard(5)">The Partition Museum
+        </button>
+        <button class="card-button" onclick="slideToCard(6)">Khalsa College
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(7)">Durgiana Temple
+        </button>
+        <button class="card-button" onclick="slideToCard(8)">Rangla Punjab Haveli
+        </button>
+        <button class="card-button" onclick="slideToCard(9)">Devi Talab Mandir Temple
+        </button>
+      </div>
+      <div class="button-row">
+        <button class="card-button" onclick="slideToCard(10)">Gurudwara Bir Baba Budha Sahib
+        </button>
+        <button class="card-button" onclick="slideToCard(11)">Virasat E Khalsa
+        </button>
+        <button class="card-button" onclick="slideToCard(12)">Tarn Taran Sahib
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/e7/47/b5/this-sanctum-sanctorum.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Golden Temple
+            </h1>
+            <p id="innerP">
+              The Golden Temple, also known as Sri Harmandir Sahib or Darbar Sahib, is a revered Sikh gurdwara located in Amritsar, Punjab, India. It is considered the holiest shrine in Sikhism and serves as the spiritual and cultural center of the Sikh community worldwide. The temple's iconic golden dome, surrounded by a shimmering sarovar (pool of holy water), symbolizes the spiritual and temporal sovereignty of the Sikh faith.Visitors to the Golden Temple can experience its serene atmosphere, participate in prayers and hymn recitations, and partake in the langar (community kitchen), which serves free meals to all visitors regardless of religion, caste, or creed. The temple complex also houses the Akal Takht, one of the five seats of temporal authority in Sikhism, and a museum showcasing Sikh history and artifacts.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/ae/70/63/memorial.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Jallianwala Bagh
+            </h1>
+            <p id="innerP">
+              Jallianwala Bagh, located in the heart of Amritsar, Punjab, is a historical site that bears witness to one of the darkest chapters in India's struggle for independence. On April 13, 1919, British troops under the command of General Reginald Dyer opened fire on thousands of unarmed civilians who had gathered at the park to peacefully protest against British colonial rule. The brutal massacre resulted in the deaths of hundreds of men, women, and children, and left a lasting scar on India's collective memory. Today, Jallianwala Bagh stands as a memorial to the victims of the massacre, with a solemn monument marking the site of the tragedy and a flame of remembrance perpetually burning in their honor. Visitors to Jallianwala Bagh can pay their respects, reflect on the sacrifices made by those who fought for freedom, and gain a deeper understanding of India's struggle for independence.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/f0/bf/bd/mandir-mata-lal-devi.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Mata Lal Devi Mandir
+            </h1>
+            <p id="innerP">
+              Mata Lal Devi Mandir, located in Amritsar, Punjab, is a revered Hindu temple dedicated to Goddess Lal Devi, also known as Lal Mata. This temple is renowned for its unique underground cave-like structure and mystical ambiance. Devotees believe that visiting the temple and paying homage to Mata Lal Devi can bring blessings of prosperity, fertility, and protection from evil spirits.The temple complex features intricately carved idols of various Hindu deities, including Mata Lal Devi, Lord Ganesha, and Lord Hanuman. Pilgrims flock to the temple to offer prayers, perform rituals, and seek blessings for their well-being and fulfillment of their desires.Mata Lal Devi Mandir holds cultural and religious significance for the local community and is also a popular tourist attraction, attracting visitors from far and wide who come to experience the spiritual energy and serene atmosphere of the temple.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/0f/89/36/akal-takht.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Akal Takht
+            </h1>
+            <p id="innerP">
+              The Akal Takht, located within the Harmandir Sahib (Golden Temple) complex in Amritsar, Punjab, India, is one of the five temporal seats of authority in Sikhism. Established by the sixth Sikh Guru, Guru Hargobind Ji, in the early 17th century, the Akal Takht serves as a symbol of Sikh sovereignty and the embodiment of justice, spiritual leadership, and community governance. It is a place where Sikhs gather to discuss religious, social, and political matters, and decisions made here hold significant importance for the Sikh community worldwide. Over the centuries, the Akal Takht has witnessed pivotal moments in Sikh history and continues to play a central role in upholding the principles and traditions of Sikhism. Pilgrims and visitors flock to the Akal Takht to pay their respects, seek guidance, and participate in the vibrant Sikh rituals and ceremonies that take place within its sacred precincts.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/46/af/45/the-partition-museum.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">The Partition Museum
+            </h1>
+            <p id="innerP">
+              The Partition Museum, situated in Amritsar, Punjab, India, is a poignant tribute to the millions affected by the partition of British India in 1947. Housed within the historic Town Hall, the museum documents the human stories, struggles, and sacrifices of those who experienced the trauma and upheaval of partition. Through a compelling collection of artifacts, oral histories, photographs, and documents, the museum vividly depicts the harrowing events of partition and their lasting impact on individuals and communities. Visitors can explore immersive exhibits that chronicle the migration, violence, and displacement that marked this tumultuous period in history. The Partition Museum serves as a space for remembrance, reflection, and reconciliation, fostering dialogue and understanding among future generations. It stands as a testament to the resilience of the human spirit and the enduring quest for peace and unity in the aftermath of tragedy.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/f4/19/khalsa-college.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Khalsa College
+            </h1>
+            <p id="innerP">
+              Khalsa College, located in Amritsar, Punjab, India, is a prestigious educational institution with a rich history and heritage. Established in 1892 by the leaders of the Singh Sabha Movement, Khalsa College was founded with the aim of providing modern education infused with Sikh values and principles. The college campus, spread over a sprawling area, boasts impressive architectural structures that blend traditional Sikh and colonial architectural styles. Khalsa College offers a wide range of undergraduate and postgraduate programs in fields such as arts, sciences, commerce, and agriculture, attracting students from across the country and beyond. Beyond academics, the college promotes cultural, sporting, and extracurricular activities to foster holistic development among its students. Khalsa College remains a beacon of academic excellence and Sikh ethos, playing a pivotal role in shaping the future leaders of society while upholding the principles of service, integrity, and social justice.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/13/a6/49/photo0jpg.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Durgiana Temple
+            </h1>
+            <p id="innerP">
+              The Durgiana Temple in Amritsar, Punjab, India, stands as a magnificent tribute to Goddess Durga, attracting devotees from all over with its ornate architecture and profound spiritual ambiance. Often compared to the Golden Temple for its architectural resemblance, this revered Hindu shrine, also known as the "Silver Temple" due to its shimmering silver doors, exudes tranquility and reverence. Within its sacred precincts, devotees offer prayers and perform rituals to seek blessings for prosperity, protection, and spiritual fulfillment. The temple's main sanctum is surrounded by a serene pond, enhancing the serene atmosphere and providing a picturesque setting for contemplation and devotion. With its intricate marble domes and elaborate carvings, the Durgiana Temple stands as a symbol of Punjab's rich cultural heritage and religious diversity, inviting visitors to immerse themselves in the divine grace and spiritual resonance of this sacred place.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/1d/39/55/miniature-punjab-and.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Rangla Punjab Haveli
+            </h1>
+            <p id="innerP">
+              Rangla Punjab Haveli, situated in Jalandhar, Punjab, India, is a cultural enclave offering visitors an immersive journey into the heart of Punjabi traditions and cuisine. Modeled after traditional Punjabi havelis, this expansive complex features intricate architecture, vibrant decor, and lush gardens, evoking the rustic charm of rural Punjab. Guests are treated to live folk performances, showcasing the region's rich heritage through music and dance. Interactive exhibits and workshops offer insights into Punjabi arts and crafts, celebrating the craftsmanship passed down through generations. However, the true highlight lies in the haveli's culinary offerings, where authentic Punjabi dishes are served in traditional style, ranging from hearty thalis to sizzling tandoori specialties and refreshing lassi. With its vibrant ambiance, cultural immersion, and flavorful cuisine, Rangla Punjab Haveli provides a memorable and enriching experience for visitors keen to delve into the essence of Punjab's heritage and hospitality.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/7c/95/e7/a-beautiful-evening-at.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Devi Talab Mandir Temple
+            </h1>
+            <p id="innerP">
+              Devi Talab Mandir Temple, located in Jalandhar, Punjab, India, is a revered Hindu shrine dedicated to Maa Durga. Situated beside a sacred pond, the temple is steeped in mythological significance and draws devotees from far and wide seeking blessings and spiritual solace. The temple's main deity, Goddess Durga, is worshipped fervently, especially during the Navratri festival when elaborate rituals and celebrations take place. The temple's architecture is a blend of traditional North Indian style, adorned with intricate carvings and colorful embellishments, adding to its spiritual aura. Surrounding the temple, the serene Devi Talab pond is believed to possess healing properties, and devotees often take holy dips to cleanse their sins and seek blessings. With its tranquil surroundings and devout atmosphere, Devi Talab Mandir Temple offers visitors a sacred space for prayer, reflection, and divine connection amidst the bustling city of Jalandhar.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/a0/7f/78/gurudwara-bir-baba-budha.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Gurudwara Bir Baba Budha Sahib
+            </h1>
+            <p id="innerP">
+              Gurudwara Bir Baba Budha Sahib, situated in the village of Thatta, near Amritsar, Punjab, India, is a revered Sikh shrine dedicated to Baba Budha Ji, an esteemed Sikh saint and companion of Guru Nanak Dev Ji. The gurudwara holds immense historical and religious significance as it marks the spot where Baba Budha Ji spent his later years in meditation and service to the Sikh community. The gurudwara's architecture reflects traditional Sikh design, featuring a pristine white facade adorned with intricate frescoes and marble embellishments. Inside, the sanctum sanctorum houses the Guru Granth Sahib, the holy scripture of Sikhism, where devotees gather to offer prayers and seek blessings. The gurudwara's serene surroundings and tranquil ambiance provide a serene retreat for meditation and spiritual contemplation. Pilgrims from all over the world visit Gurudwara Bir Baba Budha Sahib to pay homage to Baba Budha Ji and experience the profound spirituality of Sikhism.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/b7/93/d9/virasat-e-khalsa.jpg?w=500&h=400&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Virasat E Khalsa
+            </h1>
+            <p id="innerP">
+              Virasat-e-Khalsa, located in Anandpur Sahib, Punjab, India, is a state-of-the-art museum dedicated to the rich heritage and history of Sikhism. Designed to commemorate the 300th anniversary of the Khalsa Panth, the museum showcases the journey of Sikhism, from its inception to the present day, through interactive exhibits, multimedia presentations, and artifacts.Spread across a sprawling complex, Virasat-e-Khalsa is a blend of modern architecture and traditional Sikh design, with striking facades, domes, and intricate detailing. The museum's galleries narrate the stories of Sikh gurus, martyrs, and the Sikh community's struggles and triumphs over the centuries, providing visitors with a deep understanding of Sikh philosophy, culture, and values.
+
+            </p>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-image-wrapper">
+            <img
+              class="slider-image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/d3/82/ab/tarn-taran-sahib.jpg?w=500&h=-1&s=1"
+              alt="SliderImg"
+            />
+          </div>
+          <div class="slider-item-content">
+            <h1 id="innerH">Tarn Taran Sahib
+            </h1>
+            <p id="innerP">
+              Tarn Taran Sahib, located in the city of Tarn Taran in the state of Punjab, India, is a revered Sikh pilgrimage site and home to the historic Gurdwara Sri Tarn Taran Sahib. This gurdwara is one of the most important in Sikhism and holds immense religious significance for Sikhs worldwide. It was built by Guru Arjan Dev Ji, the fifth Sikh Guru, in the 16th century, and is renowned for its serene Sarovar (holy pond) and magnificent architecture.The gurdwara complex includes the main shrine, where the Guru Granth Sahib, the holy scripture of Sikhism, is enshrined, as well as several other historical buildings and structures. The Sarovar is believed to have healing properties, and pilgrims from far and wide come to bathe in its sacred waters.
+
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <div class="slider-buttons">
+        <button class="swiper-button-prev">Prev</button>
+        <button class="swiper-button-next">Next</button>
+      </div> -->
+    </div>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/d/embed?mid=126uS0guF1R50aCOTdIt6T_uRp_zgIoY&ehbc=2E312F" width= 120% height=130% style="position: relative; left: 0px; top: -70px">
+      </iframe>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+
+    <!-- book section -->
+
+    <div class="booking-box">
+      <h2 id="mainH2">Book Stays</h2>
+      <p>Discover the epitome of luxury and comfort with our exquisite selection of hotels and resorts. 
+        <br>
+        Indulge in world-class amenities, unparalleled service, and breathtaking surroundings that promise an unforgettable escape. 
+        <br>
+        From idyllic beachfront retreats to urban havens, we cater to every preference and desire. 
+        <br>
+        Immerse yourself in a realm of relaxation and opulence, where every moment is crafted to perfection. 
+        <br>
+        Book your stay with us today and embark on a journey of unparalleled elegance and rejuvenation.</p>
+        <a href="http://localhost:3000/login">
+          <button class="book-button">Book Now !!</button>
+        </a>
+        <br><br>
+        <a href="../../index.html">
+          <button class="book-button2">go back home</button>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <img src="map.png" class="footer-logo" alt="">
+          <div class="footer-text">
+              <p>Sometimes, A BREAK from our daily routine is just what we need !!</p>
+              <p>Spend QUALITY time with your LOVED ones !</p>
+              <p>Travel, not to FIND yourself, but to remember who you've been all along !!!</p>
+              <p>INDIA is just too BEAUTIFUL for you to skip on !!</p>
+              <br>
+              <p>Namaste India - IIIT Surat â¤ï¸</p>
+              <p>Group Project by Vatsal, Krishnam and Revanth</p>
+              <p>Email - support@travel.com</p>
+              <p>Phone - 0123456789</p>
+          </div>
+          <img src="bags.png" class="footer-logo3" alt="">
+          <img src="family.png" class="footer-logo2" alt="">
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
